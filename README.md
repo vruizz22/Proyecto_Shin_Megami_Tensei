@@ -538,11 +538,6 @@ head -20 data/monsters.json         # Ver primeras líneas
 
 ## 📚 Referencias
 
-### 📖 **Documentación del Curso**
-
-- `Proyecto_de_curso__2025_.pdf` - Especificación completa
-- `Proyecto_E1__2025_1_.pdf` - Detalles de la Entrega 1
-
 ### 🎮 **Shin Megami Tensei Universe**
 
 - **Serie Oficial**: Atlus Shin Megami Tensei
@@ -556,24 +551,3 @@ head -20 data/monsters.json         # Ver primeras líneas
 - [JetBrains Rider](https://www.jetbrains.com/rider/)
 
 ---
-
-## 🎯 **Siguiente Paso: ¡Comenzar la E1!**
-
-### 🚀 **Para empezar ahora mismo:**
-
-1. **Abrir Rider** y cargar la solución
-2. **Ejecutar** `dotnet run` para ver el estado actual
-3. **Revisar** algunos test cases en `data/E1-BasicCombat/`
-4. **Comenzar** implementando las clases base del modelo
-5. **Probar** continuamente con los casos de prueba
-
-### 💪 **¡A Programar!**
-
-¡Tienes toda la información necesaria para dominar este proyecto! El sistema está diseñado para aprender paso a paso, y cada test case te guiará hacia la implementación correcta.
-
-**¡Que tengas un excelente desarrollo! 🎮⚔️**
-
----
-
-**Creado con ❤️ para el curso IIC2113 - Diseño Detallado de Software**  
-**PUC Chile - 2025**
