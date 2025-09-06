@@ -308,7 +308,12 @@ public class GameManager
         var targets = _opponentTeam!.GetActiveUnitsOnBoard();
         
         _view.WriteLine("----------------------------------------");
-        _view.WriteLine($"Seleccione un objetivo para {_turnManager.GetCurrentActionOrder().First().Name}");
+        
+        // Obtener la unidad que está actuando actualmente
+        var currentActionOrder = _turnManager.GetCurrentActionOrder();
+        var actingUnitName = currentActionOrder.Count > 0 ? currentActionOrder[0].Name : "Unidad";
+        
+        _view.WriteLine($"Seleccione un objetivo para {actingUnitName}");
         
         for (int i = 0; i < targets.Count; i++)
         {
