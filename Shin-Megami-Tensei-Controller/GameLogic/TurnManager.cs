@@ -7,9 +7,11 @@ public class TurnManager
     public int FullTurns { get; private set; }
     public int BlinkingTurns { get; private set; }
     private Queue<Unit> _actionOrder = new();
+    private Team? _currentTeam;
 
     public void InitializePlayerTurn(Team team)
     {
+        _currentTeam = team;
         var activeUnits = team.GetActiveUnitsOnBoard();
         FullTurns = activeUnits.Count;
         BlinkingTurns = 0;
@@ -30,9 +32,19 @@ public class TurnManager
 
     private int GetBoardPosition(Unit unit)
     {
-        // Este es un enfoque simplificado - en una implementación real,
-        // necesitaríamos acceso al tablero del equipo para obtener la posición exacta
-        // Por ahora, usaremos el hash del nombre de la unidad como desempate
+        // Obtener la posición real del tablero
+        if (_currentTeam != null)
+        {
+            for (int i = 0; i < _currentTeam.Board.Length; i++)
+            {
+                if (_currentTeam.Board[i] == unit)
+                {
+                    return i;
+                }
+            }
+        }
+        
+        // Fallback: usar hash del nombre
         return unit.Name.GetHashCode();
     }
 
