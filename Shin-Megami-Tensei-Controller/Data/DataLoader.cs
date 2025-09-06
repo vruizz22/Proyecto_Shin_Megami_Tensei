@@ -51,7 +51,8 @@ public class DataLoader
         {
             var stats = new Stats(dto.stats.HP, dto.stats.MP, dto.stats.Str, dto.stats.Skl, dto.stats.Mag, dto.stats.Spd, dto.stats.Lck);
             var affinity = ConvertAffinityDto(dto.affinity);
-            var skills = dto.skills.Select(skillName => GetSkill(skillName)).Where(skill => skill != null).ToList()!;
+            // Arreglar el warning de nulabilidad filtrando los nulls antes de crear la lista
+            var skills = dto.skills.Select(skillName => GetSkill(skillName)).Where(skill => skill != null).Select(skill => skill!).ToList();
             var monster = new Monster(dto.name, stats, affinity, skills);
             _monsterDatabase[dto.name] = monster;
         }
