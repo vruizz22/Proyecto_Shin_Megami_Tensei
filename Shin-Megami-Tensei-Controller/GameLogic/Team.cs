@@ -111,6 +111,36 @@ public class Team
         }
     }
 
+    public void InvokeMonsterToPosition(Monster monster, int position)
+    {
+        if (position < 1 || position >= Board.Length)
+            throw new ArgumentException("Posición inválida");
+
+        Reserve.Remove(monster);
+        
+        var existingUnit = Board[position];
+        if (existingUnit != null && existingUnit is Monster)
+        {
+            Reserve.Add(existingUnit);
+        }
+        
+        Board[position] = monster;
+    }
+
+    public void ReplaceMonsterInBoard(Unit currentMonster, Monster newMonster)
+    {
+        for (int i = 0; i < Board.Length; i++)
+        {
+            if (Board[i] == currentMonster)
+            {
+                Reserve.Remove(newMonster);
+                Reserve.Add(currentMonster);
+                Board[i] = newMonster;
+                break;
+            }
+        }
+    }
+
     public string GetFormattedBoardState(string teamLabel)
     {
         var result = $"Equipo de {PlayerName} ({teamLabel})\n";

@@ -1,0 +1,1157 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 14
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Orias HP:252/252 MP:112/112
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:407/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Orias
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Orias
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Orias use
+1-Pandemic Bomb MP:11
+2-Me Patra MP:15
+3-Maragion MP:20
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Orias
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Orias
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Orias
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Orias HP:252/252 MP:112/112
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:407/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Orias
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Dark Energy MP:25
+2-Zio MP:5
+3-Invitation MP:45
+4-Thunder Reign MP:22
+5-Lunge MP:6
+6-Axel Claw MP:15
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:517/542
+B-Orias HP:252/252 MP:112/112
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:407/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Orias
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Orias
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Orias
+1-Kyouji HP:999/999 MP:0/0
+2-Power HP:407/407 MP:81/81
+3-Hua Po HP:113/113 MP:108/108
+4-Qing Niuguai HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Orias ataca a Power
+Power recibe 19 de daño
+Power termina con HP:388/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:517/542
+B-Orias HP:252/252 MP:112/112
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:388/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Qing Niuguai
+3-Kyouji
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Power use
+1-Tathlum Shot MP:7
+2-Diarama MP:9
+3-Megido MP:25
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Power
+1-Kyouji HP:999/999 MP:0/0
+2-Power HP:388/407 MP:81/81
+3-Hua Po HP:113/113 MP:108/108
+4-Qing Niuguai HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Tamaki HP:999/999 MP:517/542
+2-Orias HP:252/252 MP:112/112
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Power ataca a Tamaki
+Tamaki es resistente el ataque de Power
+Tamaki recibe 14 de daño
+Tamaki termina con HP:985/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:985/999 MP:517/542
+B-Orias HP:252/252 MP:112/112
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:388/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Qing Niuguai
+2-Kyouji
+3-Hua Po
+4-Power
+----------------------------------------
+Seleccione una acción para Qing Niuguai
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Qing Niuguai use
+1-Rakukaja MP:15
+2-Megaton Press MP:17
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Qing Niuguai ataca a Tamaki
+Tamaki es resistente el ataque de Qing Niuguai
+Tamaki recibe 40 de daño
+Tamaki termina con HP:945/999
+Qing Niuguai ataca a Orias
+Orias recibe 80 de daño
+Orias termina con HP:172/252
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:945/999 MP:517/542
+B-Orias HP:172/252 MP:112/112
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:388/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+2-Hua Po
+3-Power
+4-Qing Niuguai
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Tamaki HP:945/999 MP:517/542
+2-Orias HP:172/252 MP:112/112
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kyouji ataca a Orias
+Orias recibe 614 de daño
+Orias termina con HP:0/252
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:945/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:388/407 MP:81/81
+C-Hua Po HP:113/113 MP:108/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Power
+3-Qing Niuguai
+4-Kyouji
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hua Po use
+1-Maragi MP:11
+2-Patra MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hua Po use
+1-Maragi MP:11
+2-Patra MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hua Po lanza fuego a Tamaki
+Tamaki es resistente el ataque de Hua Po
+Tamaki recibe 16 de daño
+Tamaki termina con HP:929/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:388/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Kyouji HP:999/999 MP:0/0
+2-Power HP:388/407 MP:81/81
+3-Hua Po HP:113/113 MP:97/108
+4-Qing Niuguai HP:407/407 MP:64/81
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Tamaki ataca a Power
+Power recibe 46 de daño
+Power termina con HP:342/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Qing Niuguai
+3-Kyouji
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Qing Niuguai
+2-Kyouji
+3-Hua Po
+4-Power
+----------------------------------------
+Seleccione una acción para Qing Niuguai
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Qing Niuguai
+1-Tamaki HP:929/999 MP:517/542
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Qing Niuguai
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+2-Hua Po
+3-Power
+4-Qing Niuguai
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kyouji use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hua Po
+2-Power
+3-Qing Niuguai
+4-Kyouji
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Qing Niuguai
+3-Kyouji
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Tamaki HP:929/999 MP:517/542
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Qing Niuguai
+2-Kyouji
+3-Hua Po
+4-Power
+----------------------------------------
+Seleccione una acción para Qing Niuguai
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Qing Niuguai
+1-Tamaki HP:929/999 MP:517/542
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Qing Niuguai
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yomotsu-Ikusa HP:445/445 MP:88/88
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yomotsu-Ikusa ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:929/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Yomotsu-Ikusa HP:445/445 MP:88/88
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+2-Hua Po
+3-Power
+4-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kyouji use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Tamaki HP:929/999 MP:517/542
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Tamaki HP:929/999 MP:517/542
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji dispara a Tamaki
+Tamaki es resistente el ataque de Kyouji
+Tamaki recibe 455 de daño
+Tamaki termina con HP:474/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:474/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Yomotsu-Ikusa HP:445/445 MP:88/88
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:474/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Yomotsu-Ikusa HP:445/445 MP:88/88
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Kyouji HP:999/999 MP:0/0
+2-Power HP:342/407 MP:81/81
+3-Hua Po HP:113/113 MP:97/108
+4-Yomotsu-Ikusa HP:445/445 MP:88/88
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Kyouji HP:999/999 MP:0/0
+2-Power HP:342/407 MP:81/81
+3-Hua Po HP:113/113 MP:97/108
+4-Yomotsu-Ikusa HP:445/445 MP:88/88
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Kyouji
+Kyouji bloquea el ataque de Tamaki
+Kyouji termina con HP:999/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:474/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Yomotsu-Ikusa HP:445/445 MP:88/88
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu-Ikusa
+2-Power
+3-Kyouji
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Qing Niuguai HP:407/407 MP:64/81
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Qing Niuguai HP:407/407 MP:64/81
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Qing Niuguai ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:474/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Kyouji
+3-Hua Po
+4-Qing Niuguai
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:474/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+2-Hua Po
+3-Qing Niuguai
+4-Power
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Tamaki HP:474/999 MP:517/542
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji ataca a Tamaki
+Tamaki es resistente el ataque de Kyouji
+Tamaki recibe 307 de daño
+Tamaki termina con HP:167/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:167/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Qing Niuguai
+3-Power
+4-Kyouji
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yomotsu-Ikusa HP:445/445 MP:88/88
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:167/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Qing Niuguai
+2-Power
+3-Kyouji
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Qing Niuguai
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:167/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Kyouji
+3-Hua Po
+4-Qing Niuguai
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:167/999 MP:517/542
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Power HP:342/407 MP:81/81
+C-Hua Po HP:113/113 MP:97/108
+D-Qing Niuguai HP:407/407 MP:64/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kyouji
+2-Hua Po
+3-Qing Niuguai
+4-Power
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kyouji use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Tamaki HP:167/999 MP:517/542
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji ataca a Tamaki
+Tamaki es resistente el ataque de Kyouji
+Tamaki recibe 307 de daño
+Tamaki termina con HP:0/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kyouji (J2)

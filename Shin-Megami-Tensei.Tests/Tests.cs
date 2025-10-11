@@ -38,7 +38,7 @@ public class Tests
     [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-Random")]
     public void TestE2_Random(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
-
+    
     [Theory]
     [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-SingleTargetInstaKill")]
     public void TestE3_SingleTargetInstaKill(string teamsFolder, string testFile)
@@ -47,6 +47,56 @@ public class Tests
     [Theory]
     [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-RandomSingleTargetInstaKill")]
     public void TestE3_RandomSingleTargetInstaKill(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-MultiTargetHeal")]
+    public void TestE3_MultiTargetHeal(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-MultiTargetInstaKill")]
+    public void TestE3_MultiTargetInstaKill(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-MultiTargetOffensive")]
+    public void TestE3_MultiTargetOffensive(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-StatDrain")]
+    public void TestE3_StatDrain(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-Random")]
+    public void TestE3_Random(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Special")]
+    public void TestE4_Special(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-SingleTargetSupport")]
+    public void TestE4_SingleTargetSupport(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-RandomSingleTargetSupport")]
+    public void TestE4_RandomSingleTargetSupport(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-MultiTargetSupport")]
+    public void TestE4_MultiTargetSupport(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Random")]
+    public void TestE4_Random(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
     
     public static IEnumerable<object[]> GetTestsAssociatedWithThisFolder(string teamsfolder)

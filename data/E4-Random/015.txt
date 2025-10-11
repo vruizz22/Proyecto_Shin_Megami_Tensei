@@ -1,0 +1,6 @@
+Player 1 Team
+[Samurai] Aleph (Defender's Gaze,Gather Spirit Energy,Acid Breath)
+Hathor
+Player 2 Team
+[Samurai] Joker (Tetrakowas,Judgement,Taunt)
+Manticore
