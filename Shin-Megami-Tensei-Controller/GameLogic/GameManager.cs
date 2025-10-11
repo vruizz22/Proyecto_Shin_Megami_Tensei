@@ -6,7 +6,7 @@ namespace Shin_Megami_Tensei.GameLogic;
 
 public class GameManager
 {
-    private const string InvalidTeamMessage = "Archivo de equipos no válido";
+    private const string InvalidTeamMessage = "Archivo de equipos inválido";
     private const int MaxActionOptionsForSamurai = 6;
     private const int MaxActionOptionsForMonster = 4;
     
@@ -108,7 +108,7 @@ public class GameManager
         {
             StartPlayerRound();
             
-            while (ShouldContinuePlayerTurn())
+            while (HasTurnsAndAliveUnits())
             {
                 ProcessPlayerTurn();
                 
@@ -125,13 +125,9 @@ public class GameManager
         DeclareWinner();
     }
 
-    private bool ShouldContinuePlayerTurn()
+    private bool HasTurnsAndAliveUnits()
     {
-        if (!_turnManager.HasTurnsRemaining() || IsGameOver())
-            return false;
-
-        var actingUnit = _turnManager.GetNextActingUnit();
-        return actingUnit != null && actingUnit.IsAlive;
+        return _turnManager.HasTurnsRemaining() && !IsGameOver();
     }
 
     private void StartPlayerRound()
@@ -191,7 +187,10 @@ public class GameManager
     {
         var actingUnit = _turnManager.GetNextActingUnit();
         if (actingUnit == null || !actingUnit.IsAlive)
+        {
+            // Si no hay unidades vivas que puedan actuar, terminar el turno
             return;
+        }
 
         _view.WriteLine("----------------------------------------");
         ShowActionMenu(actingUnit);
