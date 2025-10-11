@@ -307,7 +307,7 @@ public class GameManager
 
     private bool ExecuteAttackAction(Unit attacker, string attackType)
     {
-        var target = SelectTarget();
+        var target = SelectTarget(attacker);
         if (target == null) 
         {
             return false;
@@ -483,7 +483,7 @@ public class GameManager
 
     private bool ExecuteSkillOnSingleTarget(Unit user, Skill skill)
     {
-        var target = SelectTarget();
+        var target = SelectTarget(user);
         if (target == null)
             return false;
 
@@ -504,7 +504,7 @@ public class GameManager
     private bool ExecuteHealSkill(Unit user, Skill skill)
     {
         bool isRevive = skill.Effect.Contains("Revive");
-        var target = SelectAllyTarget(isRevive);
+        var target = SelectAllyTarget(user, isRevive);
         
         if (target == null)
             return false;
@@ -578,14 +578,14 @@ public class GameManager
         return true;
     }
 
-    private Unit? SelectAllyTarget(bool onlyDead)
+    private Unit? SelectAllyTarget(Unit actingUnit, bool onlyDead)
     {
         var allies = onlyDead 
             ? _currentPlayerTeam!.Reserve.Where(u => !u.IsAlive).ToList()
             : _currentPlayerTeam!.GetActiveUnitsOnBoard();
         
         _view.WriteLine("----------------------------------------");
-        _view.WriteLine($"Seleccione un objetivo para {_turnManager.GetCurrentActionOrder()[0].Name}");
+        _view.WriteLine($"Seleccione un objetivo para {actingUnit.Name}");
         
         for (int i = 0; i < allies.Count; i++)
         {
@@ -769,24 +769,16 @@ public class GameManager
         }
     }
 
-    private Unit? SelectTarget()
+    private Unit? SelectTarget(Unit actingUnit)
     {
         var targets = _opponentTeam!.GetActiveUnitsOnBoard();
         
         _view.WriteLine("----------------------------------------");
-        
-        var actingUnitName = GetCurrentActingUnitName();
-        _view.WriteLine($"Seleccione un objetivo para {actingUnitName}");
+        _view.WriteLine($"Seleccione un objetivo para {actingUnit.Name}");
         
         DisplayTargetOptions(targets);
         
         return ReadTargetSelection(targets);
-    }
-
-    private string GetCurrentActingUnitName()
-    {
-        var currentActionOrder = _turnManager.GetCurrentActionOrder();
-        return currentActionOrder.Count > 0 ? currentActionOrder[0].Name : "Unidad";
     }
 
     private void DisplayTargetOptions(List<Unit> targets)
