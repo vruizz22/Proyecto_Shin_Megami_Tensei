@@ -259,8 +259,8 @@ public class BattleEngine
             },
             _ => new TurnManager.TurnEffect 
             { 
-                FullTurnsConsumed = 0, 
-                BlinkingTurnsConsumed = 1, 
+                FullTurnsConsumed = 1, 
+                BlinkingTurnsConsumed = 0, 
                 BlinkingTurnsGained = 0 
             }
         };
