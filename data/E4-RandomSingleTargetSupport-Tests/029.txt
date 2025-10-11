@@ -1,0 +1,3252 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 28
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Camazotz HP:180/180 MP:35/35
+C-Tiamat HP:305/305 MP:296/296
+D-Kaso HP:108/108 MP:104/104
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-Lham Dearg HP:91/91 MP:19/19
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Tiamat
+3-Kaso
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Azrael HP:338/338 MP:328/328
+2-Dantalion HP:197/197 MP:190/190
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Maragidyne MP:32
+2-Dark Energy MP:25
+3-Holy Wrath MP:45
+4-Bufu MP:5
+5-Maragion MP:20
+6-Diarama MP:9
+7-Berserker God MP:12
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Camazotz HP:180/180 MP:35/35
+C-Tiamat HP:305/305 MP:296/296
+D-Kaso HP:108/108 MP:104/104
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-Lham Dearg HP:91/91 MP:19/19
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tiamat
+2-Kaso
+3-Camazotz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Azrael HP:338/338 MP:328/328
+2-Dantalion HP:197/197 MP:190/190
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Azrael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Camazotz HP:180/180 MP:35/35
+C-Azrael HP:338/338 MP:328/328
+D-Kaso HP:108/108 MP:104/104
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-Lham Dearg HP:91/91 MP:19/19
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kaso
+2-Camazotz
+3-Kotone
+4-Azrael
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Dantalion HP:197/197 MP:190/190
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Dantalion ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Camazotz HP:180/180 MP:35/35
+C-Azrael HP:338/338 MP:328/328
+D-Dantalion HP:197/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-Lham Dearg HP:91/91 MP:19/19
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Kotone
+3-Azrael
+4-Dantalion
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Aleph HP:1309/1309 MP:613/613
+2-Pale Rider HP:693/693 MP:310/310
+3-Lham Dearg HP:91/91 MP:19/19
+4-Alice HP:277/277 MP:269/269
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Camazotz lanza un ataque todo poderoso a Lham Dearg
+El ataque drena 20 HP de Lham Dearg
+Lham Dearg termina con HP:71/91
+Camazotz termina con HP:180/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Camazotz HP:180/180 MP:30/35
+C-Azrael HP:338/338 MP:328/328
+D-Dantalion HP:197/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-Lham Dearg HP:71/91 MP:19/19
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Dantalion
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Camazotz HP:180/180 MP:30/35 (Puesto 2)
+2-Azrael HP:338/338 MP:328/328 (Puesto 3)
+3-Dantalion HP:197/197 MP:190/190 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Azrael HP:338/338 MP:328/328
+D-Dantalion HP:197/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-Lham Dearg HP:71/91 MP:19/19
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azrael
+2-Dantalion
+3-Tiamat
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azrael use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Azrael ataca con oscuridad a Aleph
+Aleph ha sido eliminado
+Aleph termina con HP:0/1309
+Azrael ataca con oscuridad a Pale Rider
+Pale Rider bloquea el ataque de Azrael
+Pale Rider termina con HP:693/693
+Azrael ataca con oscuridad a Lham Dearg
+Lham Dearg ha sido eliminado
+Lham Dearg termina con HP:0/91
+Azrael ataca con oscuridad a Alice
+Alice bloquea el ataque de Azrael
+Alice termina con HP:277/277
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Azrael HP:338/338 MP:298/328
+D-Dantalion HP:197/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Alice
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Kotone HP:597/597 MP:322/347
+2-Tiamat HP:305/305 MP:296/296
+3-Azrael HP:338/338 MP:298/328
+4-Dantalion HP:197/197 MP:190/190
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pale Rider ataca a Dantalion
+Dantalion recibe 58 de daño
+Dantalion termina con HP:139/197
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Azrael HP:338/338 MP:298/328
+D-Dantalion HP:139/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alice
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Alice
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Alice
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Alice
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Alice
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Alice use
+1-Die for Me! MP:45
+2-Dream Needle MP:9
+3-Energy Drain MP:10
+4-Dekunda MP:10
+5-Debilitate MP:50
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Alice
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Azrael HP:338/338 MP:298/328
+D-Dantalion HP:139/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Alice
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Azrael HP:338/338 MP:298/328
+D-Dantalion HP:139/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:277/277 MP:269/269
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Tiamat
+4-Dantalion
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:693/693 MP:310/310
+2-Alice HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone ataca a Alice
+Alice es resistente el ataque de Kotone
+Alice recibe 48 de daño
+Alice termina con HP:229/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Azrael HP:338/338 MP:298/328
+D-Dantalion HP:139/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:229/277 MP:269/269
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azrael
+2-Tiamat
+3-Dantalion
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Camazotz HP:180/180 MP:30/35
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Tiamat HP:305/305 MP:296/296
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:139/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:229/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Dantalion
+3-Kotone
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kaso HP:108/108 MP:104/104
+2-Azrael HP:338/338 MP:298/328
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Azrael ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:139/197 MP:190/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:229/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dantalion
+2-Kotone
+3-Camazotz
+4-Azrael
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Dantalion lanza viento a Pale Rider
+Pale Rider devuelve 75 daño a Dantalion
+Dantalion termina con HP:64/197
+Dantalion lanza viento a Alice
+Alice recibe 75 de daño
+Alice termina con HP:154/277
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Alice
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Kotone HP:597/597 MP:322/347
+2-Azrael HP:338/338 MP:298/328
+3-Camazotz HP:180/180 MP:30/35
+4-Dantalion HP:64/197 MP:170/190
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pale Rider lanza viento a Dantalion
+Dantalion bloquea el ataque de Pale Rider
+Dantalion termina con HP:64/197
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Dantalion
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azrael
+2-Dantalion
+3-Camazotz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:693/693 MP:288/310
+2-Alice HP:154/277 MP:269/269
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azrael use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dantalion
+2-Camazotz
+3-Kotone
+4-Azrael
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Kotone
+3-Azrael
+4-Dantalion
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Pale Rider HP:693/693 MP:288/310
+2-Alice HP:154/277 MP:269/269
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ataca a Pale Rider
+Pale Rider recibe 11 de daño
+Pale Rider termina con HP:682/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:322/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Dantalion
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Maragidyne MP:32
+2-Dark Energy MP:25
+3-Holy Wrath MP:45
+4-Bufu MP:5
+5-Maragion MP:20
+6-Diarama MP:9
+7-Berserker God MP:12
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:154/277 MP:269/269
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azrael
+2-Dantalion
+3-Camazotz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:682/693 MP:288/310
+2-Alice HP:154/277 MP:269/269
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Azrael ataca a Alice
+Alice es resistente el ataque de Azrael
+Alice recibe 18 de daño
+Alice termina con HP:136/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:136/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Alice
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:136/277 MP:269/269
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alice
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Alice
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:64/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:136/277 MP:269/269
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Alice
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Kotone HP:597/597 MP:297/347
+2-Azrael HP:338/338 MP:298/328
+3-Camazotz HP:180/180 MP:30/35
+4-Dantalion HP:64/197 MP:170/190
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pale Rider ataca a Dantalion
+Dantalion recibe 58 de daño
+Dantalion termina con HP:6/197
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:136/277 MP:269/269
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Dantalion
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:682/693 MP:288/310
+2-Alice HP:136/277 MP:269/269
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone ataca a Alice
+Alice es resistente el ataque de Kotone
+Alice recibe 48 de daño
+Alice termina con HP:88/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:88/277 MP:269/269
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azrael
+2-Dantalion
+3-Camazotz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kaso ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:88/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dantalion
+2-Camazotz
+3-Kotone
+4-Kaso
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Dantalion
+1-Pale Rider HP:682/693 MP:288/310
+2-Alice HP:88/277 MP:269/269
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Azrael HP:338/338 MP:298/328
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:88/277 MP:269/269
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Kotone
+3-Kaso
+4-Dantalion
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:297/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:682/693 MP:288/310
+C-
+D-Alice HP:88/277 MP:269/269
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Kaso
+3-Dantalion
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Maragidyne MP:32
+2-Dark Energy MP:25
+3-Holy Wrath MP:45
+4-Bufu MP:5
+5-Maragion MP:20
+6-Diarama MP:9
+7-Berserker God MP:12
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone lanza un ataque todo poderoso a Pale Rider
+Pale Rider recibe 100 de daño
+Pale Rider termina con HP:582/693
+Kotone lanza un ataque todo poderoso a Alice
+Alice recibe 100 de daño
+Alice termina con HP:0/277
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kaso
+2-Dantalion
+3-Camazotz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kaso use
+1-Agi MP:5
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dantalion
+2-Camazotz
+3-Kotone
+4-Kaso
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Dantalion
+3-Kaso
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dantalion
+2-Kaso
+3-Camazotz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Kaso HP:108/108 MP:104/104
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kaso
+2-Camazotz
+3-Kotone
+4-Dantalion
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Azrael HP:338/338 MP:298/328
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Azrael HP:338/338 MP:298/328
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Azrael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Kotone
+3-Dantalion
+4-Azrael
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:582/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Dantalion
+3-Azrael
+4-Tiamat
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:582/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone dispara a Pale Rider
+Pale Rider recibe 57 de daño
+Pale Rider termina con HP:525/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-Dantalion HP:6/197 MP:170/190
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:525/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dantalion
+2-Azrael
+3-Tiamat
+4-Kotone
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Dantalion lanza viento a Pale Rider
+Pale Rider devuelve 75 daño a Dantalion
+Dantalion termina con HP:0/197
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:525/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:252/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:525/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Kotone HP:597/597 MP:252/347
+2-Azrael HP:338/338 MP:298/328
+3-Tiamat HP:305/305 MP:296/296
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider ataca a Kotone
+Kotone es resistente el ataque de Pale Rider
+Kotone recibe 29 de daño
+Kotone termina con HP:568/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:252/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:525/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:525/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Camazotz HP:180/180 MP:30/35
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Azrael HP:338/338 MP:298/328 (Puesto 2)
+2-Tiamat HP:305/305 MP:296/296 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Maragidyne MP:32
+2-Dark Energy MP:25
+3-Holy Wrath MP:45
+4-Bufu MP:5
+5-Maragion MP:20
+6-Diarama MP:9
+7-Berserker God MP:12
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:525/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Pale Rider
+Pale Rider recibe 125 de daño
+Pale Rider termina con HP:400/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:240/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:400/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azrael
+2-Tiamat
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:400/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Azrael ataca a Pale Rider
+Pale Rider recibe 36 de daño
+Pale Rider termina con HP:364/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:240/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:364/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tiamat
+2-Kotone
+3-Azrael
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Camazotz HP:180/180 MP:30/35
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:240/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:364/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Maragidyne MP:32
+2-Dark Energy MP:25
+3-Holy Wrath MP:45
+4-Bufu MP:5
+5-Maragion MP:20
+6-Diarama MP:9
+7-Berserker God MP:12
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Kotone lanza fuego a Pale Rider
+Pale Rider recibe 86 de daño
+Pale Rider termina con HP:278/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:278/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:278/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Kotone HP:568/597 MP:220/347
+2-Azrael HP:338/338 MP:298/328
+3-Camazotz HP:180/180 MP:30/35
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:278/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:278/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:278/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azrael
+2-Camazotz
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azrael use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Dantalion HP:0/197 MP:150/190
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:278/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:278/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Kotone
+3-Azrael
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Pale Rider HP:278/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:278/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:278/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Pale Rider
+Pale Rider recibe 38 de daño
+Pale Rider termina con HP:240/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azrael
+2-Tiamat
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:240/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Kotone
+3-Azrael
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azrael
+2-Tiamat
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:296/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:240/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tiamat
+2-Kotone
+3-Azrael
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tiamat use
+1-Ice Breath MP:21
+2-Sea of Chaos MP:45
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat lanza hielo a Pale Rider
+Pale Rider es resistente el ataque de Tiamat
+Pale Rider recibe 60 de daño
+Tiamat lanza hielo a Pale Rider
+Pale Rider es resistente el ataque de Tiamat
+Pale Rider recibe 60 de daño
+Pale Rider termina con HP:120/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Tiamat HP:305/305 MP:275/296
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:120/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Camazotz HP:180/180 MP:30/35
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Azrael HP:338/338 MP:298/328 (Puesto 2)
+2-Tiamat HP:305/305 MP:275/296 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:298/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:120/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azrael
+2-Camazotz
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azrael use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Azrael ataca con oscuridad a Pale Rider
+Pale Rider bloquea el ataque de Azrael
+Pale Rider termina con HP:120/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:268/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:120/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:268/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:120/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:268/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:120/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:120/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone dispara a Pale Rider
+Pale Rider recibe 57 de daño
+Pale Rider termina con HP:63/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:268/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:63/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azrael
+2-Camazotz
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azrael use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:63/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azrael use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Azrael ataca con oscuridad a Pale Rider
+Pale Rider bloquea el ataque de Azrael
+Pale Rider termina con HP:63/693
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:238/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:63/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:238/328
+C-Camazotz HP:180/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:63/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Kotone HP:568/597 MP:220/347
+2-Azrael HP:338/338 MP:238/328
+3-Camazotz HP:180/180 MP:30/35
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pale Rider ataca a Camazotz
+Camazotz recibe 58 de daño
+Camazotz termina con HP:122/180
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:238/328
+C-Camazotz HP:122/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:63/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:275/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:275/296
+2-Kaso HP:108/108 MP:104/104
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:238/328
+C-Camazotz HP:122/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:63/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azrael
+2-Camazotz
+3-Kotone
+----------------------------------------
+Seleccione una acción para Azrael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azrael
+1-Pale Rider HP:63/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Azrael ataca a Pale Rider
+Pale Rider recibe 36 de daño
+Pale Rider termina con HP:27/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:238/328
+C-Camazotz HP:122/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:27/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Kotone
+3-Azrael
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Pale Rider HP:27/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ataca a Pale Rider
+Pale Rider recibe 11 de daño
+Pale Rider termina con HP:16/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:568/597 MP:220/347
+B-Azrael HP:338/338 MP:238/328
+C-Camazotz HP:122/180 MP:30/35
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Pale Rider HP:16/693 MP:288/310
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azrael
+3-Camazotz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Pale Rider HP:16/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Pale Rider
+Pale Rider recibe 38 de daño
+Pale Rider termina con HP:0/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kotone (J1)

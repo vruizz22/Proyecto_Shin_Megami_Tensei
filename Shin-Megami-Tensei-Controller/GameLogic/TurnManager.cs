@@ -4,6 +4,14 @@ namespace Shin_Megami_Tensei.GameLogic;
 
 public class TurnManager
 {
+    public class TurnEffect
+    {
+        public int FullTurnsConsumed { get; set; }
+        public int BlinkingTurnsConsumed { get; set; }
+        public int BlinkingTurnsGained { get; set; }
+        public bool ConsumeAllTurns { get; set; }
+    }
+
     public int FullTurns { get; private set; }
     public int BlinkingTurns { get; private set; }
     private Queue<Unit> _actionOrder = new();
@@ -50,36 +58,69 @@ public class TurnManager
 
     public Unit? GetNextActingUnit()
     {
-        while (_actionOrder.Count > 0)
+        // Si no hay unidades en la cola de acción, no hay nada que hacer
+        if (_actionOrder.Count == 0)
+            return null;
+            
+        // Buscar la siguiente unidad viva
+        int attempts = 0;
+        while (_actionOrder.Count > 0 && attempts < _actionOrder.Count)
         {
             var unit = _actionOrder.Dequeue();
             if (unit.IsAlive)
             {
-                // Poner la unidad de vuelta al final de la cola
+                // Poner la unidad de vuelta al final de la cola solo si sigue viva
                 _actionOrder.Enqueue(unit);
                 return unit;
             }
+            attempts++;
         }
+        
+        // Si llegamos aquí, no hay unidades vivas
         return null;
     }
 
     public bool HasTurnsRemaining()
     {
-        return FullTurns > 0 || BlinkingTurns > 0;
+        // Verificar si hay turnos disponibles Y unidades vivas que puedan actuar
+        bool hasTurns = FullTurns > 0 || BlinkingTurns > 0;
+        bool hasAliveUnits = _actionOrder.Any(unit => unit.IsAlive);
+        
+        return hasTurns && hasAliveUnits;
     }
 
-    public void ConsumeBasicActionTurn()
+    public void ConsumeTurns(TurnEffect effect)
     {
-        // Para E1, solo implementamos el consumo básico de turnos
-        // Para ataques en escenarios neutrales, consumir 1 Full Turn
-        if (BlinkingTurns > 0)
+        if (effect.ConsumeAllTurns)
         {
-            BlinkingTurns--;
+            FullTurns = 0;
+            BlinkingTurns = 0;
+            return;
         }
-        else if (FullTurns > 0)
+
+        int blinkingToConsume = effect.BlinkingTurnsConsumed;
+        int fullToConsume = effect.FullTurnsConsumed;
+
+        if (blinkingToConsume > 0)
         {
-            FullTurns--;
+            int consumed = Math.Min(BlinkingTurns, blinkingToConsume);
+            BlinkingTurns -= consumed;
+            blinkingToConsume -= consumed;
+            
+            if (blinkingToConsume > 0)
+            {
+                int fromFull = Math.Min(FullTurns, blinkingToConsume);
+                FullTurns -= fromFull;
+            }
         }
+
+        if (fullToConsume > 0)
+        {
+            int consumed = Math.Min(FullTurns, fullToConsume);
+            FullTurns -= consumed;
+        }
+
+        BlinkingTurns += effect.BlinkingTurnsGained;
     }
 
     public List<Unit> GetCurrentActionOrder()
@@ -93,8 +134,21 @@ public class TurnManager
         _actionOrder = new Queue<Unit>(newOrder);
     }
 
-    public void ResetActionOrder(List<Unit> units)
+    public void AddUnitToOrder(Unit unit)
     {
-        SetupActionOrder(units);
+        var currentOrder = _actionOrder.ToList();
+        currentOrder.Add(unit);
+        _actionOrder = new Queue<Unit>(currentOrder);
+    }
+
+    public void ReplaceUnitInOrder(Unit oldUnit, Unit newUnit)
+    {
+        var currentOrder = _actionOrder.ToList();
+        int index = currentOrder.IndexOf(oldUnit);
+        if (index >= 0)
+        {
+            currentOrder[index] = newUnit;
+        }
+        _actionOrder = new Queue<Unit>(currentOrder);
     }
 }

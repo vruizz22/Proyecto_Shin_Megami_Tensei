@@ -1,0 +1,1121 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 46
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Susano-o HP:927/927 MP:184/184
+C-Corpse HP:426/426 MP:85/85
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Susano-o
+2-Makoto
+3-Corpse
+4-Tam Lin
+----------------------------------------
+Seleccione una acción para Susano-o
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Susano-o
+1-Flynn HP:971/971 MP:527/527
+2-Melchom HP:71/71 MP:67/67
+3-Bai Suzhen HP:155/155 MP:149/149
+4-Seth HP:898/898 MP:179/179
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Susano-o
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Susano-o HP:927/927 MP:184/184
+C-Corpse HP:426/426 MP:85/85
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+3-Tam Lin
+4-Susano-o
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Blood Ritual MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Makoto ha aumentado
+La defensa de Makoto ha aumentado
+Makoto termina con HP:1/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Corpse HP:426/426 MP:85/85
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Tam Lin
+3-Susano-o
+4-Makoto
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Makara HP:161/161 MP:72/72
+2-Patrimpas HP:155/155 MP:149/149
+3-Strix HP:189/189 MP:85/85
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Patrimpas ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tam Lin
+2-Susano-o
+3-Makoto
+4-Patrimpas
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Susano-o
+2-Makoto
+3-Patrimpas
+4-Tam Lin
+----------------------------------------
+Seleccione una acción para Susano-o
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Patrimpas
+3-Tam Lin
+4-Susano-o
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:971/971 MP:527/527
+2-Melchom HP:71/71 MP:67/67
+3-Bai Suzhen HP:155/155 MP:149/149
+4-Seth HP:898/898 MP:179/179
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto dispara a Flynn
+Flynn recibe 71 de daño
+Flynn termina con HP:900/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Patrimpas
+2-Tam Lin
+3-Susano-o
+4-Makoto
+----------------------------------------
+Seleccione una acción para Patrimpas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:527/527
+B-Melchom HP:71/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tam Lin
+2-Susano-o
+3-Makoto
+4-Patrimpas
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tam Lin
+1-Flynn HP:900/971 MP:527/527
+2-Melchom HP:71/71 MP:67/67
+3-Bai Suzhen HP:155/155 MP:149/149
+4-Seth HP:898/898 MP:179/179
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Tam Lin ataca a Melchom
+Melchom recibe 14 de daño
+Melchom termina con HP:57/71
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:527/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Seth
+3-Bai Suzhen
+4-Melchom
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Qing Niuguai HP:407/407 MP:81/81
+2-Zhu Tun She HP:180/180 MP:35/35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Mahama MP:18
+2-Gram Slice MP:5
+3-Hama MP:6
+4-Blast Arrow MP:16
+5-Dark Energy MP:25
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Flynn ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:1/597 MP:322/347
+B-Susano-o HP:927/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:179/179
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Seth
+2-Bai Suzhen
+3-Melchom
+4-Flynn
+----------------------------------------
+Seleccione una acción para Seth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Seth use
+1-Madness Nails MP:26
+2-Panic Voice MP:15
+3-War Cry MP:45
+4-Maziodyne MP:32
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seth ataca a Makoto
+Makoto es resistente el ataque de Seth
+Makoto recibe 85 de daño
+Makoto termina con HP:0/597
+Seth ataca a Susano-o
+Susano-o es resistente el ataque de Seth
+Susano-o recibe 98 de daño
+Susano-o termina con HP:829/927
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:155/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Melchom
+3-Flynn
+4-Seth
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bai Suzhen
+1-Susano-o HP:829/927 MP:184/184
+2-Patrimpas HP:155/155 MP:149/149
+3-Tam Lin HP:218/218 MP:43/43
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Bai Suzhen ataca a Patrimpas
+Patrimpas recibe 16 de daño
+Patrimpas termina con HP:139/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:139/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Melchom
+2-Flynn
+3-Seth
+4-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Melchom
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:139/155 MP:149/149
+D-Tam Lin HP:218/218 MP:43/43
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Seth
+3-Bai Suzhen
+4-Melchom
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Susano-o HP:829/927 MP:184/184
+2-Patrimpas HP:139/155 MP:149/149
+3-Tam Lin HP:218/218 MP:43/43
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn ataca a Tam Lin
+Tam Lin recibe 220 de daño
+Tam Lin termina con HP:0/218
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:139/155 MP:149/149
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Susano-o
+2-Patrimpas
+----------------------------------------
+Seleccione una acción para Susano-o
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:139/155 MP:149/149
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Patrimpas
+2-Susano-o
+----------------------------------------
+Seleccione una acción para Patrimpas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:139/155 MP:149/149
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Susano-o
+2-Patrimpas
+----------------------------------------
+Seleccione una acción para Susano-o
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Patrimpas HP:139/155 MP:149/149
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Patrimpas
+2-Susano-o
+----------------------------------------
+Seleccione una acción para Patrimpas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Corpse HP:426/426 MP:85/85
+2-Makara HP:161/161 MP:72/72
+3-Strix HP:189/189 MP:85/85
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Makara ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:829/927 MP:184/184
+C-Makara HP:161/161 MP:72/72
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Seth
+3-Bai Suzhen
+4-Melchom
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Susano-o HP:829/927 MP:184/184
+2-Makara HP:161/161 MP:72/72
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Susano-o
+Susano-o recibe 110 de daño
+Susano-o termina con HP:719/927
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:719/927 MP:184/184
+C-Makara HP:161/161 MP:72/72
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:153/179
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Seth
+2-Bai Suzhen
+3-Melchom
+4-Flynn
+----------------------------------------
+Seleccione una acción para Seth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Seth use
+1-Madness Nails MP:26
+2-Panic Voice MP:15
+3-War Cry MP:45
+4-Maziodyne MP:32
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seth ataca a Susano-o
+Susano-o es resistente el ataque de Seth
+Susano-o recibe 98 de daño
+Seth ataca a Susano-o
+Susano-o es resistente el ataque de Seth
+Susano-o recibe 98 de daño
+Susano-o termina con HP:523/927
+Seth ataca a Makara
+Makara recibe 196 de daño
+Makara termina con HP:0/161
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:523/927 MP:184/184
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:127/179
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Melchom
+3-Flynn
+4-Seth
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bai Suzhen use
+1-Zionga MP:8
+2-Binding Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:523/927 MP:184/184
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Melchom HP:57/71 MP:67/67
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:127/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Melchom
+2-Flynn
+3-Seth
+4-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Melchom
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Qing Niuguai HP:407/407 MP:81/81
+2-Zhu Tun She HP:180/180 MP:35/35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Melchom
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Qing Niuguai HP:407/407 MP:81/81
+2-Zhu Tun She HP:180/180 MP:35/35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Zhu Tun She ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:523/927 MP:184/184
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Zhu Tun She HP:180/180 MP:35/35
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:127/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Seth
+3-Bai Suzhen
+4-Zhu Tun She
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Mahama MP:18
+2-Gram Slice MP:5
+3-Hama MP:6
+4-Blast Arrow MP:16
+5-Dark Energy MP:25
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Susano-o HP:523/927 MP:184/184
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Susano-o
+Susano-o es resistente el ataque de Flynn
+Susano-o recibe 44 de daño
+Susano-o termina con HP:479/927
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Susano-o HP:479/927 MP:184/184
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Zhu Tun She HP:180/180 MP:35/35
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:127/179
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Susano-o
+----------------------------------------
+Seleccione una acción para Susano-o
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Corpse HP:426/426 MP:85/85
+2-Patrimpas HP:139/155 MP:149/149
+3-Strix HP:189/189 MP:85/85
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Patrimpas ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Patrimpas HP:139/155 MP:149/149
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:900/971 MP:502/527
+B-Zhu Tun She HP:180/180 MP:35/35
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:127/179
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Patrimpas
+----------------------------------------
+Seleccione una acción para Patrimpas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Patrimpas
+1-Flynn HP:900/971 MP:502/527
+2-Zhu Tun She HP:180/180 MP:35/35
+3-Bai Suzhen HP:155/155 MP:149/149
+4-Seth HP:898/898 MP:127/179
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Patrimpas ataca a Flynn
+Flynn recibe 16 de daño
+Flynn termina con HP:884/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:0/597 MP:322/347
+B-Patrimpas HP:139/155 MP:149/149
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:884/971 MP:502/527
+B-Zhu Tun She HP:180/180 MP:35/35
+C-Bai Suzhen HP:155/155 MP:149/149
+D-Seth HP:898/898 MP:127/179
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Seth
+3-Bai Suzhen
+4-Zhu Tun She
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Patrimpas HP:139/155 MP:149/149
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Melchom HP:57/71 MP:67/67
+2-Qing Niuguai HP:407/407 MP:81/81
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Mahama MP:18
+2-Gram Slice MP:5
+3-Hama MP:6
+4-Blast Arrow MP:16
+5-Dark Energy MP:25
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Patrimpas HP:139/155 MP:149/149
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca con luz a Patrimpas
+Patrimpas es débil contra el ataque de Flynn
+Patrimpas ha sido eliminado
+Patrimpas termina con HP:0/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Ganador: Flynn (J2)

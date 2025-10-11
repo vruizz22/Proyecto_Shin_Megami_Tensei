@@ -1,0 +1,2138 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 20
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Parvati
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Mudoon MP:10
+2-Shining Seal MP:75
+3-Maragi MP:11
+4-Blood Ritual MP:25
+5-Berserker God MP:12
+6-Tathlum Shot MP:7
+7-Media MP:12
+8-Concentrate MP:11
+9-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Pele HP:76/76 MP:72/72
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Kotone
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Parvati
+3-Apsaras
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Archangel HP:265/265 MP:52/52
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Parvati
+2-Apsaras
+3-Kotone
+4-Lilith
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Apsaras
+2-Kotone
+3-Lilith
+4-Parvati
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Apsaras use
+1-Media MP:12
+2-Dormina MP:4
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Apsaras
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Pele HP:76/76 MP:72/72
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Apsaras ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Apsaras
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Pele
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pele
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Pele
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pele
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Pele
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:335/347
+2-Apsaras HP:85/85 MP:81/81
+3-Parvati HP:165/165 MP:158/158
+4-Lilith HP:380/380 MP:369/369
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Kotone
+Kotone es resistente el ataque de Demi-Fiend
+Kotone recibe 57 de daño
+Kotone termina con HP:540/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:540/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:76/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Parvati
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Pele HP:76/76 MP:72/72
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone dispara a Pele
+Pele recibe 57 de daño
+Pele termina con HP:19/76
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:540/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Lilith HP:380/380 MP:369/369
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:19/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Parvati
+3-Apsaras
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Pele HP:19/76 MP:72/72
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Pele HP:19/76 MP:72/72
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Archangel HP:265/265 MP:52/52
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Archangel ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:540/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:158/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:19/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Parvati
+2-Apsaras
+3-Kotone
+4-Archangel
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Parvati use
+1-Media MP:12
+2-Rakukaja MP:15
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Parvati use
+1-Media MP:12
+2-Rakukaja MP:15
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Parvati cura a Kotone
+Kotone recibe 149 de HP
+Kotone termina con HP:597/597
+Parvati cura a Apsaras
+Apsaras recibe 21 de HP
+Apsaras termina con HP:85/85
+Parvati cura a Archangel
+Archangel recibe 66 de HP
+Archangel termina con HP:265/265
+Parvati cura a Parvati
+Parvati recibe 41 de HP
+Parvati termina con HP:165/165
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Apsaras HP:85/85 MP:81/81
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:19/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Apsaras
+2-Kotone
+3-Archangel
+4-Parvati
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Apsaras
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Pele HP:19/76 MP:72/72
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:335/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Pele HP:19/76 MP:72/72
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Archangel
+3-Parvati
+4-Lilith
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Mudoon MP:10
+2-Shining Seal MP:75
+3-Maragi MP:11
+4-Blood Ritual MP:25
+5-Berserker God MP:12
+6-Tathlum Shot MP:7
+7-Media MP:12
+8-Concentrate MP:11
+9-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 156 de daño
+Demi-Fiend termina con HP:1071/1227
+Kotone lanza un ataque todo poderoso a Pele
+Pele recibe 156 de daño
+Pele termina con HP:0/76
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:834/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Archangel
+2-Parvati
+3-Lilith
+4-Kotone
+----------------------------------------
+Seleccione una acción para Archangel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:834/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Parvati
+2-Lilith
+3-Kotone
+4-Archangel
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:834/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Diarama MP:9
+3-Bufu MP:5
+4-Ziodyne MP:14
+5-Gram Slice MP:5
+6-Bufudyne MP:14
+7-Hama MP:6
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:260/347
+2-Lilith HP:380/380 MP:369/369
+3-Parvati HP:165/165 MP:146/158
+4-Archangel HP:265/265 MP:52/52
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend lanza hielo a Parvati
+Parvati absorbe 154 daño
+Parvati termina con HP:165/165
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Parvati
+4-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Demi-Fiend HP:1071/1227 MP:829/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Kotone
+Demi-Fiend termina con HP:1071/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Parvati
+3-Archangel
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Parvati
+2-Archangel
+3-Kotone
+4-Lilith
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Archangel
+2-Kotone
+3-Lilith
+4-Parvati
+----------------------------------------
+Seleccione una acción para Archangel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Parvati
+4-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:829/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Diarama MP:9
+3-Bufu MP:5
+4-Ziodyne MP:14
+5-Gram Slice MP:5
+6-Bufudyne MP:14
+7-Hama MP:6
+8-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:260/347
+2-Lilith HP:380/380 MP:369/369
+3-Parvati HP:165/165 MP:146/158
+4-Archangel HP:265/265 MP:52/52
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Demi-Fiend lanza electricidad a Archangel
+Archangel recibe 250 de daño
+Archangel termina con HP:15/265
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Parvati HP:165/165 MP:146/158
+D-Archangel HP:15/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:815/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Parvati
+4-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Apsaras HP:85/85 MP:81/81
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Lilith HP:380/380 MP:369/369 (Puesto 2)
+2-Parvati HP:165/165 MP:146/158 (Puesto 3)
+3-Archangel HP:15/265 MP:52/52 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Apsaras ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:369/369
+C-Apsaras HP:85/85 MP:81/81
+D-Archangel HP:15/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:815/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Apsaras
+3-Archangel
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Lilith cura a Kotone
+Kotone recibe 597 de HP
+Kotone termina con HP:597/597
+Lilith cura a Apsaras
+Apsaras recibe 85 de HP
+Apsaras termina con HP:85/85
+Lilith cura a Archangel
+Archangel recibe 265 de HP
+Archangel termina con HP:265/265
+Lilith cura a Lilith
+Lilith recibe 380 de HP
+Lilith termina con HP:380/380
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:329/369
+C-Apsaras HP:85/85 MP:81/81
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:815/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Apsaras
+2-Archangel
+3-Kotone
+4-Lilith
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Apsaras
+1-Demi-Fiend HP:1071/1227 MP:815/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Apsaras ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Apsaras
+Demi-Fiend termina con HP:1071/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:329/369
+C-Apsaras HP:85/85 MP:81/81
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:815/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Archangel
+2-Kotone
+3-Lilith
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Archangel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Parvati HP:165/165 MP:146/158
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Parvati ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:329/369
+C-Apsaras HP:85/85 MP:81/81
+D-Parvati HP:165/165 MP:146/158
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:815/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Apsaras
+4-Parvati
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:329/369
+C-Apsaras HP:85/85 MP:81/81
+D-Parvati HP:165/165 MP:146/158
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:815/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Diarama MP:9
+3-Bufu MP:5
+4-Ziodyne MP:14
+5-Gram Slice MP:5
+6-Bufudyne MP:14
+7-Hama MP:6
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:260/347
+2-Lilith HP:380/380 MP:329/369
+3-Apsaras HP:85/85 MP:81/81
+4-Parvati HP:165/165 MP:146/158
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend ataca con luz a Apsaras
+Apsaras ha sido eliminado
+Apsaras termina con HP:0/85
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:260/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Parvati HP:165/165 MP:146/158
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1071/1227 MP:809/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Parvati
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Demi-Fiend HP:1071/1227 MP:809/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Mudoon MP:10
+2-Shining Seal MP:75
+3-Maragi MP:11
+4-Blood Ritual MP:25
+5-Berserker God MP:12
+6-Tathlum Shot MP:7
+7-Media MP:12
+8-Concentrate MP:11
+9-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 156 de daño
+Demi-Fiend termina con HP:915/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:185/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Parvati HP:165/165 MP:146/158
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:915/1227 MP:809/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Parvati
+3-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:185/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Parvati HP:165/165 MP:146/158
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:915/1227 MP:809/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Parvati
+2-Kotone
+3-Lilith
+----------------------------------------
+Seleccione una acción para Parvati
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Archangel HP:265/265 MP:52/52
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Archangel ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:185/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:915/1227 MP:809/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Mudoon MP:10
+2-Shining Seal MP:75
+3-Maragi MP:11
+4-Blood Ritual MP:25
+5-Berserker God MP:12
+6-Tathlum Shot MP:7
+7-Media MP:12
+8-Concentrate MP:11
+9-Cancelar
+INPUT: 7
+----------------------------------------
+Kotone cura a Lilith
+Lilith recibe 95 de HP
+Lilith termina con HP:380/380
+Kotone cura a Archangel
+Archangel recibe 66 de HP
+Archangel termina con HP:265/265
+Kotone cura a Kotone
+Kotone recibe 149 de HP
+Kotone termina con HP:597/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:915/1227 MP:809/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:173/347
+2-Lilith HP:380/380 MP:329/369
+3-Archangel HP:265/265 MP:52/52
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Diarama MP:9
+3-Bufu MP:5
+4-Ziodyne MP:14
+5-Gram Slice MP:5
+6-Bufudyne MP:14
+7-Hama MP:6
+8-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Demi-Fiend ha aumentado
+La defensa de Demi-Fiend ha aumentado
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Demi-Fiend HP:1/1227 MP:784/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Kotone
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Archangel
+3-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Demi-Fiend HP:1/1227 MP:784/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Archangel
+2-Kotone
+3-Lilith
+----------------------------------------
+Seleccione una acción para Archangel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:173/347
+2-Lilith HP:380/380 MP:329/369
+3-Archangel HP:265/265 MP:52/52
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:597/597 MP:173/347
+2-Lilith HP:380/380 MP:329/369
+3-Archangel HP:265/265 MP:52/52
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Kotone
+Kotone es resistente el ataque de Demi-Fiend
+Kotone recibe 105 de daño
+Kotone termina con HP:492/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Archangel
+3-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Demi-Fiend HP:1/1227 MP:784/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Lilith
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Archangel
+2-Kotone
+3-Lilith
+----------------------------------------
+Seleccione una acción para Archangel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Archangel
+1-Demi-Fiend HP:1/1227 MP:784/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Archangel ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Archangel
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Diarama MP:9
+2-Bufu MP:5
+3-Ziodyne MP:14
+4-Gram Slice MP:5
+5-Bufudyne MP:14
+6-Hama MP:6
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Demi-Fiend HP:1/1227 MP:784/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:492/597 MP:173/347
+2-Lilith HP:380/380 MP:329/369
+3-Archangel HP:265/265 MP:52/52
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Archangel
+3-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Archangel
+2-Kotone
+3-Lilith
+----------------------------------------
+Seleccione una acción para Archangel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Archangel
+1-Demi-Fiend HP:1/1227 MP:784/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Archangel ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Archangel
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:265/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Diarama MP:9
+2-Bufu MP:5
+3-Ziodyne MP:14
+4-Gram Slice MP:5
+5-Bufudyne MP:14
+6-Hama MP:6
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:492/597 MP:173/347
+2-Lilith HP:380/380 MP:329/369
+3-Archangel HP:265/265 MP:52/52
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Kotone HP:492/597 MP:173/347
+2-Lilith HP:380/380 MP:329/369
+3-Archangel HP:265/265 MP:52/52
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend ataca a Archangel
+Archangel recibe 210 de daño
+Archangel termina con HP:55/265
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:492/597 MP:173/347
+B-Lilith HP:380/380 MP:329/369
+C-
+D-Archangel HP:55/265 MP:52/52
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1/1227 MP:784/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Archangel
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Mudoon MP:10
+2-Shining Seal MP:75
+3-Maragi MP:11
+4-Blood Ritual MP:25
+5-Berserker God MP:12
+6-Tathlum Shot MP:7
+7-Media MP:12
+8-Concentrate MP:11
+9-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 137 de daño
+Demi-Fiend termina con HP:0/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kotone (J1)

@@ -1,0 +1,2829 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 31
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Master Therion HP:497/497 MP:223/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Hamsa HP:91/91 MP:40/40
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:511/511 MP:102/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Bufu MP:5
+3-Titanomachia MP:30
+4-Holy Wrath MP:45
+5-Fatal Sword MP:8
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:597/597 MP:347/347
+2-Hamsa HP:91/91 MP:40/40
+3-Guedhe HP:511/511 MP:229/229
+4-Patriot HP:511/511 MP:102/102
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza hielo a Joker
+Joker recibe 154 de daño
+Joker termina con HP:443/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:829/834
+B-Master Therion HP:497/497 MP:223/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:443/597 MP:347/347
+B-Hamsa HP:91/91 MP:40/40
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:511/511 MP:102/102
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:443/597 MP:347/347
+2-Hamsa HP:91/91 MP:40/40
+3-Guedhe HP:511/511 MP:229/229
+4-Patriot HP:511/511 MP:102/102
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Master Therion lanza fuego a Hamsa
+Hamsa recibe 118 de daño
+Hamsa termina con HP:0/91
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:829/834
+B-Master Therion HP:497/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:443/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:511/511 MP:102/102
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Patriot
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Guedhe
+1-Demi-Fiend HP:1227/1227 MP:829/834
+2-Master Therion HP:497/497 MP:209/223
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Guedhe ataca a Master Therion
+Master Therion recibe 42 de daño
+Master Therion termina con HP:455/497
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:829/834
+B-Master Therion HP:455/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:443/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:511/511 MP:102/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Patriot
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1227/1227 MP:829/834
+2-Master Therion HP:455/497 MP:209/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Joker
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:829/834
+B-Master Therion HP:455/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:443/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:511/511 MP:102/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:443/597 MP:347/347
+2-Guedhe HP:511/511 MP:229/229
+3-Patriot HP:511/511 MP:102/102
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:443/597 MP:347/347
+2-Guedhe HP:511/511 MP:229/229
+3-Patriot HP:511/511 MP:102/102
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend ataca a Patriot
+Patriot recibe 168 de daño
+Patriot termina con HP:343/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:829/834
+B-Master Therion HP:455/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:443/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:102/102
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:829/834
+B-Master Therion HP:455/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:443/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:102/102
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Bufu MP:5
+3-Titanomachia MP:30
+4-Holy Wrath MP:45
+5-Fatal Sword MP:8
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:443/597 MP:347/347
+2-Guedhe HP:511/511 MP:229/229
+3-Patriot HP:343/511 MP:102/102
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza hielo a Joker
+Joker recibe 154 de daño
+Joker termina con HP:289/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:824/834
+B-Master Therion HP:455/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:289/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:102/102
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Patriot
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:824/834
+B-Master Therion HP:455/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:289/597 MP:347/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:102/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Patriot
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Mudoon MP:10
+3-Maziodyne MP:32
+4-Grand Tack MP:11
+5-Fatal Sword MP:8
+6-Lunge MP:6
+7-Rapid Needle MP:9
+8-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1227/1227 MP:824/834
+2-Master Therion HP:455/497 MP:209/223
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Joker ataca a Master Therion
+Master Therion recibe 65 de daño
+Master Therion termina con HP:390/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:824/834
+B-Master Therion HP:390/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:289/597 MP:341/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:102/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Patriot
+2-Guedhe
+3-Joker
+----------------------------------------
+Seleccione una acción para Patriot
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Patriot use
+1-Taunt MP:20
+2-Mudoon MP:10
+3-Blast Arrow MP:16
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Patriot dispara a Demi-Fiend
+Demi-Fiend recibe 81 de daño
+Demi-Fiend termina con HP:1146/1227
+Patriot dispara a Master Therion
+Master Therion recibe 81 de daño
+Master Therion termina con HP:309/497
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:309/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:289/597 MP:341/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Patriot
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gryphon HP:123/123 MP:23/23
+2-Caladrius HP:155/155 MP:149/149
+3-Dantalion HP:197/197 MP:190/190
+4-Okiku-Mushi HP:273/273 MP:121/121
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Caladrius ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:309/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:289/597 MP:341/347
+B-
+C-Caladrius HP:155/155 MP:149/149
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Patriot
+3-Caladrius
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Mudoon MP:10
+3-Maziodyne MP:32
+4-Grand Tack MP:11
+5-Fatal Sword MP:8
+6-Lunge MP:6
+7-Rapid Needle MP:9
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:309/497 MP:209/223
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Joker ataca a Master Therion
+Master Therion recibe 86 de daño
+Master Therion termina con HP:223/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:289/597 MP:333/347
+B-
+C-Caladrius HP:155/155 MP:149/149
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:289/597 MP:333/347
+2-Caladrius HP:155/155 MP:149/149
+3-Patriot HP:343/511 MP:86/102
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Joker
+Joker recibe 114 de daño
+Joker termina con HP:175/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:175/597 MP:333/347
+B-
+C-Caladrius HP:155/155 MP:149/149
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:175/597 MP:333/347
+2-Caladrius HP:155/155 MP:149/149
+3-Patriot HP:343/511 MP:86/102
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Master Therion ataca a Joker
+Joker recibe 41 de daño
+Joker termina con HP:134/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Caladrius HP:155/155 MP:149/149
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Patriot
+3-Caladrius
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:223/497 MP:209/223
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Guedhe HP:511/511 MP:229/229
+2-Gryphon HP:123/123 MP:23/23
+3-Dantalion HP:197/197 MP:190/190
+4-Okiku-Mushi HP:273/273 MP:121/121
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Caladrius HP:155/155 MP:149/149 (Puesto 3)
+3-Patriot HP:343/511 MP:86/102 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Dantalion ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Patriot
+2-Dantalion
+3-Joker
+----------------------------------------
+Seleccione una acción para Patriot
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dantalion
+2-Joker
+3-Patriot
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Patriot
+3-Dantalion
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Guedhe HP:511/511 MP:229/229
+2-Gryphon HP:123/123 MP:23/23
+3-Caladrius HP:155/155 MP:149/149
+4-Okiku-Mushi HP:273/273 MP:121/121
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Dantalion HP:197/197 MP:190/190 (Puesto 3)
+3-Patriot HP:343/511 MP:86/102 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Guedhe ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Patriot HP:343/511 MP:86/102
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Patriot
+2-Guedhe
+3-Joker
+----------------------------------------
+Seleccione una acción para Patriot
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gryphon HP:123/123 MP:23/23
+2-Caladrius HP:155/155 MP:149/149
+3-Dantalion HP:197/197 MP:190/190
+4-Okiku-Mushi HP:273/273 MP:121/121
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Okiku-Mushi ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:134/597 MP:333/347
+2-Guedhe HP:511/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:121/121
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:511/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:134/597 MP:333/347
+2-Guedhe HP:511/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:121/121
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:134/597 MP:333/347
+2-Guedhe HP:511/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:121/121
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend ataca a Guedhe
+Guedhe recibe 168 de daño
+Guedhe termina con HP:343/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:343/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Guedhe
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:223/497 MP:209/223
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:223/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:343/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Okiku-Mushi
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:223/497 MP:209/223
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Joker dispara a Master Therion
+Master Therion recibe 39 de daño
+Master Therion termina con HP:184/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:343/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:121/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Guedhe
+3-Joker
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Okiku-Mushi use
+1-Poisma MP:4
+2-Tathlum Shot MP:7
+3-Mudoon MP:10
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Okiku-Mushi
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Okiku-Mushi ataca con oscuridad a Master Therion
+Master Therion bloquea el ataque de Okiku-Mushi
+Master Therion termina con HP:184/497
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:343/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:134/597 MP:333/347
+2-Guedhe HP:343/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:111/121
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Guedhe
+Guedhe recibe 114 de daño
+Guedhe termina con HP:229/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:229/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:134/597 MP:333/347
+2-Guedhe HP:229/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:111/121
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:134/597 MP:333/347
+B-
+C-Guedhe HP:229/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:134/597 MP:333/347
+2-Guedhe HP:229/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:111/121
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Joker
+Joker recibe 114 de daño
+Joker termina con HP:20/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:229/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1146/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:229/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Okiku-Mushi
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1146/1227 MP:824/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Demi-Fiend
+Demi-Fiend recibe 39 de daño
+Demi-Fiend termina con HP:1107/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:229/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Guedhe
+3-Joker
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Okiku-Mushi
+1-Demi-Fiend HP:1107/1227 MP:824/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Okiku-Mushi ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Okiku-Mushi
+Demi-Fiend termina con HP:1107/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:229/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:20/597 MP:333/347
+2-Guedhe HP:229/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:111/121
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Guedhe
+Guedhe recibe 114 de daño
+Guedhe termina con HP:115/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:115/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:20/597 MP:333/347
+2-Guedhe HP:115/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:111/121
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Master Therion ataca a Guedhe
+Guedhe recibe 41 de daño
+Guedhe termina con HP:74/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Guedhe use
+1-Mudoon MP:10
+2-Recarm MP:20
+3-Megidola MP:40
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Guedhe
+1-Demi-Fiend HP:1107/1227 MP:824/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Guedhe ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Guedhe
+Demi-Fiend termina con HP:1107/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Okiku-Mushi
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Guedhe
+3-Joker
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Okiku-Mushi
+1-Demi-Fiend HP:1107/1227 MP:824/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Okiku-Mushi ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Okiku-Mushi
+Demi-Fiend termina con HP:1107/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:273/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:20/597 MP:333/347
+2-Guedhe HP:74/511 MP:229/229
+3-Okiku-Mushi HP:273/273 MP:111/121
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend ataca a Okiku-Mushi
+Okiku-Mushi recibe 168 de daño
+Okiku-Mushi termina con HP:105/273
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1107/1227 MP:824/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Blood Ritual MP:25
+2-Bufu MP:5
+3-Titanomachia MP:30
+4-Holy Wrath MP:45
+5-Fatal Sword MP:8
+6-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Demi-Fiend ha aumentado
+La defensa de Demi-Fiend ha aumentado
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Guedhe HP:74/511 MP:229/229
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Joker
+3-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Patriot HP:343/511 MP:86/102
+2-Gryphon HP:123/123 MP:23/23
+3-Caladrius HP:155/155 MP:149/149
+4-Dantalion HP:197/197 MP:190/190
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Dantalion ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:333/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Okiku-Mushi
+3-Dantalion
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Mudoon MP:10
+3-Maziodyne MP:32
+4-Grand Tack MP:11
+5-Fatal Sword MP:8
+6-Lunge MP:6
+7-Rapid Needle MP:9
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Demi-Fiend HP:1/1227 MP:799/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca con oscuridad a Demi-Fiend
+Demi-Fiend bloquea el ataque de Joker
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Dantalion
+3-Joker
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:184/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dantalion
+2-Joker
+3-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dantalion use
+1-Mazanma MP:20
+2-Tetrakarn MP:50
+3-Makarakarn MP:50
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Dantalion
+1-Demi-Fiend HP:1/1227 MP:799/834
+2-Master Therion HP:184/497 MP:209/223
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Dantalion ataca a Master Therion
+Master Therion recibe 20 de daño
+Master Therion termina con HP:164/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:20/597 MP:323/347
+2-Dantalion HP:197/197 MP:190/190
+3-Okiku-Mushi HP:105/273 MP:111/121
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:209/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Master Therion ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:20/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Joker HP:20/597 MP:323/347
+2-Dantalion HP:197/197 MP:190/190
+3-Okiku-Mushi HP:105/273 MP:111/121
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Joker
+Joker recibe 210 de daño
+Joker termina con HP:0/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Dantalion
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Okiku-Mushi
+1-Demi-Fiend HP:1/1227 MP:799/834
+2-Master Therion HP:164/497 MP:198/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Okiku-Mushi ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Okiku-Mushi
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:105/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Dantalion HP:197/197 MP:190/190
+2-Okiku-Mushi HP:105/273 MP:111/121
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Master Therion ataca a Okiku-Mushi
+Okiku-Mushi recibe 41 de daño
+Okiku-Mushi termina con HP:64/273
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:64/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:64/273 MP:111/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Dantalion HP:197/197 MP:190/190
+2-Okiku-Mushi HP:64/273 MP:111/121
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Master Therion ataca a Okiku-Mushi
+Okiku-Mushi recibe 41 de daño
+Okiku-Mushi termina con HP:23/273
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Dantalion
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Dantalion HP:197/197 MP:190/190
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dantalion
+2-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Dantalion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Guedhe HP:74/511 MP:229/229
+2-Patriot HP:343/511 MP:86/102
+3-Gryphon HP:123/123 MP:23/23
+4-Caladrius HP:155/155 MP:149/149
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Patriot ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:86/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Patriot
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Okiku-Mushi
+1-Demi-Fiend HP:1/1227 MP:799/834
+2-Master Therion HP:164/497 MP:198/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Okiku-Mushi ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Okiku-Mushi
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:86/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Patriot HP:343/511 MP:86/102
+2-Okiku-Mushi HP:23/273 MP:111/121
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Okiku-Mushi
+Okiku-Mushi bloquea el ataque de Demi-Fiend
+Okiku-Mushi termina con HP:23/273
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:86/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Patriot
+2-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Patriot
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:86/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Okiku-Mushi
+2-Patriot
+----------------------------------------
+Seleccione una acción para Okiku-Mushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:86/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Patriot
+2-Okiku-Mushi
+----------------------------------------
+Seleccione una acción para Patriot
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Patriot use
+1-Taunt MP:20
+2-Mudoon MP:10
+3-Blast Arrow MP:16
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Patriot
+1-Demi-Fiend HP:1/1227 MP:799/834
+2-Master Therion HP:164/497 MP:198/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Patriot ataca con oscuridad a Demi-Fiend
+Demi-Fiend bloquea el ataque de Patriot
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:76/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:76/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:799/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:343/511 MP:76/102
+D-Okiku-Mushi HP:23/273 MP:111/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Bufu MP:5
+2-Titanomachia MP:30
+3-Holy Wrath MP:45
+4-Fatal Sword MP:8
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend lanza un ataque todo poderoso a Patriot
+Patriot recibe 273 de daño
+Patriot termina con HP:70/511
+Demi-Fiend lanza un ataque todo poderoso a Okiku-Mushi
+Okiku-Mushi recibe 273 de daño
+Okiku-Mushi termina con HP:0/273
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:754/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:70/511 MP:76/102
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Patriot
+----------------------------------------
+Seleccione una acción para Patriot
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Patriot
+1-Demi-Fiend HP:1/1227 MP:754/834
+2-Master Therion HP:164/497 MP:198/223
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Patriot ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Patriot
+Demi-Fiend termina con HP:1/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1/1227 MP:754/834
+B-Master Therion HP:164/497 MP:198/223
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:323/347
+B-
+C-Patriot HP:70/511 MP:76/102
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Master Therion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Patriot HP:70/511 MP:76/102
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Patriot
+Patriot recibe 210 de daño
+Patriot termina con HP:0/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Demi-Fiend (J1)

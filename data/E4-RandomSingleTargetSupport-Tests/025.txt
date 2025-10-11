@@ -1,0 +1,3670 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 24
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:597/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:123/123 MP:23/23
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+4-Suparna
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:597/597 MP:347/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:315/315 MP:306/306
+4-Gryphon HP:123/123 MP:23/23
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 19 de daño
+Kotone termina con HP:578/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:123/123 MP:23/23
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Suparna
+4-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asmodeus
+1-Kotone HP:578/597 MP:347/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:315/315 MP:306/306
+4-Gryphon HP:123/123 MP:23/23
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Asmodeus ataca a Gryphon
+Gryphon recibe 35 de daño
+Gryphon termina con HP:88/123
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:88/123 MP:23/23
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Suparna
+3-Makoto
+4-Asmodeus
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:88/123 MP:23/23
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Suparna
+2-Makoto
+3-Asmodeus
+4-Corpse
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Suparna use
+1-Rakukaja MP:15
+2-Media MP:12
+3-Spirit Drain MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Suparna
+1-Kotone HP:578/597 MP:347/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:315/315 MP:306/306
+4-Gryphon HP:88/123 MP:23/23
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Suparna
+1-Kotone HP:578/597 MP:347/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:315/315 MP:306/306
+4-Gryphon HP:88/123 MP:23/23
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Suparna ataca a Gryphon
+Gryphon recibe 12 de daño
+Gryphon termina con HP:76/123
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:76/123 MP:23/23
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+4-Suparna
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:76/123 MP:23/23
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Suparna
+4-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asmodeus use
+1-Fire Breath MP:21
+2-Blight MP:14
+3-Doping MP:45
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asmodeus
+1-Kotone HP:578/597 MP:347/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:315/315 MP:306/306
+4-Gryphon HP:76/123 MP:23/23
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Asmodeus ataca a Gryphon
+Gryphon recibe 35 de daño
+Gryphon termina con HP:41/123
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:23/23
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Black Rider
+2-Kotone
+3-Persephone
+4-Gryphon
+----------------------------------------
+Seleccione una acción para Black Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Black Rider use
+1-Glacial Blast MP:22
+2-Energy Drain MP:10
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Black Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Balor HP:492/492 MP:98/98
+2-Illuyanka HP:427/427 MP:192/192
+3-Dominion HP:287/287 MP:278/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Dominion ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:426/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Dominion HP:287/287 MP:278/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:23/23
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Persephone
+3-Gryphon
+4-Dominion
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Makoto HP:597/597 MP:347/347
+2-Suparna HP:175/175 MP:77/77
+3-Corpse HP:426/426 MP:85/85
+4-Asmodeus HP:427/427 MP:192/192
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone ataca a Corpse
+Corpse recibe 38 de daño
+Corpse termina con HP:388/426
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:175/175 MP:77/77
+C-Corpse HP:388/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Dominion HP:287/287 MP:278/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:23/23
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Persephone
+2-Gryphon
+3-Dominion
+4-Kotone
+----------------------------------------
+Seleccione una acción para Persephone
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Persephone
+1-Makoto HP:597/597 MP:347/347
+2-Suparna HP:175/175 MP:77/77
+3-Corpse HP:388/426 MP:85/85
+4-Asmodeus HP:427/427 MP:192/192
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Persephone ataca a Suparna
+Suparna recibe 33 de daño
+Suparna termina con HP:142/175
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:142/175 MP:77/77
+C-Corpse HP:388/426 MP:85/85
+D-Asmodeus HP:427/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Dominion HP:287/287 MP:278/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:23/23
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gryphon
+2-Dominion
+3-Kotone
+4-Persephone
+----------------------------------------
+Seleccione una acción para Gryphon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Gryphon use
+1-Bouncing Claw MP:4
+2-Lunge MP:6
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gryphon
+1-Makoto HP:597/597 MP:347/347
+2-Suparna HP:142/175 MP:77/77
+3-Corpse HP:388/426 MP:85/85
+4-Asmodeus HP:427/427 MP:192/192
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Gryphon ataca a Asmodeus
+Asmodeus recibe 26 de daño
+Asmodeus termina con HP:401/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:142/175 MP:77/77
+C-Corpse HP:388/426 MP:85/85
+D-Asmodeus HP:401/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Dominion HP:287/287 MP:278/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:19/23
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dominion
+2-Kotone
+3-Persephone
+4-Gryphon
+----------------------------------------
+Seleccione una acción para Dominion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dominion use
+1-Mazionga MP:20
+2-Megido MP:25
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Dominion lanza un ataque todo poderoso a Makoto
+Makoto recibe 93 de daño
+Makoto termina con HP:504/597
+Dominion lanza un ataque todo poderoso a Suparna
+Suparna recibe 93 de daño
+Suparna termina con HP:49/175
+Dominion lanza un ataque todo poderoso a Corpse
+Corpse recibe 93 de daño
+Corpse termina con HP:295/426
+Dominion lanza un ataque todo poderoso a Asmodeus
+Asmodeus recibe 93 de daño
+Asmodeus termina con HP:308/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:347/347
+B-Suparna HP:49/175 MP:77/77
+C-Corpse HP:295/426 MP:85/85
+D-Asmodeus HP:308/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:19/23
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+4-Suparna
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:347/347
+B-Suparna HP:49/175 MP:77/77
+C-Corpse HP:295/426 MP:85/85
+D-Asmodeus HP:308/427 MP:192/192
+Equipo de Kotone (J2)
+A-Kotone HP:578/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:19/23
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Suparna
+4-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asmodeus use
+1-Fire Breath MP:21
+2-Blight MP:14
+3-Doping MP:45
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Asmodeus lanza fuego a Kotone
+Kotone es resistente el ataque de Asmodeus
+Kotone recibe 52 de daño
+Kotone termina con HP:526/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:347/347
+B-Suparna HP:49/175 MP:77/77
+C-Corpse HP:295/426 MP:85/85
+D-Asmodeus HP:308/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:526/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:315/315 MP:306/306
+D-Gryphon HP:41/123 MP:19/23
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Suparna
+3-Makoto
+4-Asmodeus
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Kotone HP:526/597 MP:347/347
+2-Dominion HP:287/287 MP:253/278
+3-Persephone HP:315/315 MP:306/306
+4-Gryphon HP:41/123 MP:19/23
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Corpse ataca a Persephone
+Persephone recibe 31 de daño
+Persephone termina con HP:284/315
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:347/347
+B-Suparna HP:49/175 MP:77/77
+C-Corpse HP:295/426 MP:85/85
+D-Asmodeus HP:308/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:526/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:284/315 MP:306/306
+D-Gryphon HP:41/123 MP:19/23
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Suparna
+2-Makoto
+3-Asmodeus
+4-Corpse
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Suparna
+1-Kotone HP:526/597 MP:347/347
+2-Dominion HP:287/287 MP:253/278
+3-Persephone HP:284/315 MP:306/306
+4-Gryphon HP:41/123 MP:19/23
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Suparna use
+1-Rakukaja MP:15
+2-Media MP:12
+3-Spirit Drain MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Suparna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Suparna use
+1-Rakukaja MP:15
+2-Media MP:12
+3-Spirit Drain MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Suparna cura a Makoto
+Makoto recibe 149 de HP
+Makoto termina con HP:597/597
+Suparna cura a Corpse
+Corpse recibe 106 de HP
+Corpse termina con HP:401/426
+Suparna cura a Asmodeus
+Asmodeus recibe 106 de HP
+Asmodeus termina con HP:414/427
+Suparna cura a Suparna
+Suparna recibe 43 de HP
+Suparna termina con HP:92/175
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:347/347
+B-Suparna HP:92/175 MP:65/77
+C-Corpse HP:401/426 MP:85/85
+D-Asmodeus HP:414/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:526/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:284/315 MP:306/306
+D-Gryphon HP:41/123 MP:19/23
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+4-Suparna
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto lanza hielo a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 75 de daño
+Kotone termina con HP:451/597
+Makoto lanza hielo a Persephone
+Persephone bloquea el ataque de Makoto
+Persephone termina con HP:284/315
+Makoto lanza hielo a Gryphon
+Gryphon recibe 150 de daño
+Gryphon termina con HP:0/123
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:321/347
+B-Suparna HP:92/175 MP:65/77
+C-Corpse HP:401/426 MP:85/85
+D-Asmodeus HP:414/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:451/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Persephone
+3-Dominion
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Black Rider HP:686/686 MP:307/307
+2-Balor HP:492/492 MP:98/98
+3-Illuyanka HP:427/427 MP:192/192
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una posición para invocar
+1-Dominion HP:287/287 MP:253/278 (Puesto 2)
+2-Persephone HP:284/315 MP:306/306 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:321/347
+B-Suparna HP:92/175 MP:65/77
+C-Corpse HP:401/426 MP:85/85
+D-Asmodeus HP:414/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:451/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Persephone
+2-Dominion
+3-Kotone
+----------------------------------------
+Seleccione una acción para Persephone
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:321/347
+B-Suparna HP:92/175 MP:65/77
+C-Corpse HP:401/426 MP:85/85
+D-Asmodeus HP:414/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:451/597 MP:347/347
+B-Dominion HP:287/287 MP:253/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dominion
+2-Kotone
+3-Persephone
+----------------------------------------
+Seleccione una acción para Dominion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dominion use
+1-Mazionga MP:20
+2-Megido MP:25
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Dominion lanza un ataque todo poderoso a Makoto
+Makoto recibe 93 de daño
+Makoto termina con HP:504/597
+Dominion lanza un ataque todo poderoso a Suparna
+Suparna recibe 93 de daño
+Suparna termina con HP:0/175
+Dominion lanza un ataque todo poderoso a Corpse
+Corpse recibe 93 de daño
+Corpse termina con HP:308/426
+Dominion lanza un ataque todo poderoso a Asmodeus
+Asmodeus recibe 93 de daño
+Asmodeus termina con HP:321/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:451/597 MP:347/347
+B-Dominion HP:287/287 MP:228/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Persephone
+3-Dominion
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Charge MP:9
+2-Zandyne MP:14
+3-Great Logos MP:70
+4-Thunder Reign MP:22
+5-Wind Breath MP:21
+6-Media MP:12
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:451/597 MP:338/347
+B-Dominion HP:287/287 MP:228/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:451/597 MP:338/347
+2-Dominion HP:287/287 MP:228/278
+3-Persephone HP:284/315 MP:306/306
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto dispara a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 28 de daño
+Kotone termina con HP:423/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:423/597 MP:338/347
+B-Dominion HP:287/287 MP:228/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:423/597 MP:338/347
+B-Dominion HP:287/287 MP:228/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+3-Asmodeus
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Kotone HP:423/597 MP:338/347
+2-Dominion HP:287/287 MP:228/278
+3-Persephone HP:284/315 MP:306/306
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:423/597 MP:338/347
+B-Dominion HP:287/287 MP:228/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:171/192
+Equipo de Kotone (J2)
+A-Kotone HP:423/597 MP:338/347
+B-Dominion HP:287/287 MP:228/278
+C-Persephone HP:284/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asmodeus use
+1-Fire Breath MP:21
+2-Blight MP:14
+3-Doping MP:45
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Asmodeus lanza fuego a Kotone
+Kotone es resistente el ataque de Asmodeus
+Kotone recibe 52 de daño
+Asmodeus lanza fuego a Kotone
+Kotone es resistente el ataque de Asmodeus
+Kotone recibe 52 de daño
+Kotone termina con HP:319/597
+Asmodeus lanza fuego a Dominion
+Dominion recibe 104 de daño
+Dominion termina con HP:183/287
+Asmodeus lanza fuego a Persephone
+Persephone recibe 104 de daño
+Persephone termina con HP:180/315
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:321/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:338/347
+B-Dominion HP:183/287 MP:228/278
+C-Persephone HP:180/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Persephone
+3-Dominion
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Charge MP:9
+2-Zandyne MP:14
+3-Great Logos MP:70
+4-Thunder Reign MP:22
+5-Wind Breath MP:21
+6-Media MP:12
+7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Makoto HP:504/597 MP:321/347
+2-Corpse HP:308/426 MP:85/85
+3-Asmodeus HP:321/427 MP:150/192
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone ataca a Asmodeus
+Asmodeus recibe 96 de daño
+Asmodeus termina con HP:225/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:225/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:338/347
+B-Dominion HP:183/287 MP:228/278
+C-Persephone HP:180/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Persephone
+2-Dominion
+3-Kotone
+----------------------------------------
+Seleccione una acción para Persephone
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Black Rider HP:686/686 MP:307/307
+2-Balor HP:492/492 MP:98/98
+3-Illuyanka HP:427/427 MP:192/192
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Balor ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:225/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:338/347
+B-Dominion HP:183/287 MP:228/278
+C-Balor HP:492/492 MP:98/98
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dominion
+2-Kotone
+3-Balor
+----------------------------------------
+Seleccione una acción para Dominion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Black Rider HP:686/686 MP:307/307
+2-Persephone HP:180/315 MP:306/306
+3-Illuyanka HP:427/427 MP:192/192
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Black Rider ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:225/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:338/347
+B-Black Rider HP:686/686 MP:307/307
+C-Balor HP:492/492 MP:98/98
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Balor
+3-Black Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Persephone HP:180/315 MP:306/306
+2-Illuyanka HP:427/427 MP:192/192
+3-Dominion HP:183/287 MP:228/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Black Rider HP:686/686 MP:307/307 (Puesto 2)
+2-Balor HP:492/492 MP:98/98 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Persephone ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:225/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:338/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:180/315 MP:306/306
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Persephone
+2-Black Rider
+3-Kotone
+----------------------------------------
+Seleccione una acción para Persephone
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Persephone use
+1-Bufudyne MP:14
+2-Death's Door MP:10
+3-Mamudoon MP:30
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Persephone
+1-Makoto HP:504/597 MP:321/347
+2-Corpse HP:308/426 MP:85/85
+3-Asmodeus HP:225/427 MP:150/192
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Persephone lanza hielo a Asmodeus
+Asmodeus recibe 112 de daño
+Asmodeus termina con HP:113/427
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:113/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:338/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:180/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:319/597 MP:338/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:180/315 MP:292/306
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 19 de daño
+Kotone termina con HP:300/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:113/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:300/597 MP:338/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:180/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:308/426 MP:85/85
+D-Asmodeus HP:113/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:300/597 MP:338/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:180/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+3-Asmodeus
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Kotone HP:300/597 MP:338/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:180/315 MP:292/306
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Corpse lanza un ataque todo poderoso a Kotone
+El ataque drena 32 HP de Kotone
+Kotone termina con HP:268/597
+Corpse termina con HP:340/426
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:321/347
+B-
+C-Corpse HP:340/426 MP:80/85
+D-Asmodeus HP:113/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:268/597 MP:338/347
+B-Black Rider HP:686/686 MP:307/307
+C-Persephone HP:180/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:268/597 MP:338/347
+2-Black Rider HP:686/686 MP:307/307
+3-Persephone HP:180/315 MP:292/306
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Makoto lanza viento a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 53 de daño
+Kotone termina con HP:215/597
+Makoto lanza viento a Black Rider
+Black Rider recibe 106 de daño
+Black Rider termina con HP:580/686
+Makoto lanza viento a Persephone
+Persephone recibe 106 de daño
+Persephone termina con HP:74/315
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:340/426 MP:80/85
+D-Asmodeus HP:113/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:215/597 MP:338/347
+B-Black Rider HP:580/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Black Rider
+2-Kotone
+3-Persephone
+----------------------------------------
+Seleccione una acción para Black Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Black Rider
+1-Makoto HP:504/597 MP:289/347
+2-Corpse HP:340/426 MP:80/85
+3-Asmodeus HP:113/427 MP:150/192
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Black Rider ataca a Corpse
+Corpse recibe 57 de daño
+Corpse termina con HP:283/426
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:283/426 MP:80/85
+D-Asmodeus HP:113/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:215/597 MP:338/347
+B-Black Rider HP:580/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Persephone
+3-Black Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Makoto HP:504/597 MP:289/347
+2-Corpse HP:283/426 MP:80/85
+3-Asmodeus HP:113/427 MP:150/192
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Makoto HP:504/597 MP:289/347
+2-Corpse HP:283/426 MP:80/85
+3-Asmodeus HP:113/427 MP:150/192
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone ataca a Asmodeus
+Asmodeus recibe 38 de daño
+Asmodeus termina con HP:75/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:283/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:215/597 MP:338/347
+B-Black Rider HP:580/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Persephone
+2-Black Rider
+3-Kotone
+----------------------------------------
+Seleccione una acción para Persephone
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Balor HP:492/492 MP:98/98
+2-Illuyanka HP:427/427 MP:192/192
+3-Dominion HP:183/287 MP:228/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Persephone
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Persephone
+1-Makoto HP:504/597 MP:289/347
+2-Corpse HP:283/426 MP:80/85
+3-Asmodeus HP:75/427 MP:150/192
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Persephone ataca a Corpse
+Corpse recibe 33 de daño
+Corpse termina con HP:250/426
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:215/597 MP:338/347
+B-Black Rider HP:580/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:215/597 MP:338/347
+B-Black Rider HP:580/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asmodeus
+2-Corpse
+3-Makoto
+----------------------------------------
+Seleccione una acción para Asmodeus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asmodeus
+1-Kotone HP:215/597 MP:338/347
+2-Black Rider HP:580/686 MP:307/307
+3-Persephone HP:74/315 MP:292/306
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Asmodeus ataca a Black Rider
+Black Rider recibe 35 de daño
+Black Rider termina con HP:545/686
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:215/597 MP:338/347
+B-Black Rider HP:545/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+3-Asmodeus
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Kotone HP:215/597 MP:338/347
+2-Black Rider HP:545/686 MP:307/307
+3-Persephone HP:74/315 MP:292/306
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Kotone HP:215/597 MP:338/347
+2-Black Rider HP:545/686 MP:307/307
+3-Persephone HP:74/315 MP:292/306
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Corpse ataca a Kotone
+Kotone es resistente el ataque de Corpse
+Kotone recibe 15 de daño
+Kotone termina con HP:200/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:289/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:200/597 MP:338/347
+B-Black Rider HP:545/686 MP:307/307
+C-Persephone HP:74/315 MP:292/306
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Asmodeus
+3-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:200/597 MP:338/347
+2-Black Rider HP:545/686 MP:307/307
+3-Persephone HP:74/315 MP:292/306
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Makoto lanza viento a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 53 de daño
+Kotone termina con HP:147/597
+Makoto lanza viento a Black Rider
+Black Rider recibe 106 de daño
+Black Rider termina con HP:439/686
+Makoto lanza viento a Persephone
+Persephone recibe 106 de daño
+Persephone termina con HP:0/315
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:257/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Black Rider HP:439/686 MP:307/307
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Black Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Black Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Balor HP:492/492 MP:98/98
+2-Illuyanka HP:427/427 MP:192/192
+3-Dominion HP:183/287 MP:228/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Illuyanka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:257/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:192/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Illuyanka
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:504/597 MP:257/347
+B-
+C-Corpse HP:250/426 MP:80/85
+D-Asmodeus HP:75/427 MP:150/192
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:192/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Illuyanka
+2-Kotone
+----------------------------------------
+Seleccione una acción para Illuyanka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Illuyanka
+1-Makoto HP:504/597 MP:257/347
+2-Corpse HP:250/426 MP:80/85
+3-Asmodeus HP:75/427 MP:150/192
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Illuyanka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Illuyanka use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Illuyanka ataca a Makoto
+Makoto es resistente el ataque de Illuyanka
+Makoto recibe 43 de daño
+Makoto termina con HP:461/597
+Illuyanka ataca a Corpse
+Corpse recibe 87 de daño
+Corpse termina con HP:163/426
+Illuyanka ataca a Asmodeus
+Asmodeus recibe 87 de daño
+Asmodeus termina con HP:0/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:257/347
+B-
+C-Corpse HP:163/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:175/192
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:257/347
+B-
+C-Corpse HP:163/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:175/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:257/347
+B-
+C-Corpse HP:163/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:175/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:147/597 MP:338/347
+2-Illuyanka HP:427/427 MP:175/192
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:257/347
+B-
+C-Corpse HP:163/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:175/192
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:257/347
+B-
+C-Corpse HP:163/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:175/192
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Illuyanka
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Makoto HP:461/597 MP:257/347
+2-Corpse HP:163/426 MP:80/85
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone ataca a Corpse
+Corpse recibe 38 de daño
+Corpse termina con HP:125/426
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:257/347
+B-
+C-Corpse HP:125/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:175/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Illuyanka
+2-Kotone
+----------------------------------------
+Seleccione una acción para Illuyanka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Illuyanka use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Illuyanka ataca a Makoto
+Makoto es resistente el ataque de Illuyanka
+Makoto recibe 43 de daño
+Makoto termina con HP:418/597
+Illuyanka ataca a Corpse
+Corpse recibe 87 de daño
+Corpse termina con HP:38/426
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:257/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:147/597 MP:338/347
+B-Illuyanka HP:427/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:147/597 MP:338/347
+2-Illuyanka HP:427/427 MP:158/192
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:147/597 MP:338/347
+2-Illuyanka HP:427/427 MP:158/192
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:147/597 MP:338/347
+2-Illuyanka HP:427/427 MP:158/192
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 19 de daño
+Kotone termina con HP:128/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:257/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:128/597 MP:338/347
+B-Illuyanka HP:427/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:257/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:128/597 MP:338/347
+B-Illuyanka HP:427/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:128/597 MP:338/347
+2-Illuyanka HP:427/427 MP:158/192
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kotone HP:128/597 MP:338/347
+2-Illuyanka HP:427/427 MP:158/192
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 19 de daño
+Kotone termina con HP:109/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:257/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:109/597 MP:338/347
+B-Illuyanka HP:427/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Illuyanka
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Makoto HP:418/597 MP:257/347
+2-Corpse HP:38/426 MP:80/85
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone dispara a Corpse
+Corpse bloquea el ataque de Kotone
+Corpse termina con HP:38/426
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:257/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:109/597 MP:338/347
+B-Illuyanka HP:427/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto lanza hielo a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 75 de daño
+Makoto lanza hielo a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 75 de daño
+Makoto lanza hielo a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 75 de daño
+Makoto lanza hielo a Kotone
+Kotone es resistente el ataque de Makoto
+Kotone recibe 75 de daño
+Kotone termina con HP:0/597
+Makoto lanza hielo a Illuyanka
+Illuyanka es resistente el ataque de Makoto
+Illuyanka recibe 75 de daño
+Makoto lanza hielo a Illuyanka
+Illuyanka es resistente el ataque de Makoto
+Illuyanka recibe 75 de daño
+Makoto lanza hielo a Illuyanka
+Illuyanka es resistente el ataque de Makoto
+Illuyanka recibe 75 de daño
+Makoto lanza hielo a Illuyanka
+Illuyanka es resistente el ataque de Makoto
+Illuyanka recibe 75 de daño
+Illuyanka termina con HP:127/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:231/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Illuyanka HP:127/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Illuyanka HP:127/427 MP:158/192
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Illuyanka HP:127/427 MP:158/192
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Illuyanka HP:127/427 MP:158/192
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Illuyanka HP:127/427 MP:158/192
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Corpse ataca a Illuyanka
+Illuyanka recibe 31 de daño
+Illuyanka termina con HP:96/427
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:231/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Illuyanka HP:96/427 MP:158/192
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Illuyanka
+----------------------------------------
+Seleccione una acción para Illuyanka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Black Rider HP:439/686 MP:307/307
+2-Balor HP:492/492 MP:98/98
+3-Dominion HP:183/287 MP:228/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Balor ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:418/597 MP:231/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:492/492 MP:98/98
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Balor
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Balor use
+1-Agidyne MP:14
+2-Titanomachia MP:30
+3-Mamudo MP:18
+4-Zandyne MP:14
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Balor
+1-Makoto HP:418/597 MP:231/347
+2-Corpse HP:38/426 MP:80/85
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Black Rider HP:439/686 MP:307/307
+2-Illuyanka HP:96/427 MP:158/192
+3-Dominion HP:183/287 MP:228/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Balor
+1-Makoto HP:418/597 MP:231/347
+2-Corpse HP:38/426 MP:80/85
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Balor ataca a Makoto
+Makoto es resistente el ataque de Balor
+Makoto recibe 18 de daño
+Makoto termina con HP:400/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:400/597 MP:231/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:492/492 MP:98/98
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Corpse
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Balor HP:492/492 MP:98/98
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto dispara a Balor
+Balor recibe 57 de daño
+Balor termina con HP:435/492
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:400/597 MP:231/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:435/492 MP:98/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Makoto
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Balor HP:435/492 MP:98/98
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Balor HP:435/492 MP:98/98
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Corpse ataca a Balor
+Balor recibe 31 de daño
+Balor termina con HP:404/492
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:400/597 MP:231/347
+B-
+C-Corpse HP:38/426 MP:80/85
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:404/492 MP:98/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Balor
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Balor
+1-Makoto HP:400/597 MP:231/347
+2-Corpse HP:38/426 MP:80/85
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Balor use
+1-Agidyne MP:14
+2-Titanomachia MP:30
+3-Mamudo MP:18
+4-Zandyne MP:14
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Balor ataca a Makoto
+Makoto es resistente el ataque de Balor
+Makoto recibe 54 de daño
+Makoto termina con HP:346/597
+Balor ataca a Corpse
+Corpse recibe 108 de daño
+Corpse termina con HP:0/426
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:346/597 MP:231/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:404/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto lanza hielo a Balor
+Balor recibe 150 de daño
+Balor termina con HP:254/492
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:346/597 MP:205/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Balor
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Black Rider HP:439/686 MP:307/307
+2-Illuyanka HP:96/427 MP:158/192
+3-Dominion HP:183/287 MP:228/278
+4-Jueyuan HP:154/154 MP:68/68
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Balor
+1-Makoto HP:346/597 MP:205/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Balor ataca a Makoto
+Makoto es resistente el ataque de Balor
+Makoto recibe 18 de daño
+Makoto termina con HP:328/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:328/597 MP:205/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:328/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Balor
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:328/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Balor
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Balor
+1-Makoto HP:328/597 MP:196/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Balor ataca a Makoto
+Makoto es resistente el ataque de Balor
+Makoto recibe 18 de daño
+Makoto termina con HP:310/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:310/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Balor HP:254/492 MP:68/98
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:310/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:310/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:68/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Balor
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Balor
+1-Makoto HP:310/597 MP:196/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Balor
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Balor use
+1-Agidyne MP:14
+2-Titanomachia MP:30
+3-Mamudo MP:18
+4-Zandyne MP:14
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Balor ataca con oscuridad a Makoto
+Balor ha fallado el ataque
+Makoto termina con HP:310/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:310/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:50/98
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:310/597 MP:196/347
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:0/597 MP:338/347
+B-Balor HP:254/492 MP:50/98
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Charge MP:9
+2-Scratch Dance MP:9
+3-Grand Tack MP:11
+4-Refrigerate MP:26
+5-Mazandyne MP:32
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto lanza hielo a Balor
+Balor recibe 150 de daño
+Makoto lanza hielo a Balor
+Balor recibe 150 de daño
+Makoto lanza hielo a Balor
+Balor recibe 150 de daño
+Balor termina con HP:0/492
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Makoto (J1)
