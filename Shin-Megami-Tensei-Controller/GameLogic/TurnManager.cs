@@ -89,38 +89,91 @@ public class TurnManager
         return hasTurns && hasAliveUnits;
     }
 
-    public void ConsumeTurns(TurnEffect effect)
+    public TurnEffect ConsumeTurns(TurnEffect effect)
     {
+        var actualEffect = new TurnEffect();
+        
         if (effect.ConsumeAllTurns)
         {
+            actualEffect.FullTurnsConsumed = FullTurns;
+            actualEffect.BlinkingTurnsConsumed = BlinkingTurns;
             FullTurns = 0;
             BlinkingTurns = 0;
-            return;
+            return actualEffect;
         }
 
-        int blinkingToConsume = effect.BlinkingTurnsConsumed;
-        int fullToConsume = effect.FullTurnsConsumed;
-
-        if (blinkingToConsume > 0)
+        // Caso especial: Pasar Turno / Invocar (Samurai)
+        // cuando se pide consumir 1 Full + 1 Blinking + otorgar 1 Blinking
+        // Significa: "consume 1 Blinking si hay (y no otorga nada), sino consume 1 Full y otorga 1 Blinking"
+        if (effect.FullTurnsConsumed == 1 && effect.BlinkingTurnsConsumed == 1 && effect.BlinkingTurnsGained == 1)
         {
-            int consumed = Math.Min(BlinkingTurns, blinkingToConsume);
-            BlinkingTurns -= consumed;
-            blinkingToConsume -= consumed;
-            
-            if (blinkingToConsume > 0)
+            if (BlinkingTurns > 0)
             {
-                int fromFull = Math.Min(FullTurns, blinkingToConsume);
-                FullTurns -= fromFull;
+                BlinkingTurns -= 1;
+                actualEffect.BlinkingTurnsConsumed = 1;
+                actualEffect.FullTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 0;
+            }
+            else if (FullTurns > 0)
+            {
+                FullTurns -= 1;
+                BlinkingTurns += 1;
+                actualEffect.FullTurnsConsumed = 1;
+                actualEffect.BlinkingTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 1;
+            }
+            return actualEffect;
+        }
+
+        // Caso especial: cuando se pide consumir 1 Full + 1 Blinking (sin otorgar)
+        // Significa: "consume 1 Blinking si hay, sino consume 1 Full"
+        if (effect.FullTurnsConsumed == 1 && effect.BlinkingTurnsConsumed == 1 && effect.BlinkingTurnsGained == 0)
+        {
+            if (BlinkingTurns > 0)
+            {
+                BlinkingTurns -= 1;
+                actualEffect.BlinkingTurnsConsumed = 1;
+                actualEffect.FullTurnsConsumed = 0;
+            }
+            else if (FullTurns > 0)
+            {
+                FullTurns -= 1;
+                actualEffect.FullTurnsConsumed = 1;
+                actualEffect.BlinkingTurnsConsumed = 0;
+            }
+            actualEffect.BlinkingTurnsGained = 0;
+            return actualEffect;
+        }
+
+        // Primero consumir Blinking Turns
+        if (effect.BlinkingTurnsConsumed > 0)
+        {
+            int consumedBlinking = Math.Min(BlinkingTurns, effect.BlinkingTurnsConsumed);
+            BlinkingTurns -= consumedBlinking;
+            actualEffect.BlinkingTurnsConsumed = consumedBlinking;
+            
+            int remainingToConsume = effect.BlinkingTurnsConsumed - consumedBlinking;
+            if (remainingToConsume > 0)
+            {
+                int consumedFull = Math.Min(FullTurns, remainingToConsume);
+                FullTurns -= consumedFull;
+                actualEffect.FullTurnsConsumed += consumedFull;
             }
         }
 
-        if (fullToConsume > 0)
+        // Luego consumir Full Turns
+        if (effect.FullTurnsConsumed > 0)
         {
-            int consumed = Math.Min(FullTurns, fullToConsume);
+            int consumed = Math.Min(FullTurns, effect.FullTurnsConsumed);
             FullTurns -= consumed;
+            actualEffect.FullTurnsConsumed += consumed;
         }
 
+        // Finalmente agregar Blinking Turns ganados
         BlinkingTurns += effect.BlinkingTurnsGained;
+        actualEffect.BlinkingTurnsGained = effect.BlinkingTurnsGained;
+        
+        return actualEffect;
     }
 
     public List<Unit> GetCurrentActionOrder()
