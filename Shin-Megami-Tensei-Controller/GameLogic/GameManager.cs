@@ -114,6 +114,12 @@ public class GameManager
                 
                 if (IsGameOver())
                     break;
+                    
+                // Mostrar el estado del juego después de cada turno si aún hay turnos
+                if (HasTurnsAndAliveUnits())
+                {
+                    ShowGameState();
+                }
             }
             
             if (IsGameOver())
@@ -201,12 +207,6 @@ public class GameManager
         
         var action = GetPlayerAction(actingUnit);
         ExecuteAction(actingUnit, action);
-        
-        // Mostrar el estado del juego después de la acción (si el juego no terminó)
-        if (!IsGameOver() && HasTurnsAndAliveUnits())
-        {
-            ShowGameState();
-        }
     }
 
     private void ShowActionMenu(Unit unit)
@@ -274,6 +274,7 @@ public class GameManager
             
             if (!actionExecuted)
             {
+                _view.WriteLine("----------------------------------------");
                 ShowActionMenu(actingUnit);
                 action = GetPlayerAction(actingUnit);
             }
