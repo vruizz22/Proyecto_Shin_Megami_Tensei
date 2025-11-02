@@ -358,6 +358,15 @@ public class GameManager
         }
     }
 
+    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, BattleEngine.AttackResult result)
+    {
+        var actionVerb = GetAttackVerb(attackType);
+        _view.WriteLine($"{attacker.Name} {actionVerb} {target.Name}");
+        
+        DisplayAffinityMessage(target, result);
+        DisplayDamageOrEffect(target, result, attacker);
+    }
+
     private string GetAttackVerb(string attackType)
     {
         return attackType switch
@@ -517,18 +526,22 @@ public class GameManager
         int hits = CalculateHits(skill.Hits);
         
         BattleEngine.AttackResult? finalResult = null;
+        Unit? finalAffectedUnit = null;
         
         // Ejecutar el ataque múltiples veces
         for (int i = 0; i < hits; i++)
         {
             var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
-            DisplayAttackResult(user, target, skill.Type, attackResult);
+            DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult);
             
             finalResult = attackResult;
-            
-            // Si el objetivo murió o el ataque fue repelido/drenado, detener los hits
-            if (!target.IsAlive || attackResult.WasRepelled || attackResult.WasDrained || attackResult.WasNulled)
-                break;
+            finalAffectedUnit = attackResult.WasRepelled ? user : target;
+        }
+        
+        // Mostrar el HP final una sola vez después de todos los hits
+        if (finalResult != null && finalAffectedUnit != null)
+        {
+            _view.WriteLine($"{finalAffectedUnit.Name} termina con HP:{finalAffectedUnit.CurrentHP}/{finalAffectedUnit.BaseStats.HP}");
         }
         
         // Incrementar el contador de habilidades después de usarla
