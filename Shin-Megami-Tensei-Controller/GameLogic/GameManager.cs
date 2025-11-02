@@ -318,8 +318,8 @@ public class GameManager
         var attackResult = _battleEngine.ExecuteAttack(attacker, target, attackType, null);
         DisplayAttackResult(attacker, target, attackType, attackResult);
         
-        DisplayTurnConsumption(attackResult.TurnEffect);
-        _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        DisplayTurnConsumption(actualEffect);
         
         HandleUnitDeath(target);
         return true;
@@ -372,7 +372,7 @@ public class GameManager
             case "Rs":
                 if (!result.InstantKill && !result.Missed)
                 {
-                    _view.WriteLine($"{target.Name} es resistente el ataque de {result.AttackerName}");
+                    _view.WriteLine($"{target.Name} es resistente al ataque de {result.AttackerName}");
                 }
                 break;
             case "Nu":
@@ -383,7 +383,7 @@ public class GameManager
 
     private void DisplayDamageOrEffect(Unit target, BattleEngine.AttackResult result)
     {
-        if (result.Missed)
+        if (result.Missed || result.WasNulled)
         {
             return;
         }
@@ -494,8 +494,8 @@ public class GameManager
         var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
         DisplayAttackResult(user, target, skill.Type, attackResult);
         
-        DisplayTurnConsumption(attackResult.TurnEffect);
-        _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        DisplayTurnConsumption(actualEffect);
         
         HandleUnitDeath(target);
         return true;
@@ -530,9 +530,10 @@ public class GameManager
         
         _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
         
-        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 0, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        // Habilidad de curación: consume 1 Blinking si hay, sino consume 1 Full
+        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         
         return true;
     }
@@ -571,9 +572,10 @@ public class GameManager
             _view.WriteLine($"{monsterToSummon.Name} termina con HP:{monsterToSummon.CurrentHP}/{monsterToSummon.BaseStats.HP}");
         }
         
-        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 0, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        // Habilidad especial: consume 1 Blinking si hay, sino consume 1 Full
+        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         
         return true;
     }
@@ -694,15 +696,16 @@ public class GameManager
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
+        // Invocar (Samurai): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
-            BlinkingTurnsConsumed = 0, 
+            BlinkingTurnsConsumed = 1, 
             BlinkingTurnsGained = 1 
         };
         
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         return true;
     }
 
@@ -718,30 +721,32 @@ public class GameManager
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
+        // Invocar (Monstruo): consume 1 Blinking si hay, sino consume 1 Full
         var turnEffect = new TurnManager.TurnEffect 
         { 
-            FullTurnsConsumed = 0, 
+            FullTurnsConsumed = 1, 
             BlinkingTurnsConsumed = 1, 
             BlinkingTurnsGained = 0 
         };
         
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         return true;
     }
 
     private bool ExecutePassTurnAction()
     {
+        // Pasar Turno: consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
-            BlinkingTurnsConsumed = 0, 
+            BlinkingTurnsConsumed = 1, 
             BlinkingTurnsGained = 1 
         };
         
         _view.WriteLine("----------------------------------------");
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         return true;
     }
 
