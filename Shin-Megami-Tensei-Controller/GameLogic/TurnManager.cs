@@ -145,6 +145,28 @@ public class TurnManager
             return actualEffect;
         }
 
+        // Caso especial: Weak - consume 1 Full Turn y otorga 1 Blinking Turn
+        // Si no hay Full Turn, consume 1 Blinking Turn sin otorgar nada
+        if (effect.FullTurnsConsumed == 1 && effect.BlinkingTurnsConsumed == 0 && effect.BlinkingTurnsGained == 1)
+        {
+            if (FullTurns > 0)
+            {
+                FullTurns -= 1;
+                BlinkingTurns += 1;
+                actualEffect.FullTurnsConsumed = 1;
+                actualEffect.BlinkingTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 1;
+            }
+            else if (BlinkingTurns > 0)
+            {
+                BlinkingTurns -= 1;
+                actualEffect.BlinkingTurnsConsumed = 1;
+                actualEffect.FullTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 0;
+            }
+            return actualEffect;
+        }
+
         // Primero consumir Blinking Turns
         if (effect.BlinkingTurnsConsumed > 0)
         {
@@ -200,6 +222,7 @@ public class TurnManager
         int index = currentOrder.IndexOf(oldUnit);
         if (index >= 0)
         {
+            // Reemplazar la unidad antigua con la nueva en la misma posición
             currentOrder[index] = newUnit;
         }
         _actionOrder = new Queue<Unit>(currentOrder);
