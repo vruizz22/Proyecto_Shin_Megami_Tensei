@@ -185,6 +185,10 @@ public class GameManager
 
     private void ProcessPlayerTurn()
     {
+        // Verificar si el juego terminó antes de procesar el turno
+        if (IsGameOver())
+            return;
+            
         var actingUnit = _turnManager.GetNextActingUnit();
         if (actingUnit == null || !actingUnit.IsAlive)
         {
@@ -197,6 +201,12 @@ public class GameManager
         
         var action = GetPlayerAction(actingUnit);
         ExecuteAction(actingUnit, action);
+        
+        // Mostrar el estado del juego después de la acción (si el juego no terminó)
+        if (!IsGameOver() && HasTurnsAndAliveUnits())
+        {
+            ShowGameState();
+        }
     }
 
     private void ShowActionMenu(Unit unit)
@@ -755,7 +765,6 @@ public class GameManager
         var playerLabel = GetCurrentPlayerLabel();
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{surrenderingUnit.Name} ({playerLabel}) se rinde");
-        _view.WriteLine("----------------------------------------");
         
         KillAllUnitsInTeam(_currentPlayerTeam!);
         
@@ -834,6 +843,7 @@ public class GameManager
 
     private void DeclareWinner()
     {
+        _view.WriteLine("----------------------------------------");
         string winner = DetermineWinner();
         _view.WriteLine($"Ganador: {winner}");
     }
