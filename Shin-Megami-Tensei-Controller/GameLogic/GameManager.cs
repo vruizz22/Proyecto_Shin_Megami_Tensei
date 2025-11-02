@@ -383,7 +383,7 @@ public class GameManager
             case "Rs":
                 if (!result.InstantKill && !result.Missed)
                 {
-                    _view.WriteLine($"{target.Name} es resistente al ataque de {result.AttackerName}");
+                    _view.WriteLine($"{target.Name} es resistente el ataque de {result.AttackerName}");
                 }
                 break;
             case "Nu":
@@ -701,8 +701,21 @@ public class GameManager
         if (position == -1)
             return false;
 
+        // Guardar la unidad que está siendo reemplazada (si existe)
+        var replacedUnit = _currentPlayerTeam!.Board[position];
+        
         _currentPlayerTeam!.InvokeMonsterToPosition(monsterToSummon, position);
-        _turnManager.AddUnitToOrder(monsterToSummon);
+        
+        // Si se reemplazó una unidad, la nueva toma su lugar en el orden
+        if (replacedUnit != null)
+        {
+            _turnManager.ReplaceUnitInOrder(replacedUnit, monsterToSummon);
+        }
+        else
+        {
+            // Si se invocó a un puesto vacío, se agrega al final del orden
+            _turnManager.AddUnitToOrder(monsterToSummon);
+        }
         
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
@@ -727,17 +740,19 @@ public class GameManager
             return false;
 
         _currentPlayerTeam!.ReplaceMonsterInBoard(currentMonster, monsterToSummon);
-        _turnManager.ReplaceUnitInOrder(currentMonster, monsterToSummon);
+        
+        // El monstruo invocado va al final del orden (no reemplaza al que invocó)
+        _turnManager.AddUnitToOrder(monsterToSummon);
         
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
-        // Invocar (Monstruo): consume 1 Blinking si hay, sino consume 1 Full
+        // Invocar (Monstruo): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
             BlinkingTurnsConsumed = 1, 
-            BlinkingTurnsGained = 0 
+            BlinkingTurnsGained = 1 
         };
         
         var actualEffect = _turnManager.ConsumeTurns(turnEffect);
@@ -755,7 +770,6 @@ public class GameManager
             BlinkingTurnsGained = 1 
         };
         
-        _view.WriteLine("----------------------------------------");
         var actualEffect = _turnManager.ConsumeTurns(turnEffect);
         DisplayTurnConsumption(actualEffect);
         return true;
