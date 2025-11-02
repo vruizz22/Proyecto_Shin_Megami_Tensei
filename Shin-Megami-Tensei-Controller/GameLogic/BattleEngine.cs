@@ -37,7 +37,7 @@ public class BattleEngine
             return ExecuteInstantKillAttack(attacker, target, targetAffinity, skillPower ?? 0);
         }
 
-        int baseDamage = CalculateBaseDamage(attacker, attackType, skillPower);
+        double baseDamage = CalculateBaseDamageAsDouble(attacker, attackType, skillPower);
         ApplyAffinityEffects(attacker, target, targetAffinity, baseDamage, result);
         result.TurnEffect = CalculateTurnEffect(targetAffinity, result.Missed);
 
@@ -81,17 +81,24 @@ public class BattleEngine
                 {
                     result.InstantKill = true;
                     target.TakeDamage(target.CurrentHP);
+                    result.TurnEffect = new TurnManager.TurnEffect 
+                    { 
+                        FullTurnsConsumed = 1, 
+                        BlinkingTurnsConsumed = 1, 
+                        BlinkingTurnsGained = 0 
+                    };
                 }
                 else
                 {
                     result.Missed = true;
+                    // Miss consume 1 Blinking Turn. Si no hay, consume 1 Full Turn
+                    result.TurnEffect = new TurnManager.TurnEffect 
+                    { 
+                        FullTurnsConsumed = 1, 
+                        BlinkingTurnsConsumed = 1, 
+                        BlinkingTurnsGained = 0 
+                    };
                 }
-                result.TurnEffect = new TurnManager.TurnEffect 
-                { 
-                    FullTurnsConsumed = 1, 
-                    BlinkingTurnsConsumed = 0, 
-                    BlinkingTurnsGained = 0 
-                };
                 break;
 
             case "Rp":
@@ -110,24 +117,31 @@ public class BattleEngine
                 {
                     result.InstantKill = true;
                     target.TakeDamage(target.CurrentHP);
+                    result.TurnEffect = new TurnManager.TurnEffect 
+                    { 
+                        FullTurnsConsumed = 1, 
+                        BlinkingTurnsConsumed = 1, 
+                        BlinkingTurnsGained = 0 
+                    };
                 }
                 else
                 {
                     result.Missed = true;
+                    // Miss consume 1 Blinking Turn. Si no hay, consume 1 Full Turn
+                    result.TurnEffect = new TurnManager.TurnEffect 
+                    { 
+                        FullTurnsConsumed = 1, 
+                        BlinkingTurnsConsumed = 1, 
+                        BlinkingTurnsGained = 0 
+                    };
                 }
-                result.TurnEffect = new TurnManager.TurnEffect 
-                { 
-                    FullTurnsConsumed = 1, 
-                    BlinkingTurnsConsumed = 0, 
-                    BlinkingTurnsGained = 0 
-                };
                 break;
         }
 
         return result;
     }
 
-    private int CalculateBaseDamage(Unit attacker, string attackType, int? skillPower)
+    private double CalculateBaseDamageAsDouble(Unit attacker, string attackType, int? skillPower)
     {
         int attackStat = GetAttackStat(attacker, attackType);
         double baseDamage;
@@ -142,7 +156,7 @@ public class BattleEngine
             baseDamage = attackStat * modifier * DamageConstant;
         }
 
-        return (int)Math.Floor(baseDamage);
+        return baseDamage;
     }
 
     private int GetAttackStat(Unit attacker, string attackType)
@@ -156,7 +170,7 @@ public class BattleEngine
         };
     }
 
-    private void ApplyAffinityEffects(Unit attacker, Unit target, string affinity, int baseDamage, AttackResult result)
+    private void ApplyAffinityEffects(Unit attacker, Unit target, string affinity, double baseDamage, AttackResult result)
     {
         switch (affinity)
         {
@@ -184,21 +198,21 @@ public class BattleEngine
         }
     }
 
-    private void ApplyNeutralDamage(Unit target, int baseDamage, AttackResult result)
+    private void ApplyNeutralDamage(Unit target, double baseDamage, AttackResult result)
     {
-        int finalDamage = baseDamage;
+        int finalDamage = (int)Math.Floor(baseDamage);
         target.TakeDamage(finalDamage);
         result.Damage = finalDamage;
     }
 
-    private void ApplyWeakDamage(Unit target, int baseDamage, AttackResult result)
+    private void ApplyWeakDamage(Unit target, double baseDamage, AttackResult result)
     {
         int finalDamage = (int)Math.Floor(baseDamage * WeakMultiplier);
         target.TakeDamage(finalDamage);
         result.Damage = finalDamage;
     }
 
-    private void ApplyResistDamage(Unit target, int baseDamage, AttackResult result)
+    private void ApplyResistDamage(Unit target, double baseDamage, AttackResult result)
     {
         int finalDamage = (int)Math.Floor(baseDamage * ResistMultiplier);
         target.TakeDamage(finalDamage);
@@ -211,17 +225,17 @@ public class BattleEngine
         result.WasNulled = true;
     }
 
-    private void ApplyRepelEffect(Unit attacker, int baseDamage, AttackResult result)
+    private void ApplyRepelEffect(Unit attacker, double baseDamage, AttackResult result)
     {
-        int reflectedDamage = baseDamage;
+        int reflectedDamage = (int)Math.Floor(baseDamage);
         attacker.TakeDamage(reflectedDamage);
         result.Damage = reflectedDamage;
         result.WasRepelled = true;
     }
 
-    private void ApplyDrainEffect(Unit target, int baseDamage, AttackResult result)
+    private void ApplyDrainEffect(Unit target, double baseDamage, AttackResult result)
     {
-        int drainAmount = baseDamage;
+        int drainAmount = (int)Math.Floor(baseDamage);
         target.Heal(drainAmount);
         result.Damage = drainAmount;
         result.WasDrained = true;
@@ -231,6 +245,7 @@ public class BattleEngine
     {
         if (missed)
         {
+            // Miss consume 1 Blinking Turn. Si no hay, consume 1 Full Turn
             return new TurnManager.TurnEffect 
             { 
                 FullTurnsConsumed = 1, 
@@ -257,10 +272,16 @@ public class BattleEngine
                 BlinkingTurnsConsumed = 0, 
                 BlinkingTurnsGained = 1 
             },
+            "-" or "Rs" => new TurnManager.TurnEffect 
+            { 
+                FullTurnsConsumed = 1, 
+                BlinkingTurnsConsumed = 1, 
+                BlinkingTurnsGained = 0 
+            },
             _ => new TurnManager.TurnEffect 
             { 
                 FullTurnsConsumed = 1, 
-                BlinkingTurnsConsumed = 0, 
+                BlinkingTurnsConsumed = 1, 
                 BlinkingTurnsGained = 0 
             }
         };
