@@ -58,7 +58,7 @@ public class BattleEngine
                 result.WasNulled = true;
                 result.TurnEffect = new TurnManager.TurnEffect 
                 { 
-                    FullTurnsConsumed = 2, 
+                    FullTurnsConsumed = 0, 
                     BlinkingTurnsConsumed = 2, 
                     BlinkingTurnsGained = 0 
                 };
@@ -262,7 +262,7 @@ public class BattleEngine
             },
             "Nu" => new TurnManager.TurnEffect 
             { 
-                FullTurnsConsumed = 2, 
+                FullTurnsConsumed = 0, 
                 BlinkingTurnsConsumed = 2, 
                 BlinkingTurnsGained = 0 
             },
