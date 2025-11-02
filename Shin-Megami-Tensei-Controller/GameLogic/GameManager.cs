@@ -21,6 +21,9 @@ public class GameManager
     private Team? _currentPlayerTeam;
     private Team? _opponentTeam;
     private bool _isPlayer1Turn = true;
+    
+    private int _player1SkillCounter = 0;
+    private int _player2SkillCounter = 0;
 
     public GameManager(View view)
     {
@@ -342,9 +345,17 @@ public class GameManager
         _view.WriteLine($"{attacker.Name} {actionVerb} {target.Name}");
         
         DisplayAffinityMessage(target, result);
-        DisplayDamageOrEffect(target, result);
+        DisplayDamageOrEffect(target, result, attacker);
         
-        _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+        // Si fue Repel o Drain, mostrar el HP del que fue afectado
+        if (result.WasRepelled)
+        {
+            _view.WriteLine($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+        else
+        {
+            _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+        }
     }
 
     private string GetAttackVerb(string attackType)
@@ -392,7 +403,7 @@ public class GameManager
         }
     }
 
-    private void DisplayDamageOrEffect(Unit target, BattleEngine.AttackResult result)
+    private void DisplayDamageOrEffect(Unit target, BattleEngine.AttackResult result, Unit attacker)
     {
         if (result.Missed || result.WasNulled)
         {
@@ -405,7 +416,7 @@ public class GameManager
         }
         else if (result.WasRepelled)
         {
-            _view.WriteLine($"{target.Name} devuelve {result.Damage} daño a {result.AttackerName}");
+            _view.WriteLine($"{target.Name} devuelve {result.Damage} daño a {attacker.Name}");
         }
         else if (result.WasDrained)
         {
@@ -502,11 +513,32 @@ public class GameManager
         
         _view.WriteLine("----------------------------------------");
         
-        var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
-        DisplayAttackResult(user, target, skill.Type, attackResult);
+        // Calcular cuántos hits tiene la habilidad
+        int hits = CalculateHits(skill.Hits);
         
-        var actualEffect = _turnManager.ConsumeTurns(attackResult.TurnEffect);
-        DisplayTurnConsumption(actualEffect);
+        BattleEngine.AttackResult? finalResult = null;
+        
+        // Ejecutar el ataque múltiples veces
+        for (int i = 0; i < hits; i++)
+        {
+            var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
+            DisplayAttackResult(user, target, skill.Type, attackResult);
+            
+            finalResult = attackResult;
+            
+            // Si el objetivo murió o el ataque fue repelido/drenado, detener los hits
+            if (!target.IsAlive || attackResult.WasRepelled || attackResult.WasDrained || attackResult.WasNulled)
+                break;
+        }
+        
+        // Incrementar el contador de habilidades después de usarla
+        IncrementSkillCounter();
+        
+        if (finalResult != null)
+        {
+            var actualEffect = _turnManager.ConsumeTurns(finalResult.TurnEffect);
+            DisplayTurnConsumption(actualEffect);
+        }
         
         HandleUnitDeath(target);
         return true;
@@ -540,6 +572,9 @@ public class GameManager
         }
         
         _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+        
+        // Incrementar el contador de habilidades después de usarla
+        IncrementSkillCounter();
         
         // Habilidad de curación: consume 1 Blinking si hay, sino consume 1 Full
         var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
@@ -582,6 +617,9 @@ public class GameManager
             _view.WriteLine($"{monsterToSummon.Name} recibe {skill.Power} de HP");
             _view.WriteLine($"{monsterToSummon.Name} termina con HP:{monsterToSummon.CurrentHP}/{monsterToSummon.BaseStats.HP}");
         }
+        
+        // Incrementar el contador de habilidades después de usarla
+        IncrementSkillCounter();
         
         // Habilidad especial: consume 1 Blinking si hay, sino consume 1 Full
         var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
@@ -873,5 +911,39 @@ public class GameManager
         {
             return $"{_player1Team.Samurai.Name} (J1)";
         }
+    }
+
+    private int GetCurrentSkillCounter()
+    {
+        return _isPlayer1Turn ? _player1SkillCounter : _player2SkillCounter;
+    }
+
+    private void IncrementSkillCounter()
+    {
+        if (_isPlayer1Turn)
+            _player1SkillCounter++;
+        else
+            _player2SkillCounter++;
+    }
+
+    private int CalculateHits(string hitsString)
+    {
+        // Si es un número simple, retornar ese número
+        if (int.TryParse(hitsString, out int simpleHits))
+        {
+            return simpleHits;
+        }
+
+        // Si es un rango como "1-3"
+        var parts = hitsString.Split('-');
+        if (parts.Length == 2 && int.TryParse(parts[0], out int minHits) && int.TryParse(parts[1], out int maxHits))
+        {
+            int k = GetCurrentSkillCounter();
+            int offset = k % (maxHits - minHits + 1);
+            return minHits + offset;
+        }
+
+        // Por defecto, 1 hit
+        return 1;
     }
 }
