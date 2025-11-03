@@ -499,13 +499,13 @@ public class GameManager
         }
         else if (skill.Target == "Ally")
         {
-            if (skill.Effect.Contains("Heals HP") || skill.Effect.Contains("Revive"))
-            {
-                return ExecuteHealSkill(user, skill);
-            }
-            else if (skill.Name == "Sabbatma" || skill.Name == "Invitation")
+            if (skill.Name == "Sabbatma" || skill.Name == "Invitation")
             {
                 return ExecuteSpecialSummonSkill(user, skill);
+            }
+            else if (skill.Effect.Contains("Heals HP") || skill.Effect.Contains("Fully heals HP") || skill.Effect.Contains("Greatly heals HP"))
+            {
+                return ExecuteHealSkill(user, skill);
             }
         }
         
@@ -610,14 +610,30 @@ public class GameManager
             return false;
 
         bool wasDeadBeforeSummon = !monsterToSummon.IsAlive;
+        int healAmount = 0;
         
         if (wasDeadBeforeSummon && canRevive)
         {
-            monsterToSummon.Heal(skill.Power);
+            // Calcular el HP a curar basado en el power como porcentaje del HP máximo
+            healAmount = (int)Math.Floor(monsterToSummon.BaseStats.HP * (skill.Power / 100.0));
+            monsterToSummon.Heal(healAmount);
         }
 
+        // Guardar la unidad que está siendo reemplazada (si existe)
+        var replacedUnit = _currentPlayerTeam!.Board[position];
+        
         _currentPlayerTeam!.InvokeMonsterToPosition(monsterToSummon, position);
-        _turnManager.AddUnitToOrder(monsterToSummon);
+        
+        // Si se reemplazó una unidad, la nueva toma su lugar en el orden
+        if (replacedUnit != null)
+        {
+            _turnManager.ReplaceUnitInOrder(replacedUnit, monsterToSummon);
+        }
+        else
+        {
+            // Si se invocó a un puesto vacío, se agrega al final del orden
+            _turnManager.AddUnitToOrder(monsterToSummon);
+        }
 
         user.ConsumeMP(skill.Cost);
         
@@ -627,7 +643,7 @@ public class GameManager
         if (wasDeadBeforeSummon && canRevive)
         {
             _view.WriteLine($"{user.Name} revive a {monsterToSummon.Name}");
-            _view.WriteLine($"{monsterToSummon.Name} recibe {skill.Power} de HP");
+            _view.WriteLine($"{monsterToSummon.Name} recibe {healAmount} de HP");
             _view.WriteLine($"{monsterToSummon.Name} termina con HP:{monsterToSummon.CurrentHP}/{monsterToSummon.BaseStats.HP}");
         }
         
