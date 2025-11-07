@@ -100,9 +100,27 @@ public class Team
             if (Board[i] == unit)
             {
                 // Si es un monstruo muerto, va a la reserva y se libera el espacio
-                if (unit is Monster && !unit.IsAlive)
+                if (unit is Monster monster && !unit.IsAlive)
                 {
-                    Reserve.Add(unit);
+                    // Insertar el monstruo en la reserva manteniendo el orden original de Monsters
+                    int originalIndex = Monsters.IndexOf(monster);
+                    
+                    // Encontrar la posición correcta en la reserva
+                    int insertPosition = 0;
+                    for (int j = 0; j < Reserve.Count; j++)
+                    {
+                        if (Reserve[j] is Monster reserveMonster)
+                        {
+                            int reserveMonsterIndex = Monsters.IndexOf(reserveMonster);
+                            if (originalIndex < reserveMonsterIndex)
+                            {
+                                break;
+                            }
+                        }
+                        insertPosition++;
+                    }
+                    
+                    Reserve.Insert(insertPosition, monster);
                     Board[i] = null;
                 }
                 // Si es un samurai muerto, permanece en el tablero
