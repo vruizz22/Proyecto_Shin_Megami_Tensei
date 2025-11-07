@@ -210,6 +210,13 @@ public class GameManager
         
         var action = GetPlayerAction(actingUnit);
         ExecuteAction(actingUnit, action);
+        
+        // Mover la unidad al final del orden solo si sigue viva y en el tablero activo
+        var activeUnits = _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        if (actingUnit.IsAlive && activeUnits.Contains(actingUnit))
+        {
+            _turnManager.MoveUnitToEndOfOrder(actingUnit);
+        }
     }
 
     private void ShowActionMenu(Unit unit)
@@ -605,6 +612,7 @@ public class GameManager
         if (monsterToSummon == null)
             return false;
 
+        // Sabbatma/Invitation siempre piden posición (actúan como samurai)
         var position = SelectPositionToSummon();
         if (position == -1)
             return false;
@@ -788,11 +796,14 @@ public class GameManager
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
         // Invocar (Samurai): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
+        // Solo gana Blinking Turn si consume Full Turn
+        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
             BlinkingTurnsConsumed = 1, 
-            BlinkingTurnsGained = 1 
+            BlinkingTurnsGained = hadBlinkingTurn ? 0 : 1 // Solo gana si NO había Blinking Turns
         };
         
         var actualEffect = _turnManager.ConsumeTurns(turnEffect);
@@ -815,11 +826,14 @@ public class GameManager
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
         // Invocar (Monstruo): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
+        // Solo gana Blinking Turn si consume Full Turn
+        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
             BlinkingTurnsConsumed = 1, 
-            BlinkingTurnsGained = 1 
+            BlinkingTurnsGained = hadBlinkingTurn ? 0 : 1 // Solo gana si NO había Blinking Turns
         };
         
         var actualEffect = _turnManager.ConsumeTurns(turnEffect);
@@ -830,11 +844,14 @@ public class GameManager
     private bool ExecutePassTurnAction()
     {
         // Pasar Turno: consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
+        // Solo gana Blinking Turn si consume Full Turn
+        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
             BlinkingTurnsConsumed = 1, 
-            BlinkingTurnsGained = 1 
+            BlinkingTurnsGained = hadBlinkingTurn ? 0 : 1 // Solo gana si NO había Blinking Turns
         };
         
         var actualEffect = _turnManager.ConsumeTurns(turnEffect);
