@@ -62,31 +62,63 @@ public class TurnManager
         if (_actionOrder.Count == 0)
             return null;
             
-        // Buscar la siguiente unidad viva
-        int attempts = 0;
-        while (_actionOrder.Count > 0 && attempts < _actionOrder.Count)
+        // Obtener las unidades activas en el tablero
+        var activeUnits = _currentTeam?.GetActiveUnitsOnBoard() ?? new List<Unit>();
+        
+        // Primero, limpiar la cola de unidades que no pueden actuar
+        var validUnits = new List<Unit>();
+        while (_actionOrder.Count > 0)
         {
             var unit = _actionOrder.Dequeue();
-            if (unit.IsAlive)
+            // Solo mantener unidades que estén vivas Y en el tablero activo
+            if (unit.IsAlive && activeUnits.Contains(unit))
             {
-                // Poner la unidad de vuelta al final de la cola solo si sigue viva
-                _actionOrder.Enqueue(unit);
-                return unit;
+                validUnits.Add(unit);
             }
-            attempts++;
         }
         
-        // Si llegamos aquí, no hay unidades vivas
-        return null;
+        // Reconstruir la cola con solo las unidades válidas
+        _actionOrder = new Queue<Unit>(validUnits);
+        
+        // Si no hay unidades válidas, retornar null
+        if (_actionOrder.Count == 0)
+            return null;
+            
+        // Obtener la siguiente unidad pero NO moverla al final aún
+        // Se moverá después de que actúe
+        var actingUnit = _actionOrder.Dequeue();
+        
+        return actingUnit;
+    }
+    
+    public void MoveUnitToEndOfOrder(Unit unit)
+    {
+        // Agregar la unidad al final de la cola después de que haya actuado
+        _actionOrder.Enqueue(unit);
     }
 
     public bool HasTurnsRemaining()
     {
-        // Verificar si hay turnos disponibles Y unidades vivas que puedan actuar
+        // Verificar si hay turnos disponibles
         bool hasTurns = FullTurns > 0 || BlinkingTurns > 0;
-        bool hasAliveUnits = _actionOrder.Any(unit => unit.IsAlive);
         
-        return hasTurns && hasAliveUnits;
+        if (!hasTurns)
+            return false;
+        
+        // Si no hay unidades en la cola, no hay turnos disponibles
+        if (_actionOrder.Count == 0)
+            return false;
+        
+        // Verificar si hay unidades vivas Y en el tablero activo que puedan actuar
+        if (_currentTeam != null)
+        {
+            var activeUnits = _currentTeam.GetActiveUnitsOnBoard();
+            // Hacer una copia de la cola para no modificarla
+            var queueCopy = _actionOrder.ToList();
+            return queueCopy.Any(unit => unit.IsAlive && activeUnits.Contains(unit));
+        }
+        
+        return false;
     }
 
     public TurnEffect ConsumeTurns(TurnEffect effect)
