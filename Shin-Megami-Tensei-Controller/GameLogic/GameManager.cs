@@ -455,7 +455,8 @@ public class GameManager
                 _presenter.ShowMessage($"{target.Name} es débil contra el ataque de {result.AttackerName}");
                 break;
             case "Rs":
-                if (!result.InstantKill && !result.Missed)
+                // Para instant-kill con Resist, mostrar mensaje de resistencia solo si fue exitoso
+                if (!result.Missed)
                 {
                     _presenter.ShowMessage($"{target.Name} es resistente el ataque de {result.AttackerName}");
                 }
