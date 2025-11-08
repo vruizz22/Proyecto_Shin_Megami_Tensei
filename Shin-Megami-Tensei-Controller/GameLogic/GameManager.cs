@@ -2,6 +2,7 @@ using Shin_Megami_Tensei.Data;
 using Shin_Megami_Tensei.Models;
 using Shin_Megami_Tensei.Presentation;
 using Shin_Megami_Tensei.Domain.ValueObjects;
+using Shin_Megami_Tensei.Domain.Combat;
 
 namespace Shin_Megami_Tensei.GameLogic;
 
@@ -16,6 +17,7 @@ public class GameManager
     private readonly TeamParser _teamParser;
     private readonly RefactoredBattleEngine _battleEngine;
     private readonly BattleTurnManager _turnManager;
+    private readonly MultiTargetSkillExecutor _multiTargetExecutor;
 
     private Team? _player1Team;
     private Team? _player2Team;
@@ -33,6 +35,7 @@ public class GameManager
         _teamParser = new TeamParser(_dataLoader);
         _battleEngine = new RefactoredBattleEngine();
         _turnManager = new BattleTurnManager();
+        _multiTargetExecutor = new MultiTargetSkillExecutor(_battleEngine);
     }
 
     public void StartGame(string teamsFolder)
@@ -428,6 +431,7 @@ public class GameManager
             "Force" => "lanza viento a",
             "Light" => "ataca con luz a",
             "Dark" => "ataca con oscuridad a",
+            "Almighty" => "lanza un ataque todo poderoso a",
             _ => "ataca a"
         };
     }
@@ -546,6 +550,18 @@ public class GameManager
         if (skill.Target == "Single")
         {
             return ExecuteSkillOnSingleTarget(user, skill);
+        }
+        else if (skill.Target == "All")
+        {
+            return ExecuteSkillOnAllEnemies(user, skill);
+        }
+        else if (skill.Target == "Multi")
+        {
+            return ExecuteSkillOnMultipleEnemies(user, skill);
+        }
+        else if (skill.Target == "Party")
+        {
+            return ExecuteSkillOnParty(user, skill);
         }
         else if (skill.Target == "Ally")
         {
@@ -1045,5 +1061,259 @@ public class GameManager
         }
 
         return 1;
+    }
+
+    private bool ExecuteSkillOnAllEnemies(Unit user, Skill skill)
+    {
+        user.ConsumeMP(skill.Cost);
+        
+        _presenter.ShowMessage("----------------------------------------");
+        
+        var targetingContext = new Domain.Targeting.TargetingContext(
+            user,
+            _currentPlayerTeam!,
+            _opponentTeam!,
+            false
+        );
+        
+        var allTargets = targetingContext.GetOrderedTargets();
+        var enemyTargets = allTargets.Take(_opponentTeam!.GetAllAliveUnits().Count).ToList();
+        
+        if (enemyTargets.Count == 0)
+        {
+            IncrementSkillCounter();
+            var turnEffect = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+            var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+            DisplayTurnConsumption(actualEffect);
+            return true;
+        }
+        
+        int hits = CalculateHits(skill.Hits);
+        var result = _multiTargetExecutor.ExecuteOnAllTargets(user, enemyTargets, skill, hits);
+        
+        DisplayMultiTargetResults(user, result, skill.Type);
+        
+        IncrementSkillCounter();
+        
+        var consumed = _turnManager.ConsumeTurns(result.CombinedTurnEffect);
+        DisplayTurnConsumption(consumed);
+        
+        HandleMultipleUnitDeaths(result.AffectedUnits);
+        
+        return true;
+    }
+
+    private bool ExecuteSkillOnMultipleEnemies(Unit user, Skill skill)
+    {
+        user.ConsumeMP(skill.Cost);
+        
+        _presenter.ShowMessage("----------------------------------------");
+        
+        var targetingContext = new Domain.Targeting.TargetingContext(
+            user,
+            _currentPlayerTeam!,
+            _opponentTeam!,
+            false
+        );
+        
+        var allTargets = targetingContext.GetOrderedTargets();
+        var enemyTargets = allTargets.Take(_opponentTeam!.GetAllAliveUnits().Count).ToList();
+        
+        if (enemyTargets.Count == 0)
+        {
+            IncrementSkillCounter();
+            var turnEffect = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+            var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+            DisplayTurnConsumption(actualEffect);
+            return true;
+        }
+        
+        int totalHits = CalculateHits(skill.Hits);
+        var result = _multiTargetExecutor.ExecuteOnMultipleTargets(user, enemyTargets, skill, totalHits);
+        
+        DisplayMultiTargetResults(user, result, skill.Type);
+        
+        IncrementSkillCounter();
+        
+        var consumed = _turnManager.ConsumeTurns(result.CombinedTurnEffect);
+        DisplayTurnConsumption(consumed);
+        
+        HandleMultipleUnitDeaths(result.AffectedUnits);
+        
+        return true;
+    }
+
+    private bool ExecuteSkillOnParty(Unit user, Skill skill)
+    {
+        user.ConsumeMP(skill.Cost);
+        
+        _presenter.ShowMessage("----------------------------------------");
+        
+        bool isRecarmdra = skill.Name == "Recarmdra";
+        
+        var targetingContext = new Domain.Targeting.TargetingContext(
+            user,
+            _currentPlayerTeam!,
+            _opponentTeam!,
+            false
+        );
+        
+        var partyTargets = new List<Unit>();
+        
+        // Unidades en el tablero (de izquierda a derecha)
+        foreach (var unit in _currentPlayerTeam!.Board)
+        {
+            if (unit != null && unit != user)
+            {
+                if (isRecarmdra || unit.IsAlive)
+                {
+                    partyTargets.Add(unit);
+                }
+            }
+        }
+        y
+        // Unidades en la reserva
+        foreach (var unit in _currentPlayerTeam!.Reserve)
+        {
+            if (unit != null)
+            {
+                if (isRecarmdra || unit.IsAlive)
+                {
+                    partyTargets.Add(unit);
+                }
+            }
+        }
+
+        // Usuario último
+        if (!isRecarmdra || user.IsAlive)
+        {
+            partyTargets.Add(user);
+        }
+        
+        DisplayPartyHealResults(user, partyTargets, skill, isRecarmdra);
+        
+        IncrementSkillCounter();
+        
+        var turnEffect = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
+        
+        return true;
+    }
+
+    private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType)
+    {
+        var groupedByTarget = result.TargetResults.GroupBy(r => r.Target);
+        Unit? lastRepelTarget = null;
+        int accumulatedRepelDamage = 0;
+        bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
+
+        foreach (var targetGroup in groupedByTarget)
+        {
+            var target = targetGroup.Key;
+            var results = targetGroup.ToList();
+            
+            for (int i = 0; i < results.Count; i++)
+            {
+                var singleResult = results[i];
+                var attackResult = singleResult.AttackResult;
+                bool isLastHitForTarget = (i == results.Count - 1);
+                
+                DisplayAttackResultWithoutHP(attacker, target, skillType, attackResult);
+                
+                if (singleResult.DrainEffect != null)
+                {
+                    DisplayDrainEffect(attacker, target, singleResult.DrainEffect, isLastHitForTarget && !hasAnyRepel);
+                }
+                else if (isLastHitForTarget && !attackResult.WasRepelled)
+                {
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+                
+                if (attackResult.WasRepelled)
+                {
+                    lastRepelTarget = target;
+                    accumulatedRepelDamage += attackResult.Damage;
+                }
+            }
+        }
+        
+        if (hasAnyRepel && lastRepelTarget != null)
+        {
+            _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+    }
+
+    private void DisplayPartyHealResults(Unit user, List<Unit> targets, Skill skill, bool isRecarmdra)
+    {
+        foreach (var target in targets)
+        {
+            bool wasDeadBefore = !target.IsAlive;
+            int healAmount = (int)Math.Floor(target.BaseStats.HP * (skill.Power / 100.0));
+            
+            if (wasDeadBefore && isRecarmdra)
+            {
+                target.Heal(healAmount);
+                if (_currentPlayerTeam!.Board.Contains(target))
+                {
+                    _turnManager.AddUnitToOrder(target);
+                }
+                _presenter.ShowMessage($"{user.Name} revive a {target.Name}");
+                _presenter.ShowMessage($"{target.Name} recibe {healAmount} de HP");
+            }
+            else if (target.IsAlive && !wasDeadBefore)
+            {
+                target.Heal(healAmount);
+                _presenter.ShowMessage($"{user.Name} cura a {target.Name}");
+                _presenter.ShowMessage($"{target.Name} recibe {healAmount} de HP");
+            }
+            
+            if (target != user)
+            {
+                _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+            }
+        }
+        
+        if (isRecarmdra)
+        {
+            user.TakeDamage(user.CurrentHP);
+            _presenter.ShowMessage($"{user.Name} termina con HP:{user.CurrentHP}/{user.BaseStats.HP}");
+        }
+    }
+
+    private void DisplayDrainEffect(Unit attacker, Unit target, StatDrainEffect drainEffect, bool isLast)
+    {
+        if (drainEffect.DrainsHP)
+        {
+            _presenter.ShowMessage($"El ataque drena {drainEffect.HPDrained} HP de {target.Name}");
+            _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+            
+            if (isLast)
+            {
+                _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+            }
+        }
+        
+        if (drainEffect.DrainsMP)
+        {
+            _presenter.ShowMessage($"El ataque drena {drainEffect.MPDrained} MP de {target.Name}");
+            _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+            
+            if (isLast)
+            {
+                _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+            }
+        }
+    }
+
+    private void HandleMultipleUnitDeaths(List<Unit> units)
+    {
+        foreach (var unit in units)
+        {
+            if (!unit.IsAlive)
+            {
+                HandleUnitDeath(unit);
+            }
+        }
     }
 }
