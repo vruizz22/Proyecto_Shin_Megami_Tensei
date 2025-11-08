@@ -1,14 +1,10 @@
-﻿using Shin_Megami_Tensei.Domain.Combat;
+﻿﻿using Shin_Megami_Tensei.Domain.Combat;
 using Shin_Megami_Tensei.Domain.Enums;
 using Shin_Megami_Tensei.Domain.ValueObjects;
 using Shin_Megami_Tensei.Models;
 
 namespace Shin_Megami_Tensei.GameLogic;
 
-/// <summary>
-/// Adaptador del BattleEngine original que utiliza el nuevo CombatResolver
-/// Mantiene compatibilidad con el código existente
-/// </summary>
 public class RefactoredBattleEngine
 {
     private readonly CombatResolver _combatResolver;
@@ -23,7 +19,7 @@ public class RefactoredBattleEngine
         public bool Missed { get; set; }
         public bool InstantKill { get; set; }
         public string AttackerName { get; set; } = "";
-        public TurnManager.TurnEffect TurnEffect { get; set; } = new();
+        public TurnEffect TurnEffect { get; set; } = new();
     }
 
     public RefactoredBattleEngine()
@@ -55,9 +51,9 @@ public class RefactoredBattleEngine
         };
     }
 
-    private TurnManager.TurnEffect ConvertToLegacyTurnEffect(TurnCost turnCost)
+    private TurnEffect ConvertToLegacyTurnEffect(TurnCost turnCost)
     {
-        return new TurnManager.TurnEffect
+        return new TurnEffect
         {
             FullTurnsConsumed = turnCost.FullTurnsConsumed,
             BlinkingTurnsConsumed = turnCost.BlinkingTurnsConsumed,

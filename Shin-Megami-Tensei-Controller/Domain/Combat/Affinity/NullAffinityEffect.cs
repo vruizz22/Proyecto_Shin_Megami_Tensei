@@ -12,7 +12,7 @@ public class NullAffinityEffect : IAffinityEffect
 
     public void ApplyEffect(Unit attacker, Unit target, int calculatedDamage)
     {
-        // No effect
+        // Sin efecto
     }
 
     public TurnCost GetTurnCost(bool isMiss)
