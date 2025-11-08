@@ -113,6 +113,10 @@ public class GameManager
             
             while (HasTurnsAndAliveUnits())
             {
+                // Verificación adicional antes de procesar el turno
+                if (!_turnManager.HasTurnsRemaining())
+                    break;
+                    
                 ProcessPlayerTurn();
                 
                 if (IsGameOver())
@@ -197,11 +201,32 @@ public class GameManager
         // Verificar si el juego terminó antes de procesar el turno
         if (IsGameOver())
             return;
+        
+        // Verificar si quedan turnos antes de procesar
+        if (!_turnManager.HasTurnsRemaining())
+            return;
+        
+        // Obtener las unidades activas del equipo actual
+        var activeUnits = _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        
+        // Verificar que haya unidades activas
+        if (activeUnits.Count == 0)
+            return;
             
         var actingUnit = _turnManager.GetNextActingUnit();
-        if (actingUnit == null || !actingUnit.IsAlive)
+        
+        // Verificar que se obtuvo una unidad válida
+        if (actingUnit == null)
+            return;
+            
+        // Verificar que la unidad esté viva
+        if (!actingUnit.IsAlive)
+            return;
+        
+        // Verificar que la unidad esté en el tablero activo
+        if (!activeUnits.Contains(actingUnit))
         {
-            // Si no hay unidades vivas que puedan actuar, terminar el turno
+            // La unidad no está en el tablero activo, no puede actuar
             return;
         }
 
@@ -212,7 +237,6 @@ public class GameManager
         ExecuteAction(actingUnit, action);
         
         // Mover la unidad al final del orden solo si sigue viva y en el tablero activo
-        var activeUnits = _currentPlayerTeam!.GetActiveUnitsOnBoard();
         if (actingUnit.IsAlive && activeUnits.Contains(actingUnit))
         {
             _turnManager.MoveUnitToEndOfOrder(actingUnit);
@@ -342,7 +366,15 @@ public class GameManager
         var actualEffect = _turnManager.ConsumeTurns(attackResult.TurnEffect);
         DisplayTurnConsumption(actualEffect);
         
+        // Manejar la muerte del objetivo
         HandleUnitDeath(target);
+        
+        // Si fue repelido, el atacante también puede haber muerto
+        if (attackResult.WasRepelled)
+        {
+            HandleUnitDeath(attacker);
+        }
+        
         return true;
     }
 
@@ -510,7 +542,7 @@ public class GameManager
             {
                 return ExecuteSpecialSummonSkill(user, skill);
             }
-            else if (skill.Effect.Contains("Heals HP") || skill.Effect.Contains("Fully heals HP") || skill.Effect.Contains("Greatly heals HP"))
+            else if (skill.Effect.Contains("Heals HP") || skill.Effect.Contains("Fully heals HP") || skill.Effect.Contains("Greatly heals HP") || skill.Effect.Contains("Revive"))
             {
                 return ExecuteHealSkill(user, skill);
             }
@@ -560,7 +592,15 @@ public class GameManager
             DisplayTurnConsumption(actualEffect);
         }
         
+        // Manejar la muerte del objetivo
         HandleUnitDeath(target);
+        
+        // Si fue repelido, el usuario también puede haber muerto
+        if (finalResult != null && finalResult.WasRepelled)
+        {
+            HandleUnitDeath(user);
+        }
+        
         return true;
     }
 
@@ -578,7 +618,7 @@ public class GameManager
         
         if (isRevive && !target.IsAlive)
         {
-            int healAmount = skill.Power;
+            int healAmount = (int)Math.Floor(target.BaseStats.HP * (skill.Power / 100.0));
             target.Heal(healAmount);
             _view.WriteLine($"{user.Name} revive a {target.Name}");
             _view.WriteLine($"{target.Name} recibe {healAmount} de HP");
@@ -668,9 +708,24 @@ public class GameManager
 
     private Unit? SelectAllyTarget(Unit actingUnit, bool onlyDead)
     {
-        var allies = onlyDead 
-            ? _currentPlayerTeam!.Reserve.Where(u => !u.IsAlive).ToList()
-            : _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        List<Unit> allies;
+        
+        if (onlyDead)
+        {
+            // Incluir unidades muertas de la reserva (monstruos)
+            allies = _currentPlayerTeam!.Reserve.Where(u => !u.IsAlive).ToList();
+            
+            // También incluir al samurai si está muerto (el samurai muerto permanece en el tablero)
+            var samurai = _currentPlayerTeam!.Board.FirstOrDefault(u => u != null && u is Samurai && !u.IsAlive);
+            if (samurai != null)
+            {
+                allies.Insert(0, samurai); // Insertar al principio para mantener el orden samurai primero
+            }
+        }
+        else
+        {
+            allies = _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        }
         
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"Seleccione un objetivo para {actingUnit.Name}");
@@ -924,7 +979,15 @@ public class GameManager
             
             if (unit is Monster)
             {
-                _opponentTeam!.RemoveUnitFromBoard(unit);
+                // Determinar a qué equipo pertenece la unidad para removerla correctamente
+                if (_player1Team!.Board.Contains(unit))
+                {
+                    _player1Team.RemoveUnitFromBoard(unit);
+                }
+                else if (_player2Team!.Board.Contains(unit))
+                {
+                    _player2Team.RemoveUnitFromBoard(unit);
+                }
             }
         }
     }
