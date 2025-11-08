@@ -159,6 +159,7 @@ public class Team
         }
     }
 
+
     public string GetFormattedBoardState(string teamLabel)
     {
         var result = $"Equipo de {PlayerName} ({teamLabel})\n";
