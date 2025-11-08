@@ -62,65 +62,172 @@ public class TurnManager
         if (_actionOrder.Count == 0)
             return null;
             
-        // Buscar la siguiente unidad viva
-        int attempts = 0;
-        while (_actionOrder.Count > 0 && attempts < _actionOrder.Count)
+        // Obtener las unidades activas en el tablero
+        var activeUnits = _currentTeam?.GetActiveUnitsOnBoard() ?? new List<Unit>();
+        
+        // Primero, limpiar la cola de unidades que no pueden actuar
+        var validUnits = new List<Unit>();
+        while (_actionOrder.Count > 0)
         {
             var unit = _actionOrder.Dequeue();
-            if (unit.IsAlive)
+            // Solo mantener unidades que estén vivas Y en el tablero activo
+            if (unit.IsAlive && activeUnits.Contains(unit))
             {
-                // Poner la unidad de vuelta al final de la cola solo si sigue viva
-                _actionOrder.Enqueue(unit);
-                return unit;
+                validUnits.Add(unit);
             }
-            attempts++;
         }
         
-        // Si llegamos aquí, no hay unidades vivas
-        return null;
+        // Reconstruir la cola con solo las unidades válidas
+        _actionOrder = new Queue<Unit>(validUnits);
+        
+        // Si no hay unidades válidas, retornar null
+        if (_actionOrder.Count == 0)
+            return null;
+            
+        // Obtener la siguiente unidad pero NO moverla al final aún
+        // Se moverá después de que actúe
+        var actingUnit = _actionOrder.Dequeue();
+        
+        return actingUnit;
+    }
+    
+    public void MoveUnitToEndOfOrder(Unit unit)
+    {
+        // Agregar la unidad al final de la cola después de que haya actuado
+        _actionOrder.Enqueue(unit);
     }
 
     public bool HasTurnsRemaining()
     {
-        // Verificar si hay turnos disponibles Y unidades vivas que puedan actuar
+        // Verificar si hay turnos disponibles
         bool hasTurns = FullTurns > 0 || BlinkingTurns > 0;
-        bool hasAliveUnits = _actionOrder.Any(unit => unit.IsAlive);
         
-        return hasTurns && hasAliveUnits;
+        if (!hasTurns)
+            return false;
+        
+        // Si no hay unidades en la cola, no hay turnos disponibles
+        if (_actionOrder.Count == 0)
+            return false;
+        
+        // Verificar si hay unidades vivas Y en el tablero activo que puedan actuar
+        if (_currentTeam != null)
+        {
+            var activeUnits = _currentTeam.GetActiveUnitsOnBoard();
+            // Hacer una copia de la cola para no modificarla
+            var queueCopy = _actionOrder.ToList();
+            return queueCopy.Any(unit => unit.IsAlive && activeUnits.Contains(unit));
+        }
+        
+        return false;
     }
 
-    public void ConsumeTurns(TurnEffect effect)
+    public TurnEffect ConsumeTurns(TurnEffect effect)
     {
+        var actualEffect = new TurnEffect();
+        
         if (effect.ConsumeAllTurns)
         {
+            actualEffect.FullTurnsConsumed = FullTurns;
+            actualEffect.BlinkingTurnsConsumed = BlinkingTurns;
             FullTurns = 0;
             BlinkingTurns = 0;
-            return;
+            return actualEffect;
         }
 
-        int blinkingToConsume = effect.BlinkingTurnsConsumed;
-        int fullToConsume = effect.FullTurnsConsumed;
-
-        if (blinkingToConsume > 0)
+        // Caso especial: Pasar Turno / Invocar (Samurai)
+        // cuando se pide consumir 1 Full + 1 Blinking + otorgar 1 Blinking
+        // Significa: "consume 1 Blinking si hay (y no otorga nada), sino consume 1 Full y otorga 1 Blinking"
+        if (effect.FullTurnsConsumed == 1 && effect.BlinkingTurnsConsumed == 1 && effect.BlinkingTurnsGained == 1)
         {
-            int consumed = Math.Min(BlinkingTurns, blinkingToConsume);
-            BlinkingTurns -= consumed;
-            blinkingToConsume -= consumed;
-            
-            if (blinkingToConsume > 0)
+            if (BlinkingTurns > 0)
             {
-                int fromFull = Math.Min(FullTurns, blinkingToConsume);
-                FullTurns -= fromFull;
+                BlinkingTurns -= 1;
+                actualEffect.BlinkingTurnsConsumed = 1;
+                actualEffect.FullTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 0;
+            }
+            else if (FullTurns > 0)
+            {
+                FullTurns -= 1;
+                BlinkingTurns += 1;
+                actualEffect.FullTurnsConsumed = 1;
+                actualEffect.BlinkingTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 1;
+            }
+            return actualEffect;
+        }
+
+        // Caso especial: cuando se pide consumir 1 Full + 1 Blinking (sin otorgar)
+        // Significa: "consume 1 Blinking si hay, sino consume 1 Full"
+        if (effect.FullTurnsConsumed == 1 && effect.BlinkingTurnsConsumed == 1 && effect.BlinkingTurnsGained == 0)
+        {
+            if (BlinkingTurns > 0)
+            {
+                BlinkingTurns -= 1;
+                actualEffect.BlinkingTurnsConsumed = 1;
+                actualEffect.FullTurnsConsumed = 0;
+            }
+            else if (FullTurns > 0)
+            {
+                FullTurns -= 1;
+                actualEffect.FullTurnsConsumed = 1;
+                actualEffect.BlinkingTurnsConsumed = 0;
+            }
+            actualEffect.BlinkingTurnsGained = 0;
+            return actualEffect;
+        }
+
+        // Caso especial: Weak - consume 1 Full Turn y otorga 1 Blinking Turn
+        // Si no hay Full Turn, consume 1 Blinking Turn sin otorgar nada
+        if (effect.FullTurnsConsumed == 1 && effect.BlinkingTurnsConsumed == 0 && effect.BlinkingTurnsGained == 1)
+        {
+            if (FullTurns > 0)
+            {
+                FullTurns -= 1;
+                BlinkingTurns += 1;
+                actualEffect.FullTurnsConsumed = 1;
+                actualEffect.BlinkingTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 1;
+            }
+            else if (BlinkingTurns > 0)
+            {
+                BlinkingTurns -= 1;
+                actualEffect.BlinkingTurnsConsumed = 1;
+                actualEffect.FullTurnsConsumed = 0;
+                actualEffect.BlinkingTurnsGained = 0;
+            }
+            return actualEffect;
+        }
+
+        // Primero consumir Blinking Turns
+        if (effect.BlinkingTurnsConsumed > 0)
+        {
+            int consumedBlinking = Math.Min(BlinkingTurns, effect.BlinkingTurnsConsumed);
+            BlinkingTurns -= consumedBlinking;
+            actualEffect.BlinkingTurnsConsumed = consumedBlinking;
+            
+            int remainingToConsume = effect.BlinkingTurnsConsumed - consumedBlinking;
+            if (remainingToConsume > 0)
+            {
+                int consumedFull = Math.Min(FullTurns, remainingToConsume);
+                FullTurns -= consumedFull;
+                actualEffect.FullTurnsConsumed += consumedFull;
             }
         }
 
-        if (fullToConsume > 0)
+        // Luego consumir Full Turns
+        if (effect.FullTurnsConsumed > 0)
         {
-            int consumed = Math.Min(FullTurns, fullToConsume);
+            int consumed = Math.Min(FullTurns, effect.FullTurnsConsumed);
             FullTurns -= consumed;
+            actualEffect.FullTurnsConsumed += consumed;
         }
 
+        // Finalmente agregar Blinking Turns ganados
         BlinkingTurns += effect.BlinkingTurnsGained;
+        actualEffect.BlinkingTurnsGained = effect.BlinkingTurnsGained;
+        
+        return actualEffect;
     }
 
     public List<Unit> GetCurrentActionOrder()
@@ -147,6 +254,7 @@ public class TurnManager
         int index = currentOrder.IndexOf(oldUnit);
         if (index >= 0)
         {
+            // Reemplazar la unidad antigua con la nueva en la misma posición
             currentOrder[index] = newUnit;
         }
         _actionOrder = new Queue<Unit>(currentOrder);

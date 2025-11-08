@@ -21,6 +21,9 @@ public class GameManager
     private Team? _currentPlayerTeam;
     private Team? _opponentTeam;
     private bool _isPlayer1Turn = true;
+    
+    private int _player1SkillCounter = 0;
+    private int _player2SkillCounter = 0;
 
     public GameManager(View view)
     {
@@ -110,10 +113,20 @@ public class GameManager
             
             while (HasTurnsAndAliveUnits())
             {
+                // Verificación adicional antes de procesar el turno
+                if (!_turnManager.HasTurnsRemaining())
+                    break;
+                    
                 ProcessPlayerTurn();
                 
                 if (IsGameOver())
                     break;
+                    
+                // Mostrar el estado del juego después de cada turno si aún hay turnos
+                if (HasTurnsAndAliveUnits())
+                {
+                    ShowGameState();
+                }
             }
             
             if (IsGameOver())
@@ -185,10 +198,35 @@ public class GameManager
 
     private void ProcessPlayerTurn()
     {
+        // Verificar si el juego terminó antes de procesar el turno
+        if (IsGameOver())
+            return;
+        
+        // Verificar si quedan turnos antes de procesar
+        if (!_turnManager.HasTurnsRemaining())
+            return;
+        
+        // Obtener las unidades activas del equipo actual
+        var activeUnits = _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        
+        // Verificar que haya unidades activas
+        if (activeUnits.Count == 0)
+            return;
+            
         var actingUnit = _turnManager.GetNextActingUnit();
-        if (actingUnit == null || !actingUnit.IsAlive)
+        
+        // Verificar que se obtuvo una unidad válida
+        if (actingUnit == null)
+            return;
+            
+        // Verificar que la unidad esté viva
+        if (!actingUnit.IsAlive)
+            return;
+        
+        // Verificar que la unidad esté en el tablero activo
+        if (!activeUnits.Contains(actingUnit))
         {
-            // Si no hay unidades vivas que puedan actuar, terminar el turno
+            // La unidad no está en el tablero activo, no puede actuar
             return;
         }
 
@@ -196,7 +234,41 @@ public class GameManager
         ShowActionMenu(actingUnit);
         
         var action = GetPlayerAction(actingUnit);
+        
+        // Guardar la posición de la unidad antes de ejecutar la acción
+        int actingUnitPosition = -1;
+        for (int i = 0; i < _currentPlayerTeam!.Board.Length; i++)
+        {
+            if (_currentPlayerTeam.Board[i] == actingUnit)
+            {
+                actingUnitPosition = i;
+                break;
+            }
+        }
+        
         ExecuteAction(actingUnit, action);
+        
+        // Determinar qué unidad debe moverse al final del orden
+        Unit? unitToMove = null;
+        
+        // Si la unidad que actuó sigue viva y en el tablero activo, ella se mueve
+        if (actingUnit.IsAlive && _currentPlayerTeam!.GetActiveUnitsOnBoard().Contains(actingUnit))
+        {
+            unitToMove = actingUnit;
+        }
+        // Si la unidad fue reemplazada (por ejemplo, un monstruo que invoca),
+        // la unidad de reemplazo debe moverse al final
+        else if (actingUnitPosition >= 0 && _currentPlayerTeam!.Board[actingUnitPosition] != null 
+                 && _currentPlayerTeam.Board[actingUnitPosition] != actingUnit
+                 && _currentPlayerTeam.Board[actingUnitPosition]!.IsAlive)
+        {
+            unitToMove = _currentPlayerTeam.Board[actingUnitPosition];
+        }
+        
+        if (unitToMove != null)
+        {
+            _turnManager.MoveUnitToEndOfOrder(unitToMove);
+        }
     }
 
     private void ShowActionMenu(Unit unit)
@@ -264,6 +336,7 @@ public class GameManager
             
             if (!actionExecuted)
             {
+                _view.WriteLine("----------------------------------------");
                 ShowActionMenu(actingUnit);
                 action = GetPlayerAction(actingUnit);
             }
@@ -307,7 +380,7 @@ public class GameManager
 
     private bool ExecuteAttackAction(Unit attacker, string attackType)
     {
-        var target = SelectTarget();
+        var target = SelectTarget(attacker);
         if (target == null) 
         {
             return false;
@@ -318,10 +391,18 @@ public class GameManager
         var attackResult = _battleEngine.ExecuteAttack(attacker, target, attackType, null);
         DisplayAttackResult(attacker, target, attackType, attackResult);
         
-        DisplayTurnConsumption(attackResult.TurnEffect);
-        _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        DisplayTurnConsumption(actualEffect);
         
+        // Manejar la muerte del objetivo
         HandleUnitDeath(target);
+        
+        // Si fue repelido, el atacante también puede haber muerto
+        if (attackResult.WasRepelled)
+        {
+            HandleUnitDeath(attacker);
+        }
+        
         return true;
     }
 
@@ -331,9 +412,26 @@ public class GameManager
         _view.WriteLine($"{attacker.Name} {actionVerb} {target.Name}");
         
         DisplayAffinityMessage(target, result);
-        DisplayDamageOrEffect(target, result);
+        DisplayDamageOrEffect(target, result, attacker);
         
-        _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+        // Si fue Repel o Drain, mostrar el HP del que fue afectado
+        if (result.WasRepelled)
+        {
+            _view.WriteLine($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+        else
+        {
+            _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+        }
+    }
+
+    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, BattleEngine.AttackResult result)
+    {
+        var actionVerb = GetAttackVerb(attackType);
+        _view.WriteLine($"{attacker.Name} {actionVerb} {target.Name}");
+        
+        DisplayAffinityMessage(target, result);
+        DisplayDamageOrEffect(target, result, attacker);
     }
 
     private string GetAttackVerb(string attackType)
@@ -381,9 +479,9 @@ public class GameManager
         }
     }
 
-    private void DisplayDamageOrEffect(Unit target, BattleEngine.AttackResult result)
+    private void DisplayDamageOrEffect(Unit target, BattleEngine.AttackResult result, Unit attacker)
     {
-        if (result.Missed)
+        if (result.Missed || result.WasNulled)
         {
             return;
         }
@@ -394,7 +492,7 @@ public class GameManager
         }
         else if (result.WasRepelled)
         {
-            _view.WriteLine($"{target.Name} devuelve {result.Damage} daño a {result.AttackerName}");
+            _view.WriteLine($"{target.Name} devuelve {result.Damage} daño a {attacker.Name}");
         }
         else if (result.WasDrained)
         {
@@ -468,13 +566,13 @@ public class GameManager
         }
         else if (skill.Target == "Ally")
         {
-            if (skill.Effect.Contains("Heals HP") || skill.Effect.Contains("Revive"))
-            {
-                return ExecuteHealSkill(user, skill);
-            }
-            else if (skill.Name == "Sabbatma" || skill.Name == "Invitation")
+            if (skill.Name == "Sabbatma" || skill.Name == "Invitation")
             {
                 return ExecuteSpecialSummonSkill(user, skill);
+            }
+            else if (skill.Effect.Contains("Heals HP") || skill.Effect.Contains("Fully heals HP") || skill.Effect.Contains("Greatly heals HP") || skill.Effect.Contains("Revive"))
+            {
+                return ExecuteHealSkill(user, skill);
             }
         }
         
@@ -483,7 +581,7 @@ public class GameManager
 
     private bool ExecuteSkillOnSingleTarget(Unit user, Skill skill)
     {
-        var target = SelectTarget();
+        var target = SelectTarget(user);
         if (target == null)
             return false;
 
@@ -491,20 +589,53 @@ public class GameManager
         
         _view.WriteLine("----------------------------------------");
         
-        var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
-        DisplayAttackResult(user, target, skill.Type, attackResult);
+        // Calcular cuántos hits tiene la habilidad
+        int hits = CalculateHits(skill.Hits);
         
-        DisplayTurnConsumption(attackResult.TurnEffect);
-        _turnManager.ConsumeTurns(attackResult.TurnEffect);
+        BattleEngine.AttackResult? finalResult = null;
+        Unit? finalAffectedUnit = null;
         
+        // Ejecutar el ataque múltiples veces
+        for (int i = 0; i < hits; i++)
+        {
+            var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
+            DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult);
+            
+            finalResult = attackResult;
+            finalAffectedUnit = attackResult.WasRepelled ? user : target;
+        }
+        
+        // Mostrar el HP final una sola vez después de todos los hits
+        if (finalResult != null && finalAffectedUnit != null)
+        {
+            _view.WriteLine($"{finalAffectedUnit.Name} termina con HP:{finalAffectedUnit.CurrentHP}/{finalAffectedUnit.BaseStats.HP}");
+        }
+        
+        // Incrementar el contador de habilidades después de usarla
+        IncrementSkillCounter();
+        
+        if (finalResult != null)
+        {
+            var actualEffect = _turnManager.ConsumeTurns(finalResult.TurnEffect);
+            DisplayTurnConsumption(actualEffect);
+        }
+        
+        // Manejar la muerte del objetivo
         HandleUnitDeath(target);
+        
+        // Si fue repelido, el usuario también puede haber muerto
+        if (finalResult != null && finalResult.WasRepelled)
+        {
+            HandleUnitDeath(user);
+        }
+        
         return true;
     }
 
     private bool ExecuteHealSkill(Unit user, Skill skill)
     {
         bool isRevive = skill.Effect.Contains("Revive");
-        var target = SelectAllyTarget(isRevive);
+        var target = SelectAllyTarget(user, isRevive);
         
         if (target == null)
             return false;
@@ -513,12 +644,25 @@ public class GameManager
         
         _view.WriteLine("----------------------------------------");
         
+        bool wasDeadBeforeRevive = false;
+        bool targetWasOnBoard = false;
+        
         if (isRevive && !target.IsAlive)
         {
-            int healAmount = skill.Power;
+            wasDeadBeforeRevive = true;
+            // Verificar si la unidad está en el tablero
+            targetWasOnBoard = _currentPlayerTeam!.Board.Contains(target);
+            
+            int healAmount = (int)Math.Floor(target.BaseStats.HP * (skill.Power / 100.0));
             target.Heal(healAmount);
             _view.WriteLine($"{user.Name} revive a {target.Name}");
             _view.WriteLine($"{target.Name} recibe {healAmount} de HP");
+            
+            // Si la unidad revivida estaba en el tablero, agregarla al final del orden de acciones
+            if (targetWasOnBoard)
+            {
+                _turnManager.AddUnitToOrder(target);
+            }
         }
         else if (!isRevive)
         {
@@ -530,9 +674,13 @@ public class GameManager
         
         _view.WriteLine($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
         
-        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 0, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        // Incrementar el contador de habilidades después de usarla
+        IncrementSkillCounter();
+        
+        // Habilidad de curación: consume 1 Blinking si hay, sino consume 1 Full
+        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         
         return true;
     }
@@ -545,19 +693,36 @@ public class GameManager
         if (monsterToSummon == null)
             return false;
 
+        // Sabbatma/Invitation siempre piden posición (actúan como samurai)
         var position = SelectPositionToSummon();
         if (position == -1)
             return false;
 
         bool wasDeadBeforeSummon = !monsterToSummon.IsAlive;
+        int healAmount = 0;
         
         if (wasDeadBeforeSummon && canRevive)
         {
-            monsterToSummon.Heal(skill.Power);
+            // Calcular el HP a curar basado en el power como porcentaje del HP máximo
+            healAmount = (int)Math.Floor(monsterToSummon.BaseStats.HP * (skill.Power / 100.0));
+            monsterToSummon.Heal(healAmount);
         }
 
+        // Guardar la unidad que está siendo reemplazada (si existe)
+        var replacedUnit = _currentPlayerTeam!.Board[position];
+        
         _currentPlayerTeam!.InvokeMonsterToPosition(monsterToSummon, position);
-        _turnManager.AddUnitToOrder(monsterToSummon);
+        
+        // Si se reemplazó una unidad, la nueva toma su lugar en el orden
+        if (replacedUnit != null)
+        {
+            _turnManager.ReplaceUnitInOrder(replacedUnit, monsterToSummon);
+        }
+        else
+        {
+            // Si se invocó a un puesto vacío, se agrega al final del orden
+            _turnManager.AddUnitToOrder(monsterToSummon);
+        }
 
         user.ConsumeMP(skill.Cost);
         
@@ -567,25 +732,44 @@ public class GameManager
         if (wasDeadBeforeSummon && canRevive)
         {
             _view.WriteLine($"{user.Name} revive a {monsterToSummon.Name}");
-            _view.WriteLine($"{monsterToSummon.Name} recibe {skill.Power} de HP");
+            _view.WriteLine($"{monsterToSummon.Name} recibe {healAmount} de HP");
             _view.WriteLine($"{monsterToSummon.Name} termina con HP:{monsterToSummon.CurrentHP}/{monsterToSummon.BaseStats.HP}");
         }
         
-        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 0, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        // Incrementar el contador de habilidades después de usarla
+        IncrementSkillCounter();
+        
+        // Habilidad especial: consume 1 Blinking si hay, sino consume 1 Full
+        var turnEffect = new TurnManager.TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         
         return true;
     }
 
-    private Unit? SelectAllyTarget(bool onlyDead)
+    private Unit? SelectAllyTarget(Unit actingUnit, bool onlyDead)
     {
-        var allies = onlyDead 
-            ? _currentPlayerTeam!.Reserve.Where(u => !u.IsAlive).ToList()
-            : _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        List<Unit> allies;
+        
+        if (onlyDead)
+        {
+            // Incluir unidades muertas de la reserva (monstruos)
+            allies = _currentPlayerTeam!.Reserve.Where(u => !u.IsAlive).ToList();
+            
+            // También incluir al samurai si está muerto (el samurai muerto permanece en el tablero)
+            var samurai = _currentPlayerTeam!.Board.FirstOrDefault(u => u != null && u is Samurai && !u.IsAlive);
+            if (samurai != null)
+            {
+                allies.Insert(0, samurai); // Insertar al principio para mantener el orden samurai primero
+            }
+        }
+        else
+        {
+            allies = _currentPlayerTeam!.GetActiveUnitsOnBoard();
+        }
         
         _view.WriteLine("----------------------------------------");
-        _view.WriteLine($"Seleccione un objetivo para {_turnManager.GetCurrentActionOrder()[0].Name}");
+        _view.WriteLine($"Seleccione un objetivo para {actingUnit.Name}");
         
         for (int i = 0; i < allies.Count; i++)
         {
@@ -688,21 +872,38 @@ public class GameManager
         if (position == -1)
             return false;
 
+        // Guardar la unidad que está siendo reemplazada (si existe)
+        var replacedUnit = _currentPlayerTeam!.Board[position];
+        
         _currentPlayerTeam!.InvokeMonsterToPosition(monsterToSummon, position);
-        _turnManager.AddUnitToOrder(monsterToSummon);
+        
+        // Si se reemplazó una unidad, la nueva toma su lugar en el orden
+        if (replacedUnit != null)
+        {
+            _turnManager.ReplaceUnitInOrder(replacedUnit, monsterToSummon);
+        }
+        else
+        {
+            // Si se invocó a un puesto vacío, se agrega al final del orden
+            _turnManager.AddUnitToOrder(monsterToSummon);
+        }
         
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
+        // Invocar (Samurai): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
+        // Solo gana Blinking Turn si consume Full Turn
+        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
-            BlinkingTurnsConsumed = 0, 
-            BlinkingTurnsGained = 1 
+            BlinkingTurnsConsumed = 1, 
+            BlinkingTurnsGained = hadBlinkingTurn ? 0 : 1 // Solo gana si NO había Blinking Turns
         };
         
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         return true;
     }
 
@@ -713,35 +914,44 @@ public class GameManager
             return false;
 
         _currentPlayerTeam!.ReplaceMonsterInBoard(currentMonster, monsterToSummon);
+        
+        // El monstruo invocado toma el lugar del monstruo actual en el orden
         _turnManager.ReplaceUnitInOrder(currentMonster, monsterToSummon);
         
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
         
+        // Invocar (Monstruo): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
+        // Solo gana Blinking Turn si consume Full Turn
+        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        
         var turnEffect = new TurnManager.TurnEffect 
         { 
-            FullTurnsConsumed = 0, 
+            FullTurnsConsumed = 1, 
             BlinkingTurnsConsumed = 1, 
-            BlinkingTurnsGained = 0 
+            BlinkingTurnsGained = hadBlinkingTurn ? 0 : 1 // Solo gana si NO había Blinking Turns
         };
         
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         return true;
     }
 
     private bool ExecutePassTurnAction()
     {
+        // Pasar Turno: consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
+        // Solo gana Blinking Turn si consume Full Turn
+        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        
         var turnEffect = new TurnManager.TurnEffect 
         { 
             FullTurnsConsumed = 1, 
-            BlinkingTurnsConsumed = 0, 
-            BlinkingTurnsGained = 1 
+            BlinkingTurnsConsumed = 1, 
+            BlinkingTurnsGained = hadBlinkingTurn ? 0 : 1 // Solo gana si NO había Blinking Turns
         };
         
-        _view.WriteLine("----------------------------------------");
-        DisplayTurnConsumption(turnEffect);
-        _turnManager.ConsumeTurns(turnEffect);
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
         return true;
     }
 
@@ -750,7 +960,6 @@ public class GameManager
         var playerLabel = GetCurrentPlayerLabel();
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{surrenderingUnit.Name} ({playerLabel}) se rinde");
-        _view.WriteLine("----------------------------------------");
         
         KillAllUnitsInTeam(_currentPlayerTeam!);
         
@@ -769,24 +978,16 @@ public class GameManager
         }
     }
 
-    private Unit? SelectTarget()
+    private Unit? SelectTarget(Unit actingUnit)
     {
         var targets = _opponentTeam!.GetActiveUnitsOnBoard();
         
         _view.WriteLine("----------------------------------------");
-        
-        var actingUnitName = GetCurrentActingUnitName();
-        _view.WriteLine($"Seleccione un objetivo para {actingUnitName}");
+        _view.WriteLine($"Seleccione un objetivo para {actingUnit.Name}");
         
         DisplayTargetOptions(targets);
         
         return ReadTargetSelection(targets);
-    }
-
-    private string GetCurrentActingUnitName()
-    {
-        var currentActionOrder = _turnManager.GetCurrentActionOrder();
-        return currentActionOrder.Count > 0 ? currentActionOrder[0].Name : "Unidad";
     }
 
     private void DisplayTargetOptions(List<Unit> targets)
@@ -819,7 +1020,15 @@ public class GameManager
             
             if (unit is Monster)
             {
-                _opponentTeam!.RemoveUnitFromBoard(unit);
+                // Determinar a qué equipo pertenece la unidad para removerla correctamente
+                if (_player1Team!.Board.Contains(unit))
+                {
+                    _player1Team.RemoveUnitFromBoard(unit);
+                }
+                else if (_player2Team!.Board.Contains(unit))
+                {
+                    _player2Team.RemoveUnitFromBoard(unit);
+                }
             }
         }
     }
@@ -837,6 +1046,7 @@ public class GameManager
 
     private void DeclareWinner()
     {
+        _view.WriteLine("----------------------------------------");
         string winner = DetermineWinner();
         _view.WriteLine($"Ganador: {winner}");
     }
@@ -851,5 +1061,39 @@ public class GameManager
         {
             return $"{_player1Team.Samurai.Name} (J1)";
         }
+    }
+
+    private int GetCurrentSkillCounter()
+    {
+        return _isPlayer1Turn ? _player1SkillCounter : _player2SkillCounter;
+    }
+
+    private void IncrementSkillCounter()
+    {
+        if (_isPlayer1Turn)
+            _player1SkillCounter++;
+        else
+            _player2SkillCounter++;
+    }
+
+    private int CalculateHits(string hitsString)
+    {
+        // Si es un número simple, retornar ese número
+        if (int.TryParse(hitsString, out int simpleHits))
+        {
+            return simpleHits;
+        }
+
+        // Si es un rango como "1-3"
+        var parts = hitsString.Split('-');
+        if (parts.Length == 2 && int.TryParse(parts[0], out int minHits) && int.TryParse(parts[1], out int maxHits))
+        {
+            int k = GetCurrentSkillCounter();
+            int offset = k % (maxHits - minHits + 1);
+            return minHits + offset;
+        }
+
+        // Por defecto, 1 hit
+        return 1;
     }
 }

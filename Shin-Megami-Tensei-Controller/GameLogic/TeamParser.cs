@@ -55,11 +55,16 @@ public class TeamParser
     {
         Samurai? samurai = null;
         var monsters = new List<Monster>();
+        int samuraiCount = 0;
 
         foreach (var unitLine in unitLines)
         {
             if (unitLine.StartsWith("[Samurai]"))
             {
+                samuraiCount++;
+                if (samuraiCount > 1)
+                    throw new InvalidOperationException("El equipo no puede tener más de un samurai");
+                    
                 samurai = ParseSamurai(unitLine);
             }
             else
