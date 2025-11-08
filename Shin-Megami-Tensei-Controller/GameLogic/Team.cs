@@ -93,6 +93,29 @@ public class Team
         return GetActiveUnitsOnBoard().Any();
     }
 
+    public List<Unit> GetAllAliveUnits()
+    {
+        var allAlive = new List<Unit>();
+        
+        foreach (var unit in Board)
+        {
+            if (unit != null && unit.IsAlive)
+            {
+                allAlive.Add(unit);
+            }
+        }
+        
+        foreach (var unit in Reserve)
+        {
+            if (unit != null && unit.IsAlive)
+            {
+                allAlive.Add(unit);
+            }
+        }
+        
+        return allAlive;
+    }
+
     public void RemoveUnitFromBoard(Unit unit)
     {
         for (int i = 0; i < Board.Length; i++)
