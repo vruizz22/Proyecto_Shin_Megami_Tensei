@@ -94,6 +94,15 @@ public class MultiTargetSkillExecutor
                 ConsumeAllTurns = true
             };
         }
+        else if (hasWeak)
+        {
+            result.CombinedTurnEffect = new TurnEffect
+            {
+                FullTurnsConsumed = 1,
+                BlinkingTurnsConsumed = 0,
+                BlinkingTurnsGained = 1
+            };
+        }
         else
         {
             result.CombinedTurnEffect = turnEffectToUse;
@@ -165,6 +174,15 @@ public class MultiTargetSkillExecutor
                 BlinkingTurnsConsumed = 0,
                 BlinkingTurnsGained = 0,
                 ConsumeAllTurns = true
+            };
+        }
+        else if (hasWeak)
+        {
+            result.CombinedTurnEffect = new TurnEffect
+            {
+                FullTurnsConsumed = 1,
+                BlinkingTurnsConsumed = 0,
+                BlinkingTurnsGained = 1
             };
         }
         else
