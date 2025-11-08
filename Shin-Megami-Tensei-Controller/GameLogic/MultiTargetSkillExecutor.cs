@@ -96,8 +96,10 @@ public class MultiTargetSkillExecutor
 
         // Determinar efecto de turno basado en resultados
         // La prioridad de afinidades es: Repel/Drain > Null > Miss > Weak > Neutral/Resist
-        if (hasRepelled && !hasWeak)
+        if (hasRepelled)
         {
+            // Repel/Drain tiene la máxima prioridad - consume todos los turnos
+            // NO importa si hay Weak, Repel SIEMPRE consume todos los turnos
             result.CombinedTurnEffect = new TurnEffect
             {
                 FullTurnsConsumed = 0,
@@ -131,18 +133,21 @@ public class MultiTargetSkillExecutor
         }
         else if (hasWeak)
         {
+            // Weak: consume 1 Full Turn y otorga 1 Blinking Turn
+            // Si no hay Full Turns, consume 1 Blinking Turn
             result.CombinedTurnEffect = new TurnEffect
             {
-                FullTurnsConsumed = 0,
-                BlinkingTurnsConsumed = 1,
+                FullTurnsConsumed = 1,
+                BlinkingTurnsConsumed = 0,
                 BlinkingTurnsGained = 1
             };
         }
         else
         {
+            // Neutral/Resist: consume 1 Blinking Turn, si no hay consume 1 Full Turn
             result.CombinedTurnEffect = new TurnEffect
             {
-                FullTurnsConsumed = 0,
+                FullTurnsConsumed = 1,
                 BlinkingTurnsConsumed = 1,
                 BlinkingTurnsGained = 0
             };
@@ -219,8 +224,10 @@ public class MultiTargetSkillExecutor
 
         // Determinar efecto de turno basado en resultados
         // La prioridad de afinidades es: Repel/Drain > Null > Miss > Weak > Neutral/Resist
-        if (hasRepelled && !hasWeak)
+        if (hasRepelled)
         {
+            // Repel/Drain tiene la máxima prioridad - consume todos los turnos
+            // NO importa si hay Weak, Repel SIEMPRE consume todos los turnos
             result.CombinedTurnEffect = new TurnEffect
             {
                 FullTurnsConsumed = 0,
@@ -254,18 +261,21 @@ public class MultiTargetSkillExecutor
         }
         else if (hasWeak)
         {
+            // Weak: consume 1 Full Turn y otorga 1 Blinking Turn
+            // Si no hay Full Turns, consume 1 Blinking Turn
             result.CombinedTurnEffect = new TurnEffect
             {
-                FullTurnsConsumed = 0,
-                BlinkingTurnsConsumed = 1,
+                FullTurnsConsumed = 1,
+                BlinkingTurnsConsumed = 0,
                 BlinkingTurnsGained = 1
             };
         }
         else
         {
+            // Neutral/Resist: consume 1 Blinking Turn, si no hay consume 1 Full Turn
             result.CombinedTurnEffect = new TurnEffect
             {
-                FullTurnsConsumed = 0,
+                FullTurnsConsumed = 1,
                 BlinkingTurnsConsumed = 1,
                 BlinkingTurnsGained = 0
             };
