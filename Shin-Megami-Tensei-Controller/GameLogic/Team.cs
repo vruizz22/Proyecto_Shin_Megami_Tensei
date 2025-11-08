@@ -137,9 +137,27 @@ public class Team
         Reserve.Remove(monster);
         
         var existingUnit = Board[position];
-        if (existingUnit != null && existingUnit is Monster)
+        if (existingUnit != null && existingUnit is Monster existingMonster)
         {
-            Reserve.Add(existingUnit);
+            // Insertar el monstruo que sale en la reserva manteniendo el orden original
+            int originalIndex = Monsters.IndexOf(existingMonster);
+            
+            // Encontrar la posición correcta en la reserva
+            int insertPosition = 0;
+            for (int j = 0; j < Reserve.Count; j++)
+            {
+                if (Reserve[j] is Monster reserveMonster)
+                {
+                    int reserveMonsterIndex = Monsters.IndexOf(reserveMonster);
+                    if (originalIndex < reserveMonsterIndex)
+                    {
+                        break;
+                    }
+                }
+                insertPosition++;
+            }
+            
+            Reserve.Insert(insertPosition, existingMonster);
         }
         
         Board[position] = monster;
@@ -152,7 +170,30 @@ public class Team
             if (Board[i] == currentMonster)
             {
                 Reserve.Remove(newMonster);
-                Reserve.Add(currentMonster);
+                
+                // Insertar el monstruo que sale en la reserva manteniendo el orden original
+                if (currentMonster is Monster currentMonsterTyped)
+                {
+                    int originalIndex = Monsters.IndexOf(currentMonsterTyped);
+                    
+                    // Encontrar la posición correcta en la reserva
+                    int insertPosition = 0;
+                    for (int j = 0; j < Reserve.Count; j++)
+                    {
+                        if (Reserve[j] is Monster reserveMonster)
+                        {
+                            int reserveMonsterIndex = Monsters.IndexOf(reserveMonster);
+                            if (originalIndex < reserveMonsterIndex)
+                            {
+                                break;
+                            }
+                        }
+                        insertPosition++;
+                    }
+                    
+                    Reserve.Insert(insertPosition, currentMonsterTyped);
+                }
+                
                 Board[i] = newMonster;
                 break;
             }
