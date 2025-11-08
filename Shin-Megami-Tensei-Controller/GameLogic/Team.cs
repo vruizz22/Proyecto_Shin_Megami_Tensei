@@ -100,9 +100,27 @@ public class Team
             if (Board[i] == unit)
             {
                 // Si es un monstruo muerto, va a la reserva y se libera el espacio
-                if (unit is Monster && !unit.IsAlive)
+                if (unit is Monster monster && !unit.IsAlive)
                 {
-                    Reserve.Add(unit);
+                    // Insertar el monstruo en la reserva manteniendo el orden original de Monsters
+                    int originalIndex = Monsters.IndexOf(monster);
+                    
+                    // Encontrar la posición correcta en la reserva
+                    int insertPosition = 0;
+                    for (int j = 0; j < Reserve.Count; j++)
+                    {
+                        if (Reserve[j] is Monster reserveMonster)
+                        {
+                            int reserveMonsterIndex = Monsters.IndexOf(reserveMonster);
+                            if (originalIndex < reserveMonsterIndex)
+                            {
+                                break;
+                            }
+                        }
+                        insertPosition++;
+                    }
+                    
+                    Reserve.Insert(insertPosition, monster);
                     Board[i] = null;
                 }
                 // Si es un samurai muerto, permanece en el tablero
@@ -110,6 +128,78 @@ public class Team
             }
         }
     }
+
+    public void InvokeMonsterToPosition(Monster monster, int position)
+    {
+        if (position < 1 || position >= Board.Length)
+            throw new ArgumentException("Posición inválida");
+
+        Reserve.Remove(monster);
+        
+        var existingUnit = Board[position];
+        if (existingUnit != null && existingUnit is Monster existingMonster)
+        {
+            // Insertar el monstruo que sale en la reserva manteniendo el orden original
+            int originalIndex = Monsters.IndexOf(existingMonster);
+            
+            // Encontrar la posición correcta en la reserva
+            int insertPosition = 0;
+            for (int j = 0; j < Reserve.Count; j++)
+            {
+                if (Reserve[j] is Monster reserveMonster)
+                {
+                    int reserveMonsterIndex = Monsters.IndexOf(reserveMonster);
+                    if (originalIndex < reserveMonsterIndex)
+                    {
+                        break;
+                    }
+                }
+                insertPosition++;
+            }
+            
+            Reserve.Insert(insertPosition, existingMonster);
+        }
+        
+        Board[position] = monster;
+    }
+
+    public void ReplaceMonsterInBoard(Unit currentMonster, Monster newMonster)
+    {
+        for (int i = 0; i < Board.Length; i++)
+        {
+            if (Board[i] == currentMonster)
+            {
+                Reserve.Remove(newMonster);
+                
+                // Insertar el monstruo que sale en la reserva manteniendo el orden original
+                if (currentMonster is Monster currentMonsterTyped)
+                {
+                    int originalIndex = Monsters.IndexOf(currentMonsterTyped);
+                    
+                    // Encontrar la posición correcta en la reserva
+                    int insertPosition = 0;
+                    for (int j = 0; j < Reserve.Count; j++)
+                    {
+                        if (Reserve[j] is Monster reserveMonster)
+                        {
+                            int reserveMonsterIndex = Monsters.IndexOf(reserveMonster);
+                            if (originalIndex < reserveMonsterIndex)
+                            {
+                                break;
+                            }
+                        }
+                        insertPosition++;
+                    }
+                    
+                    Reserve.Insert(insertPosition, currentMonsterTyped);
+                }
+                
+                Board[i] = newMonster;
+                break;
+            }
+        }
+    }
+
 
     public string GetFormattedBoardState(string teamLabel)
     {

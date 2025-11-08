@@ -1,0 +1,3680 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 33
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:202/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:67/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:637/637 MP:286/286
+D-Senri HP:165/165 MP:158/158
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Ometeotl
+3-Yurlungur
+4-Pabilsag
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Quicksilver HP:203/203 MP:90/90
+3-Python HP:637/637 MP:286/286
+4-Senri HP:165/165 MP:158/158
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Aleph ataca a Senri
+Senri recibe 157 de daño
+Senri termina con HP:8/165
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:202/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:67/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:637/637 MP:286/286
+D-Senri HP:8/165 MP:158/158
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Yurlungur
+3-Pabilsag
+4-Aleph
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:202/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:67/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:637/637 MP:286/286
+D-Senri HP:8/165 MP:158/158
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yurlungur
+2-Pabilsag
+3-Aleph
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yurlungur
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Quicksilver HP:203/203 MP:90/90
+3-Python HP:637/637 MP:286/286
+4-Senri HP:8/165 MP:158/158
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Yurlungur ataca a Python
+Python recibe 20 de daño
+Python termina con HP:617/637
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:202/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:67/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:617/637 MP:286/286
+D-Senri HP:8/165 MP:158/158
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pabilsag
+2-Aleph
+3-Ometeotl
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pabilsag
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Quicksilver HP:203/203 MP:90/90
+3-Python HP:617/637 MP:286/286
+4-Senri HP:8/165 MP:158/158
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:264/264
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pabilsag use
+1-Toxic Sting MP:9
+2-Posumudi MP:5
+3-Blast Arrow MP:16
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pabilsag dispara a Demi-Fiend
+Demi-Fiend recibe 64 de daño
+Demi-Fiend termina con HP:1163/1227
+Pabilsag dispara a Quicksilver
+Quicksilver bloquea el ataque de Pabilsag
+Quicksilver termina con HP:203/203
+Pabilsag dispara a Python
+Python recibe 64 de daño
+Python termina con HP:553/637
+Pabilsag dispara a Senri
+Senri recibe 64 de daño
+Senri termina con HP:0/165
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:202/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:1309/1309 MP:613/613
+2-Yurlungur HP:202/202 MP:196/196
+3-Ometeotl HP:324/324 MP:315/315
+4-Pabilsag HP:241/241 MP:51/67
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Yurlungur
+Yurlungur recibe 114 de daño
+Yurlungur termina con HP:88/202
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:88/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-Yurlungur HP:88/202 MP:196/196
+C-Ometeotl HP:324/324 MP:315/315
+D-Pabilsag HP:241/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:90/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Python
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver lanza electricidad a Aleph
+Aleph recibe 37 de daño
+Aleph termina con HP:1272/1309
+Quicksilver lanza electricidad a Yurlungur
+Yurlungur es resistente el ataque de Quicksilver
+Yurlungur recibe 18 de daño
+Yurlungur termina con HP:70/202
+Quicksilver lanza electricidad a Ometeotl
+Ometeotl recibe 37 de daño
+Ometeotl termina con HP:287/324
+Quicksilver lanza electricidad a Pabilsag
+Pabilsag es débil contra el ataque de Quicksilver
+Pabilsag recibe 55 de daño
+Pabilsag termina con HP:186/241
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-Yurlungur HP:70/202 MP:196/196
+C-Ometeotl HP:287/324 MP:315/315
+D-Pabilsag HP:186/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:834/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:1272/1309 MP:613/613
+2-Yurlungur HP:70/202 MP:196/196
+3-Ometeotl HP:287/324 MP:315/315
+4-Pabilsag HP:186/241 MP:51/67
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend ataca con luz a Yurlungur
+Yurlungur ha sido eliminado
+Yurlungur termina con HP:0/202
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Ometeotl HP:287/324 MP:315/315
+D-Pabilsag HP:186/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Python
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Ometeotl HP:287/324 MP:315/315
+D-Pabilsag HP:186/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Ometeotl
+3-Pabilsag
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:264/264
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Ometeotl HP:287/324 MP:315/315 (Puesto 3)
+3-Pabilsag HP:186/241 MP:51/67 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Decarabia ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Ometeotl HP:287/324 MP:315/315
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Decarabia
+3-Aleph
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pabilsag HP:186/241 MP:51/67
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pabilsag ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:186/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Decarabia
+2-Aleph
+3-Pabilsag
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ometeotl HP:287/324 MP:315/315
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ometeotl HP:287/324 MP:315/315
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:186/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aleph
+2-Pabilsag
+3-Decarabia
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:186/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pabilsag
+2-Decarabia
+3-Aleph
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pabilsag
+1-Demi-Fiend HP:1163/1227 MP:828/834
+2-Quicksilver HP:203/203 MP:79/90
+3-Python HP:553/637 MP:286/286
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pabilsag
+1-Demi-Fiend HP:1163/1227 MP:828/834
+2-Quicksilver HP:203/203 MP:79/90
+3-Python HP:553/637 MP:286/286
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Pabilsag ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pabilsag
+Demi-Fiend termina con HP:1163/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:186/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:828/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:186/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Aleph HP:1272/1309 MP:613/613
+2-Pabilsag HP:186/241 MP:51/67
+3-Decarabia HP:273/273 MP:264/264
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Python ataca a Pabilsag
+Pabilsag recibe 53 de daño
+Pabilsag termina con HP:133/241
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:133/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Quicksilver HP:203/203 MP:79/90
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Python
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:296/296
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:133/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:133/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:553/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Decarabia
+3-Pabilsag
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:817/834
+2-Tiamat HP:305/305 MP:296/296
+3-Python HP:553/637 MP:286/286
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph ataca a Python
+Python recibe 157 de daño
+Python termina con HP:396/637
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:133/241 MP:51/67
+D-Decarabia HP:273/273 MP:264/264
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:396/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Decarabia
+2-Pabilsag
+3-Aleph
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ometeotl HP:287/324 MP:315/315
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Pabilsag HP:133/241 MP:51/67
+D-Ometeotl HP:287/324 MP:315/315
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:396/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pabilsag
+2-Aleph
+3-Ometeotl
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:264/264
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Decarabia ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Decarabia HP:273/273 MP:264/264
+D-Ometeotl HP:287/324 MP:315/315
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:396/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Ometeotl
+3-Decarabia
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:817/834
+2-Tiamat HP:305/305 MP:296/296
+3-Python HP:396/637 MP:286/286
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph ataca a Python
+Python recibe 157 de daño
+Python termina con HP:239/637
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Decarabia HP:273/273 MP:264/264
+D-Ometeotl HP:287/324 MP:315/315
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:239/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:1272/1309 MP:613/613
+2-Decarabia HP:273/273 MP:264/264
+3-Ometeotl HP:287/324 MP:315/315
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend ataca a Decarabia
+Decarabia recibe 168 de daño
+Decarabia termina con HP:105/273
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Decarabia HP:105/273 MP:264/264
+D-Ometeotl HP:287/324 MP:315/315
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Python HP:239/637 MP:286/286
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Tiamat
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Quicksilver HP:203/203 MP:79/90
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1272/1309 MP:613/613
+B-
+C-Decarabia HP:105/273 MP:264/264
+D-Ometeotl HP:287/324 MP:315/315
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:296/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Demi-Fiend
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tiamat use
+1-Ice Breath MP:21
+2-Sea of Chaos MP:45
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat lanza hielo a Aleph
+Aleph recibe 120 de daño
+Tiamat lanza hielo a Aleph
+Aleph recibe 120 de daño
+Aleph termina con HP:1032/1309
+Tiamat lanza hielo a Decarabia
+Decarabia recibe 120 de daño
+Decarabia termina con HP:0/273
+Tiamat lanza hielo a Ometeotl
+Ometeotl es resistente el ataque de Tiamat
+Ometeotl recibe 60 de daño
+Ometeotl termina con HP:227/324
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1032/1309 MP:613/613
+B-
+C-
+D-Ometeotl HP:227/324 MP:315/315
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:817/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Quicksilver
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:1032/1309 MP:613/613
+2-Ometeotl HP:227/324 MP:315/315
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend lanza viento a Ometeotl
+Ometeotl recibe 512 de daño
+Ometeotl termina con HP:0/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1032/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1032/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:809/834
+2-Tiamat HP:305/305 MP:275/296
+3-Quicksilver HP:203/203 MP:79/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph dispara a Quicksilver
+Quicksilver bloquea el ataque de Aleph
+Quicksilver termina con HP:203/203
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1032/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:1032/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:1032/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Tiamat HP:305/305 MP:275/296 (Puesto 2)
+2-Quicksilver HP:203/203 MP:79/90 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Python ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1032/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Python HP:239/637 MP:286/286
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Python
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Aleph HP:1032/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:275/296
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1032/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Aleph HP:1032/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Aleph
+Aleph es resistente el ataque de Quicksilver
+Aleph recibe 7 de daño
+Aleph termina con HP:1025/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1025/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1025/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tiamat
+1-Aleph HP:1025/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ataca a Aleph
+Aleph es resistente el ataque de Tiamat
+Aleph recibe 16 de daño
+Aleph termina con HP:1009/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1009/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:809/834
+2-Tiamat HP:305/305 MP:275/296
+3-Quicksilver HP:203/203 MP:79/90
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:809/834
+2-Tiamat HP:305/305 MP:275/296
+3-Quicksilver HP:203/203 MP:79/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph dispara a Quicksilver
+Quicksilver bloquea el ataque de Aleph
+Quicksilver termina con HP:203/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1009/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:809/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend lanza hielo a Aleph
+Aleph recibe 189 de daño
+Aleph termina con HP:820/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:820/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:275/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tiamat
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tiamat use
+1-Ice Breath MP:21
+2-Sea of Chaos MP:45
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tiamat lanza un ataque todo poderoso a Aleph
+Aleph recibe 110 de daño
+Aleph termina con HP:710/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:710/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:230/296
+C-Quicksilver HP:203/203 MP:79/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver lanza electricidad a Aleph
+Aleph recibe 37 de daño
+Aleph termina con HP:673/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pabilsag HP:133/241 MP:51/67
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:789/834
+2-Tiamat HP:305/305 MP:230/296
+3-Quicksilver HP:203/203 MP:68/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph dispara a Quicksilver
+Quicksilver bloquea el ataque de Aleph
+Quicksilver termina con HP:203/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:673/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Python ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Python HP:239/637 MP:286/286
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Python
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:230/296
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Python HP:239/637 MP:286/286
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Python HP:239/637 MP:286/286
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tiamat HP:305/305 MP:230/296
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tiamat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:305/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pabilsag HP:133/241 MP:51/67
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:1163/1227 MP:789/834
+2-Tiamat HP:305/305 MP:230/296
+3-Quicksilver HP:203/203 MP:68/90
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph ataca a Tiamat
+Tiamat recibe 157 de daño
+Tiamat termina con HP:148/305
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:673/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:148/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:673/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Aleph
+Aleph es resistente el ataque de Demi-Fiend
+Aleph recibe 84 de daño
+Aleph termina con HP:589/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:589/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:148/305 MP:230/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tiamat
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tiamat use
+1-Ice Breath MP:21
+2-Sea of Chaos MP:45
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tiamat use
+1-Ice Breath MP:21
+2-Sea of Chaos MP:45
+3-Silent Prayer MP:15
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tiamat lanza un ataque todo poderoso a Aleph
+Aleph recibe 110 de daño
+Aleph termina con HP:479/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:479/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:148/305 MP:185/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Aleph HP:479/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:479/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:148/305 MP:185/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:479/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Aleph
+Aleph es resistente el ataque de Demi-Fiend
+Aleph recibe 84 de daño
+Aleph termina con HP:395/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:789/834
+B-Tiamat HP:148/305 MP:185/296
+C-Quicksilver HP:203/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Charge MP:9
+2-Serpent of Sheol MP:45
+3-Zandyne MP:14
+4-Zan MP:5
+5-Holy Wrath MP:45
+6-Mamudoon MP:30
+7-Bufudyne MP:14
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Aleph lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 110 de daño
+Demi-Fiend termina con HP:1053/1227
+Aleph lanza un ataque todo poderoso a Tiamat
+Tiamat recibe 110 de daño
+Tiamat termina con HP:38/305
+Aleph lanza un ataque todo poderoso a Quicksilver
+Quicksilver recibe 110 de daño
+Quicksilver termina con HP:93/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:395/1309 MP:568/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Quicksilver
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Demi-Fiend
+3-Tiamat
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:68/90
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Tiamat
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:395/1309 MP:568/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Python HP:239/637 MP:286/286
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Tiamat HP:38/305 MP:185/296 (Puesto 2)
+2-Quicksilver HP:93/203 MP:68/90 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Python ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:68/90
+D-Python HP:239/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tiamat
+2-Quicksilver
+3-Python
+4-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:395/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:68/90
+D-Python HP:239/637 MP:286/286
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Python
+3-Demi-Fiend
+4-Tiamat
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver lanza electricidad a Aleph
+Aleph recibe 37 de daño
+Aleph termina con HP:358/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:568/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1053/1227 MP:789/834
+B-Tiamat HP:38/305 MP:185/296
+C-Quicksilver HP:93/203 MP:57/90
+D-Python HP:239/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Charge MP:9
+2-Serpent of Sheol MP:45
+3-Zandyne MP:14
+4-Zan MP:5
+5-Holy Wrath MP:45
+6-Mamudoon MP:30
+7-Bufudyne MP:14
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Aleph lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 110 de daño
+Demi-Fiend termina con HP:943/1227
+Aleph lanza un ataque todo poderoso a Tiamat
+Tiamat recibe 110 de daño
+Tiamat termina con HP:0/305
+Aleph lanza un ataque todo poderoso a Quicksilver
+Quicksilver recibe 110 de daño
+Quicksilver termina con HP:0/203
+Aleph lanza un ataque todo poderoso a Python
+Python recibe 110 de daño
+Python termina con HP:129/637
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:523/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:943/1227 MP:789/834
+B-
+C-
+D-Python HP:129/637 MP:286/286
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:358/1309 MP:523/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Aleph
+Aleph bloquea el ataque de Demi-Fiend
+Aleph termina con HP:358/1309
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:523/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:943/1227 MP:789/834
+B-
+C-
+D-Python HP:129/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:943/1227 MP:789/834
+2-Python HP:129/637 MP:286/286
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:943/1227 MP:789/834
+2-Python HP:129/637 MP:286/286
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pabilsag HP:133/241 MP:51/67
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pabilsag ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:523/613
+B-
+C-
+D-Pabilsag HP:133/241 MP:51/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:943/1227 MP:789/834
+B-
+C-
+D-Python HP:129/637 MP:286/286
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pabilsag
+2-Aleph
+----------------------------------------
+Seleccione una acción para Pabilsag
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pabilsag use
+1-Toxic Sting MP:9
+2-Posumudi MP:5
+3-Blast Arrow MP:16
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pabilsag dispara a Demi-Fiend
+Demi-Fiend recibe 64 de daño
+Demi-Fiend termina con HP:879/1227
+Pabilsag dispara a Python
+Python recibe 64 de daño
+Python termina con HP:65/637
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:523/613
+B-
+C-
+D-Pabilsag HP:133/241 MP:35/67
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:789/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:358/1309 MP:523/613
+2-Pabilsag HP:133/241 MP:35/67
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend ataca a Pabilsag
+Pabilsag recibe 168 de daño
+Pabilsag termina con HP:0/241
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:523/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:789/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:358/1309 MP:523/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:789/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:358/1309 MP:523/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza viento a Aleph
+Aleph recibe 204 de daño
+Aleph termina con HP:154/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:523/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:781/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:523/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:781/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:879/1227 MP:781/834
+2-Python HP:65/637 MP:286/286
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Charge MP:9
+2-Serpent of Sheol MP:45
+3-Zandyne MP:14
+4-Zan MP:5
+5-Holy Wrath MP:45
+6-Mamudoon MP:30
+7-Bufudyne MP:14
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:879/1227 MP:781/834
+2-Python HP:65/637 MP:286/286
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Aleph
+Demi-Fiend termina con HP:879/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:781/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Python
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-Python HP:65/637 MP:286/286
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:879/1227 MP:770/834
+2-Python HP:65/637 MP:286/286
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph dispara a Python
+Python recibe 276 de daño
+Python termina con HP:0/637
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:154/1309 MP:509/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Aleph
+Aleph bloquea el ataque de Demi-Fiend
+Aleph termina con HP:154/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:879/1227 MP:770/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Aleph
+Demi-Fiend termina con HP:879/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:154/1309 MP:509/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Aleph
+Aleph bloquea el ataque de Demi-Fiend
+Aleph termina con HP:154/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:509/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Charge MP:9
+2-Serpent of Sheol MP:45
+3-Zandyne MP:14
+4-Zan MP:5
+5-Holy Wrath MP:45
+6-Mamudoon MP:30
+7-Bufudyne MP:14
+8-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:154/1309 MP:500/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:154/1309 MP:500/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Aleph
+Aleph es resistente el ataque de Demi-Fiend
+Aleph recibe 84 de daño
+Aleph termina con HP:70/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:70/1309 MP:500/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:879/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Demi-Fiend HP:879/1227 MP:770/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph dispara a Demi-Fiend
+Demi-Fiend recibe 690 de daño
+Demi-Fiend termina con HP:189/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:70/1309 MP:500/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:189/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Aleph HP:70/1309 MP:500/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:70/1309 MP:500/613
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:189/1227 MP:770/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Concentrate MP:11
+2-Hama MP:6
+3-Mabufula MP:20
+4-Maragi MP:11
+5-Mortal Jihad MP:13
+6-Zanma MP:8
+7-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend lanza hielo a Aleph
+Aleph recibe 474 de daño
+Aleph termina con HP:0/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Demi-Fiend (J2)

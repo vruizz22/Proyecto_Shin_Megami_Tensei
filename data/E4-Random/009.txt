@@ -1,0 +1,13 @@
+Player 1 Team
+[Samurai] Aleph (Tetraja,Mahama,Breath,Tetrakarn,Taunt,Heaven's Bow,Bufula,Zionga)
+Pellaidh
+Gremlin
+Koppa Tengu
+Seth
+Player 2 Team
+[Samurai] Kei (War Cry,Makarakowas,Recarm,Myriad Arrows,Hades Blast)
+Arachne
+Poltergeist
+Mithras
+Gryphon
+Shax

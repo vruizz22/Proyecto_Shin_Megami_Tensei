@@ -1,0 +1,5810 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 17
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Bai Suzhen HP:155/155 MP:149/149
+C-Metatron HP:879/879 MP:175/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Taown HP:709/709 MP:140/140
+C-Tam Lin HP:218/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+4-Mokoi
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Aleph HP:1309/1309 MP:613/613
+2-Taown HP:709/709 MP:140/140
+3-Tam Lin HP:218/218 MP:43/43
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Bai Suzhen HP:155/155 MP:149/149
+C-Metatron HP:879/879 MP:175/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Taown HP:709/709 MP:140/140
+C-Tam Lin HP:218/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Mokoi
+4-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Bai Suzhen HP:155/155 MP:149/149
+C-Metatron HP:879/879 MP:175/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Taown HP:709/709 MP:140/140
+C-Tam Lin HP:218/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Mokoi
+3-Metatron
+4-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:161/161 MP:31/31
+2-Kingu HP:464/464 MP:91/91
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kingu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:91/91
+C-Metatron HP:879/879 MP:175/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Taown HP:709/709 MP:140/140
+C-Tam Lin HP:218/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mokoi
+2-Metatron
+3-Joker
+4-Kingu
+----------------------------------------
+Seleccione una acción para Mokoi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mokoi
+1-Aleph HP:1309/1309 MP:613/613
+2-Taown HP:709/709 MP:140/140
+3-Tam Lin HP:218/218 MP:43/43
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Mokoi ataca a Taown
+Taown recibe 3 de daño
+Taown termina con HP:706/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:91/91
+C-Metatron HP:879/879 MP:175/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1309/1309 MP:613/613
+B-Taown HP:706/709 MP:140/140
+C-Tam Lin HP:218/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+4-Mokoi
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Holy Wrath MP:45
+2-Megidolaon MP:60
+3-Tarukaja MP:15
+4-Judgement Light MP:45
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron lanza un ataque todo poderoso a Aleph
+Aleph recibe 110 de daño
+Aleph termina con HP:1199/1309
+Metatron lanza un ataque todo poderoso a Taown
+Taown recibe 110 de daño
+Taown termina con HP:596/709
+Metatron lanza un ataque todo poderoso a Tam Lin
+Tam Lin recibe 110 de daño
+Tam Lin termina con HP:108/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:91/91
+C-Metatron HP:879/879 MP:130/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:108/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Kingu
+3-Mokoi
+4-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:155/155 MP:149/149
+2-Bilwis HP:161/161 MP:31/31
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:91/91
+C-Metatron HP:879/879 MP:130/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:108/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kingu
+2-Mokoi
+3-Metatron
+4-Joker
+----------------------------------------
+Seleccione una acción para Kingu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kingu use
+1-Zanma MP:8
+2-Recarmdra MP:2
+3-Shock MP:21
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kingu
+1-Aleph HP:1199/1309 MP:613/613
+2-Taown HP:596/709 MP:140/140
+3-Tam Lin HP:108/218 MP:43/43
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kingu lanza viento a Tam Lin
+Tam Lin recibe 73 de daño
+Tam Lin termina con HP:35/218
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:879/879 MP:130/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Taown
+3-Tam Lin
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:597/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:879/879 MP:130/175
+4-Mokoi HP:74/74 MP:36/36
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:879/879 MP:130/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+3-Aleph
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:879/879 MP:130/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tam Lin
+2-Aleph
+3-Taown
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:879/879 MP:130/175
+D-Mokoi HP:74/74 MP:36/36
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aleph
+2-Taown
+3-Tam Lin
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:597/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:879/879 MP:130/175
+4-Mokoi HP:74/74 MP:36/36
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Aleph dispara a Mokoi
+Mokoi recibe 276 de daño
+Mokoi termina con HP:0/74
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:879/879 MP:130/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:140/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+3-Aleph
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:597/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:879/879 MP:130/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 142 de daño
+Metatron termina con HP:737/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:737/879 MP:130/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:1199/1309 MP:613/613
+B-Taown HP:596/709 MP:129/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Holy Wrath MP:45
+2-Megidolaon MP:60
+3-Tarukaja MP:15
+4-Judgement Light MP:45
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Metatron ataca con luz a Aleph
+Aleph ha sido eliminado
+Aleph termina con HP:0/1309
+Metatron ataca con luz a Taown
+Taown bloquea el ataque de Metatron
+Taown termina con HP:596/709
+Metatron ataca con luz a Tam Lin
+Tam Lin bloquea el ataque de Metatron
+Tam Lin termina con HP:35/218
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:737/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:596/709 MP:129/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Kingu
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:155/155 MP:149/149
+2-Bilwis HP:161/161 MP:31/31
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Kingu HP:464/464 MP:83/91 (Puesto 2)
+2-Metatron HP:737/879 MP:85/175 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Bilwis HP:161/161 MP:31/31
+C-Metatron HP:737/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:596/709 MP:129/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:155/155 MP:149/149
+2-Kingu HP:464/464 MP:83/91
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kingu ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:737/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:596/709 MP:129/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:597/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:737/879 MP:85/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 54 de daño
+Metatron termina con HP:683/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:596/709 MP:129/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tam Lin
+2-Taown
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tam Lin use
+1-Hama MP:6
+2-Gram Slice MP:5
+3-Maragi MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tam Lin
+1-Joker HP:597/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:683/879 MP:85/175
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:596/709 MP:129/140
+C-Tam Lin HP:35/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Taown cura a Tam Lin
+Tam Lin recibe 109 de HP
+Tam Lin termina con HP:144/218
+Taown cura a Taown
+Taown recibe 354 de HP
+Taown termina con HP:709/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:709/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:709/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Kingu
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:709/709 MP:107/140
+2-Tam Lin HP:144/218 MP:43/43
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:681/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:681/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kingu
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Kingu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kingu
+1-Taown HP:681/709 MP:107/140
+2-Tam Lin HP:144/218 MP:43/43
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kingu ataca a Taown
+Taown recibe 34 de daño
+Taown termina con HP:647/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:647/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:647/709 MP:107/140
+2-Tam Lin HP:144/218 MP:43/43
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:579/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:579/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:579/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tam Lin
+2-Taown
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tam Lin use
+1-Hama MP:6
+2-Gram Slice MP:5
+3-Maragi MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tam Lin
+1-Joker HP:597/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:683/879 MP:85/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tam Lin ataca a Joker
+Joker recibe 14 de daño
+Joker termina con HP:583/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:683/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:579/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:683/879 MP:85/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 54 de daño
+Metatron termina con HP:629/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:579/709 MP:107/140
+C-Tam Lin HP:144/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:579/709 MP:107/140
+2-Tam Lin HP:144/218 MP:43/43
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Metatron ataca a Tam Lin
+Tam Lin recibe 68 de daño
+Tam Lin termina con HP:76/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:579/709 MP:107/140
+C-Tam Lin HP:76/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Kingu
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:579/709 MP:107/140
+2-Tam Lin HP:76/218 MP:43/43
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:551/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:551/709 MP:107/140
+C-Tam Lin HP:76/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kingu
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Kingu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kingu
+1-Taown HP:551/709 MP:107/140
+2-Tam Lin HP:76/218 MP:43/43
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kingu ataca a Tam Lin
+Tam Lin recibe 34 de daño
+Tam Lin termina con HP:42/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:464/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:551/709 MP:107/140
+C-Tam Lin HP:42/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:322/347
+2-Kingu HP:464/464 MP:83/91
+3-Metatron HP:629/879 MP:85/175
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Kingu
+Kingu recibe 142 de daño
+Taown ataca a Kingu
+Kingu recibe 142 de daño
+Taown ataca a Kingu
+Kingu recibe 142 de daño
+Kingu termina con HP:38/464
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:551/709 MP:96/140
+C-Tam Lin HP:42/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tam Lin
+2-Taown
+----------------------------------------
+Seleccione una acción para Tam Lin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:551/709 MP:96/140
+C-Tam Lin HP:42/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+2-Tam Lin
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:551/709 MP:96/140
+C-Tam Lin HP:42/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:551/709 MP:96/140
+C-Tam Lin HP:42/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Kingu
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:551/709 MP:96/140
+2-Tam Lin HP:42/218 MP:43/43
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:512/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:512/709 MP:96/140
+C-Tam Lin HP:42/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kingu
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Kingu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kingu
+1-Taown HP:512/709 MP:96/140
+2-Tam Lin HP:42/218 MP:43/43
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kingu ataca a Tam Lin
+Tam Lin recibe 34 de daño
+Tam Lin termina con HP:8/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:85/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:512/709 MP:96/140
+C-Tam Lin HP:8/218 MP:43/43
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Kingu
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Holy Wrath MP:45
+2-Megidolaon MP:60
+3-Tarukaja MP:15
+4-Judgement Light MP:45
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron lanza un ataque todo poderoso a Taown
+Taown recibe 110 de daño
+Taown termina con HP:402/709
+Metatron lanza un ataque todo poderoso a Tam Lin
+Tam Lin recibe 110 de daño
+Tam Lin termina con HP:0/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-Kingu HP:38/464 MP:83/91
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:402/709 MP:96/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:322/347
+2-Kingu HP:38/464 MP:83/91
+3-Metatron HP:629/879 MP:40/175
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Kingu
+Kingu recibe 54 de daño
+Kingu termina con HP:0/464
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:402/709 MP:96/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:402/709 MP:96/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:334/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:322/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:334/709 MP:96/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:334/709 MP:96/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:334/709 MP:96/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:334/709 MP:96/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Taown cura a Taown
+Taown recibe 354 de HP
+Taown termina con HP:688/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:688/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:688/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:688/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:660/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:660/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:660/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:592/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:629/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:592/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:297/347
+2-Metatron HP:629/879 MP:40/175
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 54 de daño
+Metatron termina con HP:575/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:592/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:155/155 MP:149/149
+2-Bilwis HP:161/161 MP:31/31
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:155/155 MP:149/149
+2-Bilwis HP:161/161 MP:31/31
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Bilwis ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Bilwis HP:161/161 MP:31/31
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:592/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:155/155 MP:149/149
+2-Metatron HP:575/879 MP:40/175
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Bilwis HP:161/161 MP:31/31 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Bai Suzhen ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Bilwis HP:161/161 MP:31/31
+D-Bai Suzhen HP:155/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:592/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Bai Suzhen
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Metatron HP:575/879 MP:40/175
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bilwis use
+1-Poison Claw MP:9
+2-Dia MP:5
+3-Lunge MP:6
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:592/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis ataca a Taown
+Taown recibe 34 de daño
+Taown termina con HP:558/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Bilwis HP:161/161 MP:25/31
+D-Bai Suzhen HP:155/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:558/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:297/347
+2-Bilwis HP:161/161 MP:25/31
+3-Bai Suzhen HP:155/155 MP:149/149
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:297/347
+2-Bilwis HP:161/161 MP:25/31
+3-Bai Suzhen HP:155/155 MP:149/149
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taown ataca a Bai Suzhen
+Bai Suzhen recibe 54 de daño
+Bai Suzhen termina con HP:101/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Bilwis HP:161/161 MP:25/31
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:558/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Bilwis HP:161/161 MP:25/31
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:558/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Bilwis
+3-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bai Suzhen use
+1-Zionga MP:8
+2-Binding Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bai Suzhen use
+1-Zionga MP:8
+2-Binding Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bai Suzhen use
+1-Zionga MP:8
+2-Binding Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bai Suzhen
+1-Taown HP:558/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bai Suzhen ataca a Taown
+Taown recibe 16 de daño
+Taown termina con HP:542/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Bilwis HP:161/161 MP:25/31
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:542/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Joker
+3-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Metatron HP:575/879 MP:40/175
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:542/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:542/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:514/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:514/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:161/161 MP:25/31
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:514/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:514/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:446/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:583/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:446/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:583/597 MP:297/347
+2-Metatron HP:575/879 MP:40/175
+3-Bai Suzhen HP:101/155 MP:149/149
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Taown ataca a Joker
+Joker recibe 54 de daño
+Joker termina con HP:529/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:446/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:446/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:446/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:446/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:418/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bai Suzhen HP:101/155 MP:149/149
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:418/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:161/161 MP:25/31
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bilwis HP:161/161 MP:25/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:418/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:418/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:350/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bilwis HP:161/161 MP:25/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:350/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:101/155 MP:149/149
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:350/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bilwis HP:161/161 MP:25/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:350/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:350/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bilwis use
+1-Poison Claw MP:9
+2-Dia MP:5
+3-Lunge MP:6
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:350/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis ataca a Taown
+Taown recibe 34 de daño
+Taown termina con HP:316/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:575/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:297/347
+2-Metatron HP:575/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 54 de daño
+Metatron termina con HP:521/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:101/155 MP:149/149
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:101/155 MP:149/149
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:316/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:316/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bai Suzhen HP:101/155 MP:149/149
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Metatron HP:521/879 MP:40/175 (Puesto 3)
+3-Bilwis HP:161/161 MP:19/31 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Bai Suzhen ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Bai Suzhen
+4-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bilwis use
+1-Poison Claw MP:9
+2-Dia MP:5
+3-Lunge MP:6
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:316/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Metatron
+2-Bai Suzhen
+3-Joker
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Joker
+3-Bilwis
+4-Metatron
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:316/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+4-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:316/709 MP:74/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:316/709 MP:74/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:277/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:521/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:74/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:297/347
+2-Bai Suzhen HP:101/155 MP:149/149
+3-Metatron HP:521/879 MP:40/175
+4-Bilwis HP:161/161 MP:19/31
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Taown lanza electricidad a Metatron
+Metatron es resistente el ataque de Taown
+Metatron recibe 56 de daño
+Metatron termina con HP:465/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:297/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Bilwis
+4-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:101/155 MP:149/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Bilwis
+3-Metatron
+4-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bai Suzhen use
+1-Zionga MP:8
+2-Binding Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bai Suzhen
+1-Taown HP:277/709 MP:60/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bai Suzhen lanza electricidad a Taown
+Taown devuelve 70 daño a Bai Suzhen
+Bai Suzhen termina con HP:31/155
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:277/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:277/709 MP:60/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:209/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:209/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Bilwis
+4-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:209/709 MP:60/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:170/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:170/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Bilwis
+3-Metatron
+4-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:170/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+4-Bai Suzhen
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:170/709 MP:60/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:170/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:170/709 MP:60/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:102/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:102/709 MP:60/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Bai Suzhen HP:31/155 MP:141/149
+3-Metatron HP:465/879 MP:40/175
+4-Bilwis HP:161/161 MP:19/31
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Taown cura a Taown
+Taown recibe 354 de HP
+Taown termina con HP:456/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:456/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bai Suzhen
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:456/709 MP:38/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:456/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:388/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:388/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bai Suzhen
+3-Bilwis
+4-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:388/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:349/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-Bai Suzhen HP:31/155 MP:141/149
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:349/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bai Suzhen
+2-Bilwis
+3-Metatron
+4-Joker
+----------------------------------------
+Seleccione una acción para Bai Suzhen
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bai Suzhen use
+1-Zionga MP:8
+2-Binding Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bai Suzhen
+1-Taown HP:349/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bai Suzhen lanza electricidad a Taown
+Taown devuelve 70 daño a Bai Suzhen
+Bai Suzhen termina con HP:0/155
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:349/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Metatron HP:465/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:465/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:349/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Metatron HP:465/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Metatron HP:465/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Metatron HP:465/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Metatron HP:465/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 54 de daño
+Metatron termina con HP:411/879
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:349/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:349/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:349/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bilwis use
+1-Poison Claw MP:9
+2-Dia MP:5
+3-Lunge MP:6
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:349/709 MP:38/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:349/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis ataca a Taown
+Taown recibe 8 de daño
+Taown termina con HP:341/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:341/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:341/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:529/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:341/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:529/597 MP:272/347
+2-Metatron HP:411/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Taown ataca a Joker
+Joker recibe 54 de daño
+Joker termina con HP:475/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:341/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:341/709 MP:38/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:341/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:273/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:273/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:273/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:234/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:234/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:234/709 MP:38/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis ataca a Taown
+Taown recibe 8 de daño
+Taown termina con HP:226/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:272/347
+B-
+C-Metatron HP:411/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:226/709 MP:38/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:475/597 MP:272/347
+2-Metatron HP:411/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 142 de daño
+Metatron termina con HP:269/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:272/347
+B-
+C-Metatron HP:269/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:226/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:226/709 MP:27/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:158/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:272/347
+B-
+C-Metatron HP:269/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:269/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:269/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:158/709 MP:27/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:269/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:475/597 MP:247/347
+2-Metatron HP:269/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 54 de daño
+Metatron termina con HP:215/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:158/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:158/709 MP:27/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Taown HP:158/709 MP:27/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Metatron ataca a Taown
+Taown recibe 68 de daño
+Taown termina con HP:90/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:247/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:475/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:27/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:475/597 MP:222/347
+2-Metatron HP:215/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Taown lanza electricidad a Joker
+Joker recibe 113 de daño
+Joker termina con HP:362/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:13/140
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Metatron use
+1-Tarukaja MP:15
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:13/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:13/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Metatron
+3-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:13/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Metatron
+2-Joker
+3-Bilwis
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:222/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:13/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+3-Metatron
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:90/709 MP:13/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:90/709 MP:13/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:197/347
+B-
+C-Metatron HP:215/879 MP:40/175
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:13/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:362/597 MP:197/347
+2-Metatron HP:215/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Madness Needle MP:11
+2-Nihil Claw MP:11
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:362/597 MP:197/347
+2-Metatron HP:215/879 MP:40/175
+3-Bilwis HP:161/161 MP:19/31
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Taown ataca a Metatron
+Metatron recibe 142 de daño
+Taown ataca a Metatron
+Metatron recibe 142 de daño
+Taown ataca a Metatron
+Metatron recibe 142 de daño
+Metatron termina con HP:0/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bilwis
+2-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:90/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:90/709 MP:2/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:90/709 MP:2/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:62/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:62/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:362/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:62/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Taown
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Taown use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:362/597 MP:197/347
+2-Bilwis HP:161/161 MP:19/31
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Taown ataca a Joker
+Joker recibe 54 de daño
+Joker termina con HP:308/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:308/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:62/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:62/709 MP:2/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Taown
+Taown recibe 28 de daño
+Taown termina con HP:34/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:308/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:34/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Joker
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bilwis use
+1-Poison Claw MP:9
+2-Dia MP:5
+3-Lunge MP:6
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:34/709 MP:2/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Taown HP:34/709 MP:2/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:308/597 MP:197/347
+B-
+C-
+D-Bilwis HP:161/161 MP:19/31
+Equipo de Aleph (J2)
+A-Aleph HP:0/1309 MP:613/613
+B-Taown HP:34/709 MP:2/140
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Bilwis
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:34/709 MP:2/140
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Gather Spirit Energy MP:25
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Taown HP:34/709 MP:2/140
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:0/709
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Joker (J1)

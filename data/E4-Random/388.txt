@@ -1,0 +1,4 @@
+Player 1 Team
+[Samurai] Aleph (Luster Candy)
+Player 2 Team
+[Samurai] Aleph (Charge,Megido,Dark Energy)

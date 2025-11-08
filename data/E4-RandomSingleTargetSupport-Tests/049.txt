@@ -1,0 +1,2893 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 48
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Hachiman HP:851/851 MP:170/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Jarilo HP:497/497 MP:223/223
+C-Vivian HP:319/319 MP:310/310
+D-Goblin HP:322/322 MP:63/63
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Hachiman HP:851/851 MP:170/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Jarilo HP:497/497 MP:223/223
+C-Vivian HP:319/319 MP:310/310
+D-Goblin HP:322/322 MP:63/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:971/971 MP:527/527
+2-Jarilo HP:497/497 MP:223/223
+3-Vivian HP:319/319 MP:310/310
+4-Goblin HP:322/322 MP:63/63
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Hachiman HP:851/851 MP:170/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Jarilo HP:497/497 MP:223/223
+C-Vivian HP:319/319 MP:310/310
+D-Goblin HP:322/322 MP:63/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Hachiman HP:851/851 MP:170/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Jarilo HP:497/497 MP:223/223
+C-Vivian HP:319/319 MP:310/310
+D-Goblin HP:322/322 MP:63/63
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Python
+3-Hachiman
+4-Raphael
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Hachiman HP:851/851 MP:170/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Jarilo HP:497/497 MP:223/223
+C-Vivian HP:319/319 MP:310/310
+D-Goblin HP:322/322 MP:63/63
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:971/971 MP:527/527
+2-Jarilo HP:497/497 MP:223/223
+3-Vivian HP:319/319 MP:310/310
+4-Goblin HP:322/322 MP:63/63
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Python lanza electricidad a Flynn
+Flynn recibe 135 de daño
+Flynn termina con HP:836/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:272/286
+C-Hachiman HP:851/851 MP:170/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:836/971 MP:527/527
+B-Jarilo HP:497/497 MP:223/223
+C-Vivian HP:319/319 MP:310/310
+D-Goblin HP:322/322 MP:63/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hachiman use
+1-Maziodyne MP:32
+2-Tetrakarn MP:50
+3-Berserker God MP:12
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hachiman lanza electricidad a Flynn
+Flynn recibe 115 de daño
+Flynn termina con HP:721/971
+Hachiman lanza electricidad a Jarilo
+Jarilo recibe 115 de daño
+Jarilo termina con HP:382/497
+Hachiman lanza electricidad a Vivian
+Vivian recibe 115 de daño
+Vivian termina con HP:204/319
+Hachiman lanza electricidad a Goblin
+Goblin es débil contra el ataque de Hachiman
+Goblin recibe 173 de daño
+Goblin termina con HP:149/322
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Jarilo HP:382/497 MP:223/223
+C-Vivian HP:204/319 MP:310/310
+D-Goblin HP:149/322 MP:63/63
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Flynn HP:721/971 MP:527/527
+2-Jarilo HP:382/497 MP:223/223
+3-Vivian HP:204/319 MP:310/310
+4-Goblin HP:149/322 MP:63/63
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Jarilo
+Jarilo recibe 52 de daño
+Jarilo termina con HP:330/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Jarilo HP:330/497 MP:223/223
+C-Vivian HP:204/319 MP:310/310
+D-Goblin HP:149/322 MP:63/63
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Jarilo
+3-Vivian
+4-Goblin
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Illuyanka HP:427/427 MP:192/192
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Camazotz HP:180/180 MP:35/35
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Jarilo HP:330/497 MP:223/223 (Puesto 2)
+2-Vivian HP:204/319 MP:310/310 (Puesto 3)
+3-Goblin HP:149/322 MP:63/63 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Illuyanka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Illuyanka HP:427/427 MP:192/192
+C-Vivian HP:204/319 MP:310/310
+D-Goblin HP:149/322 MP:63/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Illuyanka
+2-Vivian
+3-Goblin
+4-Flynn
+----------------------------------------
+Seleccione una acción para Illuyanka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Camazotz HP:180/180 MP:35/35
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Gu Huo Niao ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Goblin HP:149/322 MP:63/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vivian
+2-Goblin
+3-Flynn
+4-Gu Huo Niao
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Goblin HP:149/322 MP:63/63
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Goblin
+2-Flynn
+3-Gu Huo Niao
+4-Vivian
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Goblin
+1-Yu HP:597/597 MP:347/347
+2-Python HP:637/637 MP:272/286
+3-Hachiman HP:851/851 MP:138/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Goblin ataca a Python
+Python recibe 22 de daño
+Python termina con HP:615/637
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:615/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Goblin HP:149/322 MP:63/63
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Gu Huo Niao
+3-Vivian
+4-Goblin
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Illuyanka HP:427/427 MP:192/192
+3-Camazotz HP:180/180 MP:35/35
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Illuyanka HP:427/427 MP:192/192
+3-Camazotz HP:180/180 MP:35/35
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Gu Huo Niao HP:122/122 MP:117/117 (Puesto 2)
+2-Vivian HP:204/319 MP:310/310 (Puesto 3)
+3-Goblin HP:149/322 MP:63/63 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:615/637 MP:272/286
+C-Hachiman HP:851/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Gu Huo Niao
+2-Vivian
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Gu Huo Niao
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gu Huo Niao
+1-Yu HP:597/597 MP:347/347
+2-Python HP:615/637 MP:272/286
+3-Hachiman HP:851/851 MP:138/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Gu Huo Niao ataca a Hachiman
+Hachiman recibe 12 de daño
+Hachiman termina con HP:839/851
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:615/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vivian
+2-Camazotz
+3-Flynn
+4-Gu Huo Niao
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Goblin HP:149/322 MP:63/63
+3-Illuyanka HP:427/427 MP:192/192
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Vivian
+1-Yu HP:597/597 MP:347/347
+2-Python HP:615/637 MP:272/286
+3-Hachiman HP:839/851 MP:138/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Vivian ataca a Python
+Python recibe 33 de daño
+Python termina con HP:582/637
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hachiman use
+1-Maziodyne MP:32
+2-Tetrakarn MP:50
+3-Berserker God MP:12
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:204/319 MP:310/310
+4-Camazotz HP:180/180 MP:35/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Python
+3-Hachiman
+4-Raphael
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:204/319 MP:310/310
+4-Camazotz HP:180/180 MP:35/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:204/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:204/319 MP:310/310
+4-Camazotz HP:180/180 MP:35/35
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Python ataca a Vivian
+Vivian recibe 53 de daño
+Vivian termina con HP:151/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:138/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:180/180 MP:35/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hachiman use
+1-Maziodyne MP:32
+2-Tetrakarn MP:50
+3-Berserker God MP:12
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hachiman use
+1-Maziodyne MP:32
+2-Tetrakarn MP:50
+3-Berserker God MP:12
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:151/319 MP:310/310
+4-Camazotz HP:180/180 MP:35/35
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Hachiman ataca a Camazotz
+Camazotz recibe 163 de daño
+Camazotz termina con HP:17/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:17/180 MP:35/35
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Vivian
+3-Gu Huo Niao
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:597/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:839/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:839/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:17/180 MP:35/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Gu Huo Niao
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Vivian
+1-Yu HP:597/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:839/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Vivian ataca a Hachiman
+Hachiman recibe 33 de daño
+Hachiman termina con HP:806/851
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:17/180 MP:35/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gu Huo Niao
+2-Camazotz
+3-Flynn
+4-Vivian
+----------------------------------------
+Seleccione una acción para Gu Huo Niao
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gu Huo Niao
+1-Yu HP:597/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:806/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Gu Huo Niao ataca a Yu
+Yu es resistente el ataque de Gu Huo Niao
+Yu recibe 6 de daño
+Yu termina con HP:591/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:591/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:17/180 MP:35/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+3-Vivian
+4-Gu Huo Niao
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Yu HP:591/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:806/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz lanza un ataque todo poderoso a Yu
+El ataque drena 20 HP de Yu
+Yu termina con HP:571/597
+Camazotz termina con HP:37/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:571/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Vivian
+3-Gu Huo Niao
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Goblin HP:149/322 MP:63/63
+3-Illuyanka HP:427/427 MP:192/192
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:571/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:806/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Yu
+Yu es resistente el ataque de Flynn
+Yu recibe 44 de daño
+Yu termina con HP:527/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:151/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:151/319 MP:310/310
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Hachiman ataca a Vivian
+Vivian recibe 65 de daño
+Vivian termina con HP:86/319
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Python
+3-Hachiman
+4-Raphael
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Dark Energy MP:25
+2-Damascus Claw MP:7
+3-Fatal Sword MP:8
+4-Life Drain MP:5
+5-Mazandyne MP:32
+6-Sabbatma MP:20
+7-Glacial Blast MP:22
+8-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:721/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:86/319 MP:310/310
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:86/319 MP:310/310
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:721/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Vivian HP:86/319 MP:310/310
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Python ataca a Flynn
+Flynn recibe 53 de daño
+Flynn termina con HP:668/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Vivian
+3-Gu Huo Niao
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Vivian HP:86/319 MP:310/310
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Gu Huo Niao
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Goblin HP:149/322 MP:63/63
+3-Illuyanka HP:427/427 MP:192/192
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Goblin ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gu Huo Niao
+2-Camazotz
+3-Flynn
+4-Goblin
+----------------------------------------
+Seleccione una acción para Gu Huo Niao
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:527/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+3-Goblin
+4-Gu Huo Niao
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Yu HP:527/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:806/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ataca a Yu
+Yu es resistente el ataque de Camazotz
+Yu recibe 5 de daño
+Yu termina con HP:522/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:623/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Goblin
+3-Gu Huo Niao
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:522/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:806/851 MP:126/170
+4-Raphael HP:623/623 MP:279/279
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Flynn dispara a Raphael
+Raphael recibe 110 de daño
+Raphael termina con HP:513/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:513/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Goblin
+2-Gu Huo Niao
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Vivian HP:86/319 MP:310/310
+3-Illuyanka HP:427/427 MP:192/192
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Goblin
+1-Yu HP:522/597 MP:347/347
+2-Python HP:582/637 MP:272/286
+3-Hachiman HP:806/851 MP:126/170
+4-Raphael HP:513/623 MP:279/279
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Goblin ataca a Raphael
+Raphael recibe 22 de daño
+Raphael termina con HP:491/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:272/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:668/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:668/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Goblin HP:149/322 MP:63/63
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Python lanza hielo a Flynn
+Flynn recibe 135 de daño
+Flynn termina con HP:533/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:533/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hachiman use
+1-Maziodyne MP:32
+2-Tetrakarn MP:50
+3-Berserker God MP:12
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:533/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Goblin HP:149/322 MP:63/63
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Hachiman ataca a Flynn
+Flynn recibe 65 de daño
+Flynn termina con HP:468/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:468/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:468/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Python
+3-Hachiman
+4-Raphael
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:468/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Goblin HP:149/322 MP:63/63
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:468/971 MP:527/527
+2-Gu Huo Niao HP:122/122 MP:117/117
+3-Goblin HP:149/322 MP:63/63
+4-Camazotz HP:37/180 MP:30/35
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca a Flynn
+Flynn recibe 49 de daño
+Flynn termina con HP:419/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:419/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:126/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:419/971 MP:527/527
+B-Gu Huo Niao HP:122/122 MP:117/117
+C-Goblin HP:149/322 MP:63/63
+D-Camazotz HP:37/180 MP:30/35
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hachiman use
+1-Maziodyne MP:32
+2-Tetrakarn MP:50
+3-Berserker God MP:12
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hachiman lanza electricidad a Flynn
+Flynn recibe 115 de daño
+Flynn termina con HP:304/971
+Hachiman lanza electricidad a Gu Huo Niao
+Gu Huo Niao recibe 115 de daño
+Gu Huo Niao termina con HP:7/122
+Hachiman lanza electricidad a Goblin
+Goblin es débil contra el ataque de Hachiman
+Goblin recibe 173 de daño
+Goblin termina con HP:0/322
+Hachiman lanza electricidad a Camazotz
+Camazotz recibe 115 de daño
+Camazotz termina con HP:0/180
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:527/527
+B-Gu Huo Niao HP:7/122 MP:117/117
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Gu Huo Niao
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Charge MP:9
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Gu Huo Niao HP:7/122 MP:117/117
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gu Huo Niao
+2-Flynn
+----------------------------------------
+Seleccione una acción para Gu Huo Niao
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:330/497 MP:223/223
+2-Vivian HP:86/319 MP:310/310
+3-Illuyanka HP:427/427 MP:192/192
+4-Lailah HP:212/212 MP:205/205
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Vivian ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Vivian HP:86/319 MP:310/310
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Vivian
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Vivian HP:86/319 MP:310/310
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:304/971 MP:518/527
+2-Vivian HP:86/319 MP:310/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Vivian HP:86/319 MP:310/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:304/971 MP:518/527
+2-Vivian HP:86/319 MP:310/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Hachiman ataca a Vivian
+Vivian recibe 65 de daño
+Vivian termina con HP:21/319
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Vivian HP:21/319 MP:310/310
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Flynn HP:304/971 MP:518/527
+2-Vivian HP:21/319 MP:310/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Flynn HP:304/971 MP:518/527
+2-Vivian HP:21/319 MP:310/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Vivian HP:21/319 MP:310/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Python
+3-Hachiman
+4-Raphael
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-Vivian HP:21/319 MP:310/310
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:304/971 MP:518/527
+2-Vivian HP:21/319 MP:310/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Python ataca a Vivian
+Vivian recibe 53 de daño
+Vivian termina con HP:0/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:304/971 MP:518/527
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hachiman
+1-Flynn HP:304/971 MP:518/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Hachiman ataca a Flynn
+Flynn recibe 65 de daño
+Flynn termina con HP:239/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:582/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:239/971 MP:518/527
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:522/597 MP:347/347
+2-Python HP:582/637 MP:258/286
+3-Hachiman HP:806/851 MP:94/170
+4-Raphael HP:491/623 MP:279/279
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Python
+Python recibe 220 de daño
+Python termina con HP:362/637
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:362/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:239/971 MP:518/527
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Hachiman
+3-Raphael
+4-Yu
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Python
+1-Flynn HP:239/971 MP:518/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:362/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:239/971 MP:518/527
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hachiman
+2-Raphael
+3-Yu
+4-Python
+----------------------------------------
+Seleccione una acción para Hachiman
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:362/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:239/971 MP:518/527
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Yu
+3-Python
+4-Hachiman
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:522/597 MP:347/347
+B-Python HP:362/637 MP:258/286
+C-Hachiman HP:806/851 MP:94/170
+D-Raphael HP:491/623 MP:279/279
+Equipo de Flynn (J2)
+A-Flynn HP:239/971 MP:518/527
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Python
+3-Hachiman
+4-Raphael
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:239/971 MP:518/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:239/971 MP:518/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Dark Energy MP:25
+2-Damascus Claw MP:7
+3-Fatal Sword MP:8
+4-Life Drain MP:5
+5-Mazandyne MP:32
+6-Sabbatma MP:20
+7-Glacial Blast MP:22
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:239/971 MP:518/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca a Flynn
+Flynn recibe 105 de daño
+Yu ataca a Flynn
+Flynn recibe 105 de daño
+Yu ataca a Flynn
+Flynn recibe 105 de daño
+Flynn termina con HP:0/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Yu (J1)

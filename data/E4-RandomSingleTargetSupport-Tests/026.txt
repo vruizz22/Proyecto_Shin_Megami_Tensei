@@ -1,0 +1,4024 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 25
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:258/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:658/658 MP:296/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:315/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:388/388 MP:193/193
+2-Michizane HP:658/658 MP:296/296
+3-Jarilo HP:497/497 MP:223/223
+4-Tlazolteotl HP:315/315 MP:306/306
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki ataca a Michizane
+Michizane recibe 45 de daño
+Michizane termina con HP:613/658
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:258/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:296/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:315/315 MP:306/306
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Itsuki
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:258/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:296/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:315/315 MP:306/306
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:388/388 MP:193/193
+2-Michizane HP:613/658 MP:296/296
+3-Jarilo HP:497/497 MP:223/223
+4-Tlazolteotl HP:315/315 MP:306/306
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki dispara a Tlazolteotl
+Tlazolteotl recibe 61 de daño
+Tlazolteotl termina con HP:254/315
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:258/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:296/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Jarilo
+3-Tlazolteotl
+4-Tadano
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Michizane use
+1-Thunder Reign MP:22
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Concentrate MP:11
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:1136/1136 MP:413/413
+2-Ishtar HP:258/258 MP:251/251
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Michizane use
+1-Thunder Reign MP:22
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Concentrate MP:11
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Michizane dispara a Itsuki
+Itsuki recibe 127 de daño
+Itsuki termina con HP:1009/1136
+Michizane dispara a Ishtar
+Ishtar recibe 127 de daño
+Ishtar termina con HP:131/258
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:270/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tlazolteotl
+3-Tadano
+4-Michizane
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jarilo use
+1-Diarahan MP:16
+2-Madness Needle MP:11
+3-Trafuri MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:270/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlazolteotl
+2-Tadano
+3-Michizane
+4-Jarilo
+----------------------------------------
+Seleccione una acción para Tlazolteotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:270/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Michizane
+3-Jarilo
+4-Tlazolteotl
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Michizane HP:613/658 MP:270/296
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Michizane
+2-Jarilo
+3-Tlazolteotl
+4-Tadano
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Spriggan HP:147/147 MP:66/66
+2-Xi Wangmu HP:418/418 MP:405/405
+3-Fortuna HP:147/147 MP:66/66
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Ometeotl HP:324/324 MP:315/315
+C-Jarilo HP:497/497 MP:223/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tlazolteotl
+3-Tadano
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:613/658 MP:270/296
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:418/418 MP:405/405
+4-Fortuna HP:147/147 MP:66/66
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jarilo use
+1-Diarahan MP:16
+2-Madness Needle MP:11
+3-Trafuri MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Tadano HP:388/388 MP:193/193
+2-Ometeotl HP:324/324 MP:315/315
+3-Jarilo HP:497/497 MP:223/223
+4-Tlazolteotl HP:254/315 MP:306/306
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Jarilo cura a Jarilo
+Jarilo recibe 497 de HP
+Jarilo termina con HP:497/497
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Ometeotl HP:324/324 MP:315/315
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:388/388 MP:193/193
+2-Ometeotl HP:324/324 MP:315/315
+3-Jarilo HP:497/497 MP:207/223
+4-Tlazolteotl HP:254/315 MP:306/306
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki ataca a Ometeotl
+Ometeotl recibe 45 de daño
+Ometeotl termina con HP:279/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Ometeotl HP:279/324 MP:315/315
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Itsuki
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Ometeotl HP:279/324 MP:315/315
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:131/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Ometeotl HP:279/324 MP:315/315
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Ometeotl
+3-Tlazolteotl
+4-Tadano
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:1009/1136 MP:413/413
+2-Ishtar HP:131/258 MP:251/251
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:1009/1136 MP:413/413
+2-Ishtar HP:131/258 MP:251/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Jarilo ataca a Ishtar
+Ishtar recibe 41 de daño
+Ishtar termina con HP:90/258
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Ometeotl HP:279/324 MP:315/315
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Tlazolteotl
+3-Tadano
+4-Jarilo
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:613/658 MP:270/296
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:418/418 MP:405/405
+4-Fortuna HP:147/147 MP:66/66
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:613/658 MP:270/296
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:418/418 MP:405/405
+4-Fortuna HP:147/147 MP:66/66
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Fortuna ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlazolteotl
+2-Tadano
+3-Jarilo
+4-Fortuna
+----------------------------------------
+Seleccione una acción para Tlazolteotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1009/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Jarilo
+3-Fortuna
+4-Tlazolteotl
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:1009/1136 MP:413/413
+2-Ishtar HP:90/258 MP:251/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano ataca a Itsuki
+Itsuki recibe 16 de daño
+Itsuki termina con HP:993/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:993/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Fortuna
+3-Tlazolteotl
+4-Tadano
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:993/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Fortuna
+2-Tlazolteotl
+3-Tadano
+4-Jarilo
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:993/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:254/315 MP:306/306
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:388/388 MP:193/193
+2-Fortuna HP:147/147 MP:66/66
+3-Jarilo HP:497/497 MP:207/223
+4-Tlazolteotl HP:254/315 MP:306/306
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki ataca a Tlazolteotl
+Tlazolteotl recibe 45 de daño
+Tlazolteotl termina con HP:209/315
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:993/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:209/315 MP:306/306
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Itsuki
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:993/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:209/315 MP:306/306
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:388/388 MP:193/193
+2-Fortuna HP:147/147 MP:66/66
+3-Jarilo HP:497/497 MP:207/223
+4-Tlazolteotl HP:209/315 MP:306/306
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki dispara a Tlazolteotl
+Tlazolteotl recibe 61 de daño
+Tlazolteotl termina con HP:148/315
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:993/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:148/315 MP:306/306
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tlazolteotl
+3-Tadano
+4-Fortuna
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:993/1136 MP:413/413
+2-Ishtar HP:90/258 MP:251/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Jarilo ataca a Itsuki
+Itsuki recibe 41 de daño
+Itsuki termina con HP:952/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-Tlazolteotl HP:148/315 MP:306/306
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlazolteotl
+2-Tadano
+3-Fortuna
+4-Jarilo
+----------------------------------------
+Seleccione una acción para Tlazolteotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlazolteotl use
+1-Mabufula MP:20
+2-Posumudi MP:5
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Tlazolteotl cura a Tadano
+Tadano recibe 194 de HP
+Tadano termina con HP:388/388
+Tlazolteotl cura a Fortuna
+Fortuna recibe 73 de HP
+Fortuna termina con HP:147/147
+Tlazolteotl cura a Jarilo
+Jarilo recibe 248 de HP
+Jarilo termina con HP:497/497
+Tlazolteotl cura a Michizane
+Michizane recibe 329 de HP
+Michizane termina con HP:658/658
+Tlazolteotl cura a Spriggan
+Spriggan recibe 73 de HP
+Spriggan termina con HP:147/147
+Tlazolteotl cura a Xi Wangmu
+Xi Wangmu recibe 209 de HP
+Xi Wangmu termina con HP:418/418
+Tlazolteotl cura a Ometeotl
+Ometeotl recibe 162 de HP
+Ometeotl termina con HP:324/324
+Tlazolteotl termina con HP:0/315
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:90/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Jarilo
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Gather Spirit Energy MP:25
+2-Critical Wave MP:10
+3-Agidyne MP:14
+4-Plasma Discharge MP:22
+5-Needle Shot MP:4
+6-Sea of Chaos MP:45
+7-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:952/1136 MP:413/413
+2-Ishtar HP:90/258 MP:251/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Tadano dispara a Ishtar
+Ishtar recibe 41 de daño
+Ishtar termina con HP:49/258
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:49/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Jarilo
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:49/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:49/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:49/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Itsuki
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:49/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:388/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Gather Spirit Energy MP:25
+2-Ice Breath MP:21
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:388/388 MP:189/193
+2-Fortuna HP:147/147 MP:66/66
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tadano
+Tadano recibe 61 de daño
+Tadano termina con HP:327/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:49/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:327/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:952/1136 MP:413/413
+2-Ishtar HP:49/258 MP:251/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Jarilo ataca a Ishtar
+Ishtar recibe 41 de daño
+Ishtar termina con HP:8/258
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:952/1136 MP:413/413
+B-Ishtar HP:8/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:327/388 MP:189/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Jarilo
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Gather Spirit Energy MP:25
+2-Critical Wave MP:10
+3-Agidyne MP:14
+4-Plasma Discharge MP:22
+5-Needle Shot MP:4
+6-Sea of Chaos MP:45
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Tadano lanza electricidad a Itsuki
+Itsuki absorbe 83 daño
+Tadano lanza electricidad a Itsuki
+Itsuki absorbe 83 daño
+Tadano lanza electricidad a Itsuki
+Itsuki absorbe 83 daño
+Itsuki termina con HP:1136/1136
+Tadano lanza electricidad a Ishtar
+Ishtar absorbe 83 daño
+Tadano lanza electricidad a Ishtar
+Ishtar absorbe 83 daño
+Ishtar termina con HP:174/258
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:327/388 MP:167/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:327/388 MP:167/193
+2-Fortuna HP:147/147 MP:66/66
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:327/388 MP:167/193
+2-Fortuna HP:147/147 MP:66/66
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:327/388 MP:167/193
+2-Fortuna HP:147/147 MP:66/66
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tadano
+Tadano recibe 61 de daño
+Tadano termina con HP:266/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:266/388 MP:167/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Itsuki
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:266/388 MP:167/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Gather Spirit Energy MP:25
+2-Ice Breath MP:21
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki lanza hielo a Tadano
+Tadano recibe 108 de daño
+Tadano termina con HP:158/388
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:392/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:167/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:392/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:167/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Jarilo
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:392/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:167/193
+B-Fortuna HP:147/147 MP:66/66
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Jarilo
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:418/418 MP:405/405
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1136/1136 MP:392/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:167/193
+B-Xi Wangmu HP:418/418 MP:405/405
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Jarilo
+2-Tadano
+3-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jarilo use
+1-Diarahan MP:16
+2-Madness Needle MP:11
+3-Trafuri MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:1136/1136 MP:392/413
+2-Ishtar HP:174/258 MP:251/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Jarilo ataca a Itsuki
+Itsuki recibe 41 de daño
+Itsuki termina con HP:1095/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1095/1136 MP:392/413
+B-Ishtar HP:174/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:167/193
+B-Xi Wangmu HP:418/418 MP:405/405
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Xi Wangmu
+3-Jarilo
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Gather Spirit Energy MP:25
+2-Critical Wave MP:10
+3-Agidyne MP:14
+4-Plasma Discharge MP:22
+5-Needle Shot MP:4
+6-Sea of Chaos MP:45
+7-Cancelar
+INPUT: 6
+----------------------------------------
+Tadano lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 66 de daño
+Itsuki termina con HP:1029/1136
+Tadano lanza un ataque todo poderoso a Ishtar
+Ishtar recibe 66 de daño
+Ishtar termina con HP:108/258
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1029/1136 MP:392/413
+B-Ishtar HP:108/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:418/418 MP:405/405
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:158/388 MP:122/193
+2-Xi Wangmu HP:418/418 MP:405/405
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki ataca a Xi Wangmu
+Xi Wangmu recibe 45 de daño
+Xi Wangmu termina con HP:373/418
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1029/1136 MP:392/413
+B-Ishtar HP:108/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:405/405
+C-Jarilo HP:497/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Itsuki
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Tadano HP:158/388 MP:122/193
+2-Xi Wangmu HP:373/418 MP:405/405
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Tadano HP:158/388 MP:122/193
+2-Xi Wangmu HP:373/418 MP:405/405
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Tadano HP:158/388 MP:122/193
+2-Xi Wangmu HP:373/418 MP:405/405
+3-Jarilo HP:497/497 MP:207/223
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Ishtar ataca a Jarilo
+Jarilo recibe 27 de daño
+Jarilo termina con HP:470/497
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1029/1136 MP:392/413
+B-Ishtar HP:108/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:405/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Xi Wangmu
+3-Tadano
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:1029/1136 MP:392/413
+B-Ishtar HP:108/258 MP:251/251
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:405/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Tadano
+3-Jarilo
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu dispara a Itsuki
+Itsuki recibe 150 de daño
+Itsuki termina con HP:879/1136
+Xi Wangmu dispara a Ishtar
+Ishtar recibe 150 de daño
+Ishtar termina con HP:0/258
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:879/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:375/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Jarilo
+3-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:879/1136 MP:392/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Itsuki
+Itsuki recibe 20 de daño
+Itsuki termina con HP:859/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:859/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:375/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Xi Wangmu
+3-Tadano
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jarilo use
+1-Diarahan MP:16
+2-Madness Needle MP:11
+3-Trafuri MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:859/1136 MP:392/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:859/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:375/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Tadano
+3-Jarilo
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Itsuki HP:859/1136 MP:392/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu dispara a Itsuki
+Itsuki recibe 150 de daño
+Xi Wangmu dispara a Itsuki
+Itsuki recibe 150 de daño
+Xi Wangmu dispara a Itsuki
+Itsuki recibe 150 de daño
+Itsuki termina con HP:409/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:409/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:158/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:345/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:158/388 MP:122/193
+2-Xi Wangmu HP:373/418 MP:345/405
+3-Jarilo HP:470/497 MP:207/223
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tadano
+Tadano recibe 61 de daño
+Tadano termina con HP:97/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:409/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:345/405
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Xi Wangmu
+3-Tadano
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jarilo use
+1-Diarahan MP:16
+2-Madness Needle MP:11
+3-Trafuri MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Spriggan HP:147/147 MP:66/66
+3-Fortuna HP:147/147 MP:66/66
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Fortuna ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:409/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:122/193
+B-Xi Wangmu HP:373/418 MP:345/405
+C-Fortuna HP:147/147 MP:66/66
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Itsuki HP:409/1136 MP:392/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Itsuki HP:409/1136 MP:392/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Spriggan HP:147/147 MP:66/66
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Michizane ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:409/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:122/193
+B-Michizane HP:658/658 MP:270/296
+C-Fortuna HP:147/147 MP:66/66
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Michizane
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:409/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:122/193
+B-Michizane HP:658/658 MP:270/296
+C-Fortuna HP:147/147 MP:66/66
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Fortuna
+2-Michizane
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Fortuna use
+1-Zan MP:5
+2-Media MP:12
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Fortuna
+1-Itsuki HP:409/1136 MP:392/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Fortuna lanza viento a Itsuki
+Itsuki recibe 35 de daño
+Itsuki termina con HP:374/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:374/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:122/193
+B-Michizane HP:658/658 MP:270/296
+C-Fortuna HP:147/147 MP:61/66
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:374/1136 MP:392/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:374/1136 MP:392/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:470/497 MP:207/223
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:373/418 MP:345/405
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:374/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:122/193
+B-Ometeotl HP:324/324 MP:315/315
+C-Fortuna HP:147/147 MP:61/66
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Ometeotl
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Gather Spirit Energy MP:25
+2-Critical Wave MP:10
+3-Agidyne MP:14
+4-Plasma Discharge MP:22
+5-Needle Shot MP:4
+6-Sea of Chaos MP:45
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:374/1136 MP:392/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:97/193
+B-Ometeotl HP:324/324 MP:315/315
+C-Fortuna HP:147/147 MP:61/66
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Gather Spirit Energy MP:25
+2-Ice Breath MP:21
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:374/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:97/193
+B-Ometeotl HP:324/324 MP:315/315
+C-Fortuna HP:147/147 MP:61/66
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Spriggan HP:147/147 MP:66/66
+4-Xi Wangmu HP:373/418 MP:345/405
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Spriggan HP:147/147 MP:66/66
+4-Xi Wangmu HP:373/418 MP:345/405
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Spriggan ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:374/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:97/193
+B-Spriggan HP:147/147 MP:66/66
+C-Fortuna HP:147/147 MP:61/66
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Spriggan
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Gather Spirit Energy MP:25
+2-Critical Wave MP:10
+3-Agidyne MP:14
+4-Plasma Discharge MP:22
+5-Needle Shot MP:4
+6-Sea of Chaos MP:45
+7-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:374/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Itsuki
+Itsuki recibe 41 de daño
+Itsuki termina con HP:333/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:333/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:93/193
+B-Spriggan HP:147/147 MP:66/66
+C-Fortuna HP:147/147 MP:61/66
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Spriggan
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Xi Wangmu HP:373/418 MP:345/405
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:333/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:93/193
+B-Spriggan HP:147/147 MP:66/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Spriggan
+2-Tadano
+3-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Fortuna HP:147/147 MP:61/66
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Spriggan
+1-Itsuki HP:333/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Spriggan use
+1-Agi MP:5
+2-Dormina MP:4
+3-Maragi MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Spriggan
+1-Itsuki HP:333/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Spriggan
+1-Itsuki HP:333/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Spriggan use
+1-Agi MP:5
+2-Dormina MP:4
+3-Maragi MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Spriggan
+1-Itsuki HP:333/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Spriggan use
+1-Agi MP:5
+2-Dormina MP:4
+3-Maragi MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Spriggan
+1-Itsuki HP:333/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Fortuna HP:147/147 MP:61/66
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Fortuna ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:333/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:93/193
+B-Fortuna HP:147/147 MP:61/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Xi Wangmu
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:333/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:93/193
+B-Fortuna HP:147/147 MP:61/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Fortuna
+3-Tadano
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Itsuki HP:333/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Xi Wangmu ataca a Itsuki
+Itsuki recibe 44 de daño
+Itsuki termina con HP:289/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:289/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:97/388 MP:93/193
+B-Fortuna HP:147/147 MP:61/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:97/388 MP:93/193
+2-Fortuna HP:147/147 MP:61/66
+3-Xi Wangmu HP:373/418 MP:345/405
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tadano
+Tadano recibe 61 de daño
+Tadano termina con HP:36/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:289/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:36/388 MP:93/193
+B-Fortuna HP:147/147 MP:61/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:289/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:36/388 MP:93/193
+B-Fortuna HP:147/147 MP:61/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Gather Spirit Energy MP:25
+2-Critical Wave MP:10
+3-Agidyne MP:14
+4-Plasma Discharge MP:22
+5-Needle Shot MP:4
+6-Sea of Chaos MP:45
+7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:289/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Itsuki
+Itsuki recibe 20 de daño
+Itsuki termina con HP:269/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:269/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:36/388 MP:93/193
+B-Fortuna HP:147/147 MP:61/66
+C-Xi Wangmu HP:373/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Xi Wangmu
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Fortuna use
+1-Zan MP:5
+2-Media MP:12
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Fortuna
+1-Itsuki HP:269/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Fortuna use
+1-Zan MP:5
+2-Media MP:12
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Fortuna cura a Tadano
+Tadano recibe 97 de HP
+Tadano termina con HP:133/388
+Fortuna cura a Xi Wangmu
+Xi Wangmu recibe 104 de HP
+Xi Wangmu termina con HP:418/418
+Fortuna cura a Fortuna
+Fortuna recibe 36 de HP
+Fortuna termina con HP:147/147
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:269/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:133/388 MP:93/193
+B-Fortuna HP:147/147 MP:49/66
+C-Xi Wangmu HP:418/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:269/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:133/388 MP:93/193
+B-Fortuna HP:147/147 MP:49/66
+C-Xi Wangmu HP:418/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:269/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:269/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:269/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:133/388 MP:93/193
+B-Fortuna HP:147/147 MP:49/66
+C-Xi Wangmu HP:418/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:133/388 MP:93/193
+2-Fortuna HP:147/147 MP:49/66
+3-Xi Wangmu HP:418/418 MP:345/405
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tadano
+Tadano recibe 61 de daño
+Tadano termina con HP:72/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:269/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:49/66
+C-Xi Wangmu HP:418/418 MP:345/405
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Michizane HP:658/658 MP:270/296
+2-Jarilo HP:470/497 MP:207/223
+3-Spriggan HP:147/147 MP:66/66
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Michizane ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:269/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:49/66
+C-Michizane HP:658/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Michizane
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:269/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:269/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:470/497 MP:207/223
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:418/418 MP:345/405
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Fortuna HP:147/147 MP:49/66 (Puesto 2)
+2-Michizane HP:658/658 MP:270/296 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Itsuki HP:269/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Itsuki
+Itsuki recibe 20 de daño
+Itsuki termina con HP:249/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:249/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:49/66
+C-Michizane HP:658/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Michizane
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Fortuna use
+1-Zan MP:5
+2-Media MP:12
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Fortuna
+1-Itsuki HP:249/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Fortuna lanza viento a Itsuki
+Itsuki recibe 35 de daño
+Itsuki termina con HP:214/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:214/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:658/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:214/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Michizane ataca a Itsuki
+Itsuki recibe 55 de daño
+Itsuki termina con HP:159/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:159/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:658/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:72/388 MP:93/193
+2-Fortuna HP:147/147 MP:44/66
+3-Michizane HP:658/658 MP:270/296
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki ataca a Michizane
+Michizane recibe 45 de daño
+Michizane termina con HP:613/658
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:159/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:159/1136 MP:367/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:159/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Michizane
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:159/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Michizane
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Fortuna
+1-Itsuki HP:159/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Fortuna ataca a Itsuki
+Itsuki recibe 10 de daño
+Itsuki termina con HP:149/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:149/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:149/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Michizane ataca a Itsuki
+Itsuki recibe 55 de daño
+Itsuki termina con HP:94/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:94/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:72/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:72/388 MP:93/193
+2-Fortuna HP:147/147 MP:44/66
+3-Michizane HP:613/658 MP:270/296
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Tadano
+Tadano es resistente el ataque de Itsuki
+Tadano recibe 22 de daño
+Tadano termina con HP:50/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:94/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:50/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Itsuki HP:94/1136 MP:367/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Michizane ataca a Itsuki
+Itsuki recibe 55 de daño
+Itsuki termina con HP:39/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:50/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+3-Michizane
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:50/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Fortuna
+2-Michizane
+3-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:50/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:270/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Tadano
+3-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Michizane use
+1-Thunder Reign MP:22
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Concentrate MP:11
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Michizane ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J1)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:367/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:50/388 MP:93/193
+B-Fortuna HP:147/147 MP:44/66
+C-Michizane HP:613/658 MP:259/296
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tadano HP:50/388 MP:93/193
+2-Fortuna HP:147/147 MP:44/66
+3-Michizane HP:613/658 MP:259/296
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Gather Spirit Energy MP:25
+2-Ice Breath MP:21
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki lanza hielo a Tadano
+Tadano recibe 108 de daño
+Tadano termina con HP:0/388
+Itsuki lanza hielo a Fortuna
+Fortuna recibe 108 de daño
+Fortuna termina con HP:39/147
+Itsuki lanza hielo a Michizane
+Michizane es débil contra el ataque de Itsuki
+Michizane recibe 407 de daño
+Michizane termina con HP:206/658
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:346/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/388 MP:93/193
+B-Fortuna HP:39/147 MP:44/66
+C-Michizane HP:206/658 MP:259/296
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:346/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/388 MP:93/193
+B-Fortuna HP:39/147 MP:44/66
+C-Michizane HP:206/658 MP:259/296
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michizane
+2-Fortuna
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jarilo HP:470/497 MP:207/223
+2-Spriggan HP:147/147 MP:66/66
+3-Xi Wangmu HP:418/418 MP:345/405
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Jarilo ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:39/1136 MP:346/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/388 MP:93/193
+B-Fortuna HP:39/147 MP:44/66
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Fortuna
+2-Jarilo
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Fortuna use
+1-Zan MP:5
+2-Media MP:12
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Fortuna
+1-Itsuki HP:39/1136 MP:346/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Fortuna lanza viento a Itsuki
+Itsuki recibe 35 de daño
+Itsuki termina con HP:4/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Itsuki (J1)
+A-Itsuki HP:4/1136 MP:346/413
+B-
+C-
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/388 MP:93/193
+B-Fortuna HP:39/147 MP:39/66
+C-Jarilo HP:470/497 MP:207/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jarilo
+2-Fortuna
+----------------------------------------
+Seleccione una acción para Jarilo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jarilo
+1-Itsuki HP:4/1136 MP:346/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jarilo ataca a Itsuki
+Itsuki recibe 41 de daño
+Itsuki termina con HP:0/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Tadano (J2)

@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.GameLogic;
+using Shin_Megami_Tensei.Presentation;
 
 namespace Shin_Megami_Tensei;
 
@@ -16,7 +17,8 @@ public class Game
     
     public void Play()
     {
-        var gameManager = new GameManager(_view);
+        var presenter = new ConsoleBattlePresenter(_view);
+        var gameManager = new GameManager(presenter);
         gameManager.StartGame(_teamsFolder);
     }
 }

@@ -1,0 +1,12 @@
+Player 1 Team
+[Samurai] Aleph (Charge,Serpent of Sheol,Zandyne,Zan,Holy Wrath,Mamudoon,Bufudyne)
+Yurlungur
+Ometeotl
+Pabilsag
+Decarabia
+Player 2 Team
+[Samurai] Demi-Fiend (Concentrate,Hama,Mabufula,Maragi,Mortal Jihad,Zanma)
+Quicksilver
+Python
+Senri
+Tiamat

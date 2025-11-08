@@ -12,4 +12,10 @@
       <ProjectReference Include="..\Shin-Megami-Tensei-View\Shin-Megami-Tensei-View.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="data\**\*">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

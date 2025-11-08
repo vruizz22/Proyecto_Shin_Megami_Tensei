@@ -1,0 +1,2212 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+INPUT: 42
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Bifrons
+4-Gryphon
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1309/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Aleph
+Aleph bloquea el ataque de Joker
+Aleph termina con HP:1309/1309
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Bifrons
+3-Gryphon
+4-Joker
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bifrons
+2-Gryphon
+3-Joker
+4-Power
+----------------------------------------
+Seleccione una acción para Bifrons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gryphon
+2-Joker
+3-Power
+4-Bifrons
+----------------------------------------
+Seleccione una acción para Gryphon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gryphon
+1-Aleph HP:1309/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Gryphon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Bifrons HP:104/104 MP:99/99
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Bifrons
+4-Gryphon
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1309/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pisaca HP:454/454 MP:90/90
+2-Alraune HP:427/427 MP:192/192
+3-Kaso HP:108/108 MP:104/104
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Gryphon HP:123/123 MP:23/23 (Puesto 2)
+2-Bifrons HP:104/104 MP:99/99 (Puesto 3)
+3-Power HP:407/407 MP:81/81 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Alraune ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:597/597 MP:347/347
+2-Gryphon HP:123/123 MP:23/23
+3-Alraune HP:427/427 MP:192/192
+4-Power HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph ataca a Joker
+Joker recibe 157 de daño
+Joker termina con HP:440/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+4-Gryphon
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bifrons HP:104/104 MP:99/99
+2-Pisaca HP:454/454 MP:90/90
+3-Kaso HP:108/108 MP:104/104
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Alraune use
+1-Madness Needle MP:11
+2-Life Drain MP:5
+3-Stun Needles MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Alraune use
+1-Madness Needle MP:11
+2-Life Drain MP:5
+3-Stun Needles MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alraune
+1-Aleph HP:1309/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alraune
+1-Aleph HP:1309/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Alraune ataca a Aleph
+Aleph es resistente el ataque de Alraune
+Aleph recibe 17 de daño
+Aleph termina con HP:1292/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1292/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:347/347
+B-Gryphon HP:123/123 MP:23/23
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Gryphon
+4-Alraune
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Dark Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1292/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-Gryphon HP:123/123 MP:23/23
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Gryphon
+3-Alraune
+4-Joker
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1292/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-Gryphon HP:123/123 MP:23/23
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Gryphon
+2-Alraune
+3-Joker
+4-Power
+----------------------------------------
+Seleccione una acción para Gryphon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gryphon
+1-Aleph HP:1292/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Gryphon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bifrons HP:104/104 MP:99/99
+2-Pisaca HP:454/454 MP:90/90
+3-Kaso HP:108/108 MP:104/104
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Bifrons ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1292/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-Bifrons HP:104/104 MP:99/99
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+4-Bifrons
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alraune
+1-Aleph HP:1292/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Alraune ataca a Aleph
+Aleph es resistente el ataque de Alraune
+Aleph recibe 17 de daño
+Aleph termina con HP:1275/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1275/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-Bifrons HP:104/104 MP:99/99
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:322/347
+2-Bifrons HP:104/104 MP:99/99
+3-Alraune HP:427/427 MP:192/192
+4-Power HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph ataca a Bifrons
+Bifrons recibe 157 de daño
+Bifrons termina con HP:0/104
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1275/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1275/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Alraune
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1275/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Aleph
+Aleph es resistente el ataque de Joker
+Aleph recibe 36 de daño
+Aleph termina con HP:1239/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1239/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Alraune
+3-Joker
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Aleph HP:1239/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Power ataca a Aleph
+Aleph es resistente el ataque de Power
+Aleph recibe 14 de daño
+Aleph termina con HP:1225/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1225/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alraune
+1-Aleph HP:1225/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Alraune ataca a Aleph
+Aleph es resistente el ataque de Alraune
+Aleph recibe 17 de daño
+Aleph termina con HP:1208/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1208/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Maragi MP:11
+2-Bar Toss MP:35
+3-Zan MP:5
+4-Rapid Needle MP:9
+5-Charge MP:9
+6-Invitation MP:45
+7-Ice Breath MP:21
+8-Mabufu MP:11
+9-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:322/347
+2-Alraune HP:427/427 MP:192/192
+3-Power HP:407/407 MP:81/81
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:322/347
+2-Alraune HP:427/427 MP:192/192
+3-Power HP:407/407 MP:81/81
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Maragi MP:11
+2-Bar Toss MP:35
+3-Zan MP:5
+4-Rapid Needle MP:9
+5-Charge MP:9
+6-Invitation MP:45
+7-Ice Breath MP:21
+8-Mabufu MP:11
+9-Cancelar
+INPUT: 9
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:322/347
+2-Alraune HP:427/427 MP:192/192
+3-Power HP:407/407 MP:81/81
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph dispara a Power
+Power recibe 276 de daño
+Power termina con HP:131/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1208/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1208/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Alraune
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1208/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1208/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Aleph
+Aleph es resistente el ataque de Joker
+Aleph recibe 14 de daño
+Aleph termina con HP:1194/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Alraune
+3-Joker
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Alraune
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1194/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1194/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1194/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Aleph
+Aleph bloquea el ataque de Joker
+Aleph termina con HP:1194/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:440/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Maragi MP:11
+2-Bar Toss MP:35
+3-Zan MP:5
+4-Rapid Needle MP:9
+5-Charge MP:9
+6-Invitation MP:45
+7-Ice Breath MP:21
+8-Mabufu MP:11
+9-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:322/347
+2-Alraune HP:427/427 MP:192/192
+3-Power HP:131/407 MP:81/81
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph dispara a Joker
+Joker recibe 276 de daño
+Joker termina con HP:164/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:322/347
+B-
+C-Alraune HP:427/427 MP:192/192
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alraune
+2-Joker
+3-Power
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Alraune use
+1-Madness Needle MP:11
+2-Life Drain MP:5
+3-Stun Needles MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Alraune use
+1-Madness Needle MP:11
+2-Life Drain MP:5
+3-Stun Needles MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gryphon HP:123/123 MP:23/23
+2-Pisaca HP:454/454 MP:90/90
+3-Kaso HP:108/108 MP:104/104
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pisaca ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:322/347
+B-
+C-Pisaca HP:454/454 MP:90/90
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Power
+3-Pisaca
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1194/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1194/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Dark Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:297/347
+B-
+C-Pisaca HP:454/454 MP:90/90
+D-Power HP:131/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Pisaca
+3-Joker
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Aleph HP:1194/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gryphon HP:123/123 MP:23/23
+2-Alraune HP:427/427 MP:192/192
+3-Kaso HP:108/108 MP:104/104
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Alraune ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:297/347
+B-
+C-Pisaca HP:454/454 MP:90/90
+D-Alraune HP:427/427 MP:192/192
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pisaca
+2-Joker
+3-Alraune
+----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gryphon HP:123/123 MP:23/23
+2-Power HP:131/407 MP:81/81
+3-Kaso HP:108/108 MP:104/104
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kaso ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:297/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Alraune HP:427/427 MP:192/192
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Alraune
+3-Kaso
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:297/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Alraune HP:427/427 MP:192/192
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alraune
+2-Kaso
+3-Joker
+----------------------------------------
+Seleccione una acción para Alraune
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gryphon HP:123/123 MP:23/23
+2-Power HP:131/407 MP:81/81
+3-Pisaca HP:454/454 MP:90/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pisaca ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:297/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:454/454 MP:90/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Maragi MP:11
+2-Bar Toss MP:35
+3-Zan MP:5
+4-Rapid Needle MP:9
+5-Charge MP:9
+6-Invitation MP:45
+7-Ice Breath MP:21
+8-Mabufu MP:11
+9-Cancelar
+INPUT: 5
+----------------------------------------
+Aleph ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:297/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:454/454 MP:90/90
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Pisaca
+3-Kaso
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Dark Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:454/454 MP:90/90
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pisaca
+2-Kaso
+3-Joker
+----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pisaca use
+1-Bind Voice MP:15
+2-Life Drain MP:5
+3-Mudoon MP:10
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pisaca
+1-Aleph HP:1194/1309 MP:604/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pisaca ataca con oscuridad a Aleph
+Pisaca ha fallado el ataque
+Aleph termina con HP:1194/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:454/454 MP:80/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kaso
+2-Joker
+3-Pisaca
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:454/454 MP:80/90
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Pisaca
+3-Kaso
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:454/454 MP:80/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:164/597 MP:272/347
+2-Kaso HP:108/108 MP:104/104
+3-Pisaca HP:454/454 MP:80/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph ataca a Pisaca
+Pisaca recibe 393 de daño
+Pisaca termina con HP:61/454
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:61/454 MP:80/90
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Pisaca
+3-Kaso
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1194/1309 MP:604/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker dispara a Aleph
+Aleph bloquea el ataque de Joker
+Aleph termina con HP:1194/1309
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:61/454 MP:80/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pisaca
+2-Kaso
+3-Joker
+----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1194/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:61/454 MP:80/90
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kaso
+2-Joker
+3-Pisaca
+----------------------------------------
+Seleccione una acción para Kaso
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kaso
+1-Aleph HP:1194/1309 MP:604/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kaso ataca a Aleph
+Aleph es resistente el ataque de Kaso
+Aleph recibe 5 de daño
+Aleph termina con HP:1189/1309
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1189/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-Kaso HP:108/108 MP:104/104
+D-Pisaca HP:61/454 MP:80/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:164/597 MP:272/347
+2-Kaso HP:108/108 MP:104/104
+3-Pisaca HP:61/454 MP:80/90
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph ataca a Kaso
+Kaso recibe 157 de daño
+Kaso termina con HP:0/108
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1189/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:272/347
+B-
+C-
+D-Pisaca HP:61/454 MP:80/90
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Pisaca
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Dark Energy MP:25
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1189/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:247/347
+B-
+C-
+D-Pisaca HP:61/454 MP:80/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pisaca
+2-Joker
+----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pisaca use
+1-Bind Voice MP:15
+2-Life Drain MP:5
+3-Mudoon MP:10
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Pisaca
+1-Aleph HP:1189/1309 MP:604/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pisaca lanza un ataque todo poderoso a Aleph
+El ataque drena 33 HP de Aleph
+Aleph termina con HP:1156/1309
+Pisaca termina con HP:94/454
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1156/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:247/347
+B-
+C-
+D-Pisaca HP:94/454 MP:75/90
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:164/597 MP:247/347
+2-Pisaca HP:94/454 MP:75/90
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph ataca a Pisaca
+Pisaca recibe 157 de daño
+Pisaca termina con HP:0/454
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1156/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:247/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1156/1309 MP:604/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1156/1309 MP:604/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1156/1309 MP:604/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Aleph
+Aleph es resistente el ataque de Joker
+Aleph recibe 36 de daño
+Aleph termina con HP:1120/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J1)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1120/1309 MP:604/613
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:164/597 MP:247/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:164/597 MP:247/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Maragi MP:11
+2-Bar Toss MP:35
+3-Zan MP:5
+4-Rapid Needle MP:9
+5-Charge MP:9
+6-Invitation MP:45
+7-Ice Breath MP:21
+8-Mabufu MP:11
+9-Cancelar
+INPUT: 7
+----------------------------------------
+Aleph lanza hielo a Joker
+Joker recibe 120 de daño
+Aleph lanza hielo a Joker
+Joker recibe 120 de daño
+Joker termina con HP:0/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Aleph (J1)

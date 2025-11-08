@@ -1,0 +1,9 @@
+Player 1 Team
+[Samurai] Aleph (Defender's Gaze,Charge)
+Myrmecoleon
+Player 2 Team
+[Samurai] Demi-Fiend (Concentrate,Zio,Mahamaon)
+Kelpie
+Clotho
+Python
+Zhu Tun She
