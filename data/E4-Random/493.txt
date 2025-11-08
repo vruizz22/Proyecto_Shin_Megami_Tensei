@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Makoto (Defender's Gaze,Tetrakarn,Dia,Glacial Blast)
-Hitokoto-Nushi
-Ammut
-Inugami
-Aniel
-Player 2 Team
-[Samurai] Aleph (Taunt,Die for Me!,Trisagion,Maragi,Diarahan,Needle Shot)
-Caladrius

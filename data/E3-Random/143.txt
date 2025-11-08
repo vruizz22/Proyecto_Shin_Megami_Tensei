@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Nanashi (Desperate Hit)
-Kukunochi
-Player 2 Team
-[Samurai] Kei (Shock,Critical Wave,Ziodyne)
-Anzu
-Alraune
-Ammut
-Jarilo

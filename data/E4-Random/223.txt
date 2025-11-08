@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Itsuki (Debilitate,Samarecarm,Stigma Attack,Ziodyne,Zanma,Glacial Blast,Invitation,Zionga)
-Gremlin
-Oni
-Heqet
-Player 2 Team
-[Samurai] Kyouji (Life Drain,Gather Spirit Energy,Samarecarm,Iron Judgement,Oni-Kagura,Mabufula,Acid Breath,Tetrakowas)
-Suparna
-Myrmecoleon

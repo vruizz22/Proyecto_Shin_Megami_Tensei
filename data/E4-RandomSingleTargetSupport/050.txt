@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Kei (Blood Ritual,Javelin Rain,Megido,Heaven's Bow)
-Goblin
-Strix
-Player 2 Team
-[Samurai] Flynn (Gather Spirit Energy,Mazionga,Thunder Reign,Megidolaon,Hama)
-Israfel
-Oni
-Koumokuten

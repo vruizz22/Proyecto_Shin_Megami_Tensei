@@ -1,6 +1,0 @@
-Player 1 Team
-[Samurai] Kyouji (Megidolaon,Mudoon,Recarm,Bufula,Fog Breath,Tathlum Shot)
-Player 2 Team
-[Samurai] Joker (Damascus Claw,Tetrakarn,Gather Spirit Energy,Ice Breath,Blood Ritual,Berserker God,Iron Judgement,Bufula)
-Gremlin
-Itsumade

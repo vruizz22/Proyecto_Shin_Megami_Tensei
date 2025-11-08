@@ -1,6 +1,0 @@
-Player 1 Team
-[Samurai] Yu (War Cry,Shock,Heat Wave,Heaven's Bow)
-Player 2 Team
-[Samurai] Nahobino (Taunt,Mortal Jihad)
-Patriot
-Mastema
