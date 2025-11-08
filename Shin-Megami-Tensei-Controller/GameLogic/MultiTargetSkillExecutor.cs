@@ -1,4 +1,4 @@
-﻿namespace Shin_Megami_Tensei.GameLogic;
+namespace Shin_Megami_Tensei.GameLogic;
 
 using Models;
 using Domain.ValueObjects;
@@ -36,9 +36,9 @@ public class MultiTargetSkillExecutor
         int hitsPerTarget = 1)
     {
         var result = new MultiTargetSkillExecutionResult();
-        var turnEffectToUse = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
         bool hasWeak = false;
         bool hasRepelled = false;
+        bool hasNulled = false;
 
         foreach (var target in targets)
         {
@@ -55,7 +55,7 @@ public class MultiTargetSkillExecutor
                     AttackResult = attackResult
                 };
 
-                // Handle drain effects for Almighty type
+                // Manejar efectos de drenaje para tipo Almighty
                 if (skill.Type == "Almighty" && skill.Effect != null)
                 {
                     if (skill.Effect.Contains("drains"))
@@ -80,10 +80,15 @@ public class MultiTargetSkillExecutor
                 {
                     hasRepelled = true;
                 }
+
+                if (attackResult.WasNulled)
+                {
+                    hasNulled = true;
+                }
             }
         }
 
-        // Determinar el efecto de turno basado en los resultados
+        // Determinar efecto de turno basado en resultados
         if (hasRepelled && !hasWeak)
         {
             result.CombinedTurnEffect = new TurnEffect
@@ -94,18 +99,34 @@ public class MultiTargetSkillExecutor
                 ConsumeAllTurns = true
             };
         }
+        else if (hasNulled)
+        {
+            // Null consume 2 Full Turns, pero si hay Weak, se reduce por el Blinking Turn ganado
+            int fullTurns = hasWeak ? 1 : 2;
+            result.CombinedTurnEffect = new TurnEffect
+            {
+                FullTurnsConsumed = fullTurns,
+                BlinkingTurnsConsumed = fullTurns,
+                BlinkingTurnsGained = hasWeak ? 1 : 0
+            };
+        }
         else if (hasWeak)
         {
             result.CombinedTurnEffect = new TurnEffect
             {
-                FullTurnsConsumed = 1,
-                BlinkingTurnsConsumed = 0,
+                FullTurnsConsumed = 0,
+                BlinkingTurnsConsumed = 1,
                 BlinkingTurnsGained = 1
             };
         }
         else
         {
-            result.CombinedTurnEffect = turnEffectToUse;
+            result.CombinedTurnEffect = new TurnEffect
+            {
+                FullTurnsConsumed = 1,
+                BlinkingTurnsConsumed = 1,
+                BlinkingTurnsGained = 0
+            };
         }
 
         result.AffectedUnits = targets.Where(t => t.IsAlive || result.TargetResults.Any(r => r.Target == t)).ToList();
@@ -120,9 +141,9 @@ public class MultiTargetSkillExecutor
         int totalHits)
     {
         var result = new MultiTargetSkillExecutionResult();
-        var turnEffectToUse = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
         bool hasWeak = false;
         bool hasRepelled = false;
+        bool hasNulled = false;
 
         var hitDistribution = DistributeHits(allPossibleTargets.Count, totalHits);
         
@@ -163,6 +184,11 @@ public class MultiTargetSkillExecutor
                 {
                     hasRepelled = true;
                 }
+
+                if (attackResult.WasNulled)
+                {
+                    hasNulled = true;
+                }
             }
         }
 
@@ -176,18 +202,34 @@ public class MultiTargetSkillExecutor
                 ConsumeAllTurns = true
             };
         }
+        else if (hasNulled)
+        {
+            // Null consume 2 Full Turns, pero si hay Weak, se reduce por el Blinking Turn ganado
+            int fullTurns = hasWeak ? 1 : 2;
+            result.CombinedTurnEffect = new TurnEffect
+            {
+                FullTurnsConsumed = fullTurns,
+                BlinkingTurnsConsumed = fullTurns,
+                BlinkingTurnsGained = hasWeak ? 1 : 0
+            };
+        }
         else if (hasWeak)
         {
             result.CombinedTurnEffect = new TurnEffect
             {
-                FullTurnsConsumed = 1,
-                BlinkingTurnsConsumed = 0,
+                FullTurnsConsumed = 0,
+                BlinkingTurnsConsumed = 1,
                 BlinkingTurnsGained = 1
             };
         }
         else
         {
-            result.CombinedTurnEffect = turnEffectToUse;
+            result.CombinedTurnEffect = new TurnEffect
+            {
+                FullTurnsConsumed = 1,
+                BlinkingTurnsConsumed = 1,
+                BlinkingTurnsGained = 0
+            };
         }
 
         result.AffectedUnits = allPossibleTargets;
@@ -229,4 +271,3 @@ public class MultiTargetSkillExecutor
         return "";
     }
 }
-
