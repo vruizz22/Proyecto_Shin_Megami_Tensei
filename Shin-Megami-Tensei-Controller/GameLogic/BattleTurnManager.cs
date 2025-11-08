@@ -1,4 +1,4 @@
-﻿﻿using Shin_Megami_Tensei.Domain.ValueObjects;
+﻿﻿﻿using Shin_Megami_Tensei.Domain.ValueObjects;
 using Shin_Megami_Tensei.Models;
 
 namespace Shin_Megami_Tensei.GameLogic;
@@ -281,10 +281,10 @@ public class BattleTurnManager
         _actionOrder = new Queue<Unit>(currentOrder);
     }
 
-    // Método de compatibilidad: acepta TurnManager.TurnEffect y retorna TurnManager.TurnEffect
-    public TurnManager.TurnEffect ConsumeTurns(TurnManager.TurnEffect effect)
+    // Método de compatibilidad: acepta TurnEffect y retorna TurnEffect
+    public TurnEffect ConsumeTurns(TurnEffect effect)
     {
-        // Convertir TurnManager.TurnEffect a TurnCost
+        // Convertir TurnEffect a TurnCost
         var turnCost = new TurnCost(
             effect.FullTurnsConsumed,
             effect.BlinkingTurnsConsumed,
@@ -295,8 +295,8 @@ public class BattleTurnManager
         // Consumir usando el método principal
         var resultCost = ConsumeTurns(turnCost);
 
-        // Convertir resultado de vuelta a TurnManager.TurnEffect
-        return new TurnManager.TurnEffect
+        // Convertir resultado de vuelta a TurnEffect
+        return new TurnEffect
         {
             FullTurnsConsumed = resultCost.FullTurnsConsumed,
             BlinkingTurnsConsumed = resultCost.BlinkingTurnsConsumed,
