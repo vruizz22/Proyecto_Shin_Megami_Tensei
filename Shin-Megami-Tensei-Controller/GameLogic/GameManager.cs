@@ -644,12 +644,25 @@ public class GameManager
         
         _view.WriteLine("----------------------------------------");
         
+        bool wasDeadBeforeRevive = false;
+        bool targetWasOnBoard = false;
+        
         if (isRevive && !target.IsAlive)
         {
+            wasDeadBeforeRevive = true;
+            // Verificar si la unidad está en el tablero
+            targetWasOnBoard = _currentPlayerTeam!.Board.Contains(target);
+            
             int healAmount = (int)Math.Floor(target.BaseStats.HP * (skill.Power / 100.0));
             target.Heal(healAmount);
             _view.WriteLine($"{user.Name} revive a {target.Name}");
             _view.WriteLine($"{target.Name} recibe {healAmount} de HP");
+            
+            // Si la unidad revivida estaba en el tablero, agregarla al final del orden de acciones
+            if (targetWasOnBoard)
+            {
+                _turnManager.AddUnitToOrder(target);
+            }
         }
         else if (!isRevive)
         {
