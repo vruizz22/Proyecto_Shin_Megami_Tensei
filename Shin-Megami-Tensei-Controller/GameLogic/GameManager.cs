@@ -13,8 +13,8 @@ public class GameManager
     private readonly View _view;
     private readonly DataLoader _dataLoader;
     private readonly TeamParser _teamParser;
-    private readonly BattleEngine _battleEngine;
-    private readonly TurnManager _turnManager;
+    private readonly RefactoredBattleEngine _battleEngine;
+    private readonly BattleTurnManager _turnManager;
 
     private Team? _player1Team;
     private Team? _player2Team;
@@ -30,8 +30,8 @@ public class GameManager
         _view = view;
         _dataLoader = new DataLoader();
         _teamParser = new TeamParser(_dataLoader);
-        _battleEngine = new BattleEngine();
-        _turnManager = new TurnManager();
+        _battleEngine = new RefactoredBattleEngine();
+        _turnManager = new BattleTurnManager();
     }
 
     public void StartGame(string teamsFolder)
@@ -181,8 +181,8 @@ public class GameManager
     private void DisplayTurnInformation()
     {
         _view.WriteLine("----------------------------------------");
-        _view.WriteLine($"Full Turns: {_turnManager.FullTurns}");
-        _view.WriteLine($"Blinking Turns: {_turnManager.BlinkingTurns}");
+        _view.WriteLine($"Full Turns: {_turnManager.GetFullTurns()}");
+        _view.WriteLine($"Blinking Turns: {_turnManager.GetBlinkingTurns()}");
     }
 
     private void DisplayActionOrder()
@@ -406,7 +406,7 @@ public class GameManager
         return true;
     }
 
-    private void DisplayAttackResult(Unit attacker, Unit target, string attackType, BattleEngine.AttackResult result)
+    private void DisplayAttackResult(Unit attacker, Unit target, string attackType, RefactoredBattleEngine.AttackResult result)
     {
         var actionVerb = GetAttackVerb(attackType);
         _view.WriteLine($"{attacker.Name} {actionVerb} {target.Name}");
@@ -425,7 +425,7 @@ public class GameManager
         }
     }
 
-    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, BattleEngine.AttackResult result)
+    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, RefactoredBattleEngine.AttackResult result)
     {
         var actionVerb = GetAttackVerb(attackType);
         _view.WriteLine($"{attacker.Name} {actionVerb} {target.Name}");
@@ -449,7 +449,7 @@ public class GameManager
         };
     }
 
-    private void DisplayAffinityMessage(Unit target, BattleEngine.AttackResult result)
+    private void DisplayAffinityMessage(Unit target, RefactoredBattleEngine.AttackResult result)
     {
         if (result.Missed)
         {
@@ -479,7 +479,7 @@ public class GameManager
         }
     }
 
-    private void DisplayDamageOrEffect(Unit target, BattleEngine.AttackResult result, Unit attacker)
+    private void DisplayDamageOrEffect(Unit target, RefactoredBattleEngine.AttackResult result, Unit attacker)
     {
         if (result.Missed || result.WasNulled)
         {
@@ -592,7 +592,7 @@ public class GameManager
         // Calcular cuántos hits tiene la habilidad
         int hits = CalculateHits(skill.Hits);
         
-        BattleEngine.AttackResult? finalResult = null;
+        RefactoredBattleEngine.AttackResult? finalResult = null;
         Unit? finalAffectedUnit = null;
         
         // Ejecutar el ataque múltiples veces
@@ -893,7 +893,7 @@ public class GameManager
         
         // Invocar (Samurai): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
         // Solo gana Blinking Turn si consume Full Turn
-        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        bool hadBlinkingTurn = _turnManager.GetBlinkingTurns() > 0;
         
         var turnEffect = new TurnManager.TurnEffect 
         { 
@@ -923,7 +923,7 @@ public class GameManager
         
         // Invocar (Monstruo): consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
         // Solo gana Blinking Turn si consume Full Turn
-        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        bool hadBlinkingTurn = _turnManager.GetBlinkingTurns() > 0;
         
         var turnEffect = new TurnManager.TurnEffect 
         { 
@@ -941,7 +941,7 @@ public class GameManager
     {
         // Pasar Turno: consume 1 Blinking si hay, sino consume 1 Full y otorga 1 Blinking
         // Solo gana Blinking Turn si consume Full Turn
-        bool hadBlinkingTurn = _turnManager.BlinkingTurns > 0;
+        bool hadBlinkingTurn = _turnManager.GetBlinkingTurns() > 0;
         
         var turnEffect = new TurnManager.TurnEffect 
         { 
