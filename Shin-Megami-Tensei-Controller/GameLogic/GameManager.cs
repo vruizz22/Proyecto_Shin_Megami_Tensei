@@ -234,12 +234,40 @@ public class GameManager
         ShowActionMenu(actingUnit);
         
         var action = GetPlayerAction(actingUnit);
+        
+        // Guardar la posición de la unidad antes de ejecutar la acción
+        int actingUnitPosition = -1;
+        for (int i = 0; i < _currentPlayerTeam!.Board.Length; i++)
+        {
+            if (_currentPlayerTeam.Board[i] == actingUnit)
+            {
+                actingUnitPosition = i;
+                break;
+            }
+        }
+        
         ExecuteAction(actingUnit, action);
         
-        // Mover la unidad al final del orden solo si sigue viva y en el tablero activo
-        if (actingUnit.IsAlive && activeUnits.Contains(actingUnit))
+        // Determinar qué unidad debe moverse al final del orden
+        Unit? unitToMove = null;
+        
+        // Si la unidad que actuó sigue viva y en el tablero activo, ella se mueve
+        if (actingUnit.IsAlive && _currentPlayerTeam!.GetActiveUnitsOnBoard().Contains(actingUnit))
         {
-            _turnManager.MoveUnitToEndOfOrder(actingUnit);
+            unitToMove = actingUnit;
+        }
+        // Si la unidad fue reemplazada (por ejemplo, un monstruo que invoca),
+        // la unidad de reemplazo debe moverse al final
+        else if (actingUnitPosition >= 0 && _currentPlayerTeam!.Board[actingUnitPosition] != null 
+                 && _currentPlayerTeam.Board[actingUnitPosition] != actingUnit
+                 && _currentPlayerTeam.Board[actingUnitPosition]!.IsAlive)
+        {
+            unitToMove = _currentPlayerTeam.Board[actingUnitPosition];
+        }
+        
+        if (unitToMove != null)
+        {
+            _turnManager.MoveUnitToEndOfOrder(unitToMove);
         }
     }
 
@@ -874,8 +902,8 @@ public class GameManager
 
         _currentPlayerTeam!.ReplaceMonsterInBoard(currentMonster, monsterToSummon);
         
-        // El monstruo invocado va al final del orden (no reemplaza al que invocó)
-        _turnManager.AddUnitToOrder(monsterToSummon);
+        // El monstruo invocado toma el lugar del monstruo actual en el orden
+        _turnManager.ReplaceUnitInOrder(currentMonster, monsterToSummon);
         
         _view.WriteLine("----------------------------------------");
         _view.WriteLine($"{monsterToSummon.Name} ha sido invocado");
