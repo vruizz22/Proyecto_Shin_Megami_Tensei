@@ -1151,16 +1151,9 @@ public class GameManager
         
         bool isRecarmdra = skill.Name == "Recarmdra";
         
-        var targetingContext = new Domain.Targeting.TargetingContext(
-            user,
-            _currentPlayerTeam!,
-            _opponentTeam!,
-            false
-        );
-        
         var partyTargets = new List<Unit>();
         
-        // Unidades en el tablero (de izquierda a derecha)
+        // Unidades en el tablero (de izquierda a derecha), sin incluir al usuario
         foreach (var unit in _currentPlayerTeam!.Board)
         {
             if (unit != null && unit != user)
@@ -1171,7 +1164,7 @@ public class GameManager
                 }
             }
         }
-        y
+        
         // Unidades en la reserva
         foreach (var unit in _currentPlayerTeam!.Reserve)
         {
@@ -1183,14 +1176,13 @@ public class GameManager
                 }
             }
         }
-
-        // Usuario último
-        if (!isRecarmdra || user.IsAlive)
-        {
-            partyTargets.Add(user);
-        }
         
         DisplayPartyHealResults(user, partyTargets, skill, isRecarmdra);
+        
+        if (isRecarmdra)
+        {
+            HandleUnitDeath(user);
+        }
         
         IncrementSkillCounter();
         
@@ -1248,6 +1240,9 @@ public class GameManager
     {
         foreach (var target in targets)
         {
+            if (target == user)
+                continue; // Saltar al usuario, se mostrará al final
+                
             bool wasDeadBefore = !target.IsAlive;
             int healAmount = (int)Math.Floor(target.BaseStats.HP * (skill.Power / 100.0));
             
@@ -1260,23 +1255,29 @@ public class GameManager
                 }
                 _presenter.ShowMessage($"{user.Name} revive a {target.Name}");
                 _presenter.ShowMessage($"{target.Name} recibe {healAmount} de HP");
+                _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
             }
             else if (target.IsAlive && !wasDeadBefore)
             {
                 target.Heal(healAmount);
                 _presenter.ShowMessage($"{user.Name} cura a {target.Name}");
                 _presenter.ShowMessage($"{target.Name} recibe {healAmount} de HP");
-            }
-            
-            if (target != user)
-            {
                 _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
             }
         }
         
+        // Mostrar al usuario al final
         if (isRecarmdra)
         {
             user.TakeDamage(user.CurrentHP);
+            _presenter.ShowMessage($"{user.Name} termina con HP:{user.CurrentHP}/{user.BaseStats.HP}");
+        }
+        else
+        {
+            int userHealAmount = (int)Math.Floor(user.BaseStats.HP * (skill.Power / 100.0));
+            user.Heal(userHealAmount);
+            _presenter.ShowMessage($"{user.Name} cura a {user.Name}");
+            _presenter.ShowMessage($"{user.Name} recibe {userHealAmount} de HP");
             _presenter.ShowMessage($"{user.Name} termina con HP:{user.CurrentHP}/{user.BaseStats.HP}");
         }
     }
