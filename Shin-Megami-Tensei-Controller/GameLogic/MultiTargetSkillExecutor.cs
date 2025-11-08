@@ -38,6 +38,7 @@ public class MultiTargetSkillExecutor
         var result = new MultiTargetSkillExecutionResult();
         bool hasWeak = false;
         bool hasRepelled = false;
+        bool hasDrained = false;
         bool hasNulled = false;
         bool hasMissed = false;
 
@@ -81,6 +82,11 @@ public class MultiTargetSkillExecutor
                 {
                     hasRepelled = true;
                 }
+                
+                if (attackResult.WasDrained)
+                {
+                    hasDrained = true;
+                }
 
                 if (attackResult.WasNulled)
                 {
@@ -96,10 +102,10 @@ public class MultiTargetSkillExecutor
 
         // Determinar efecto de turno basado en resultados
         // La prioridad de afinidades es: Repel/Drain > Null > Miss > Weak > Neutral/Resist
-        if (hasRepelled)
+        if (hasRepelled || hasDrained)
         {
             // Repel/Drain tiene la máxima prioridad - consume todos los turnos
-            // NO importa si hay Weak, Repel SIEMPRE consume todos los turnos
+            // NO importa si hay Weak, Repel/Drain SIEMPRE consume todos los turnos
             result.CombinedTurnEffect = new TurnEffect
             {
                 FullTurnsConsumed = 0,
@@ -167,6 +173,7 @@ public class MultiTargetSkillExecutor
         var result = new MultiTargetSkillExecutionResult();
         bool hasWeak = false;
         bool hasRepelled = false;
+        bool hasDrained = false;
         bool hasNulled = false;
         bool hasMissed = false;
 
@@ -209,6 +216,11 @@ public class MultiTargetSkillExecutor
                 {
                     hasRepelled = true;
                 }
+                
+                if (attackResult.WasDrained)
+                {
+                    hasDrained = true;
+                }
 
                 if (attackResult.WasNulled)
                 {
@@ -224,10 +236,10 @@ public class MultiTargetSkillExecutor
 
         // Determinar efecto de turno basado en resultados
         // La prioridad de afinidades es: Repel/Drain > Null > Miss > Weak > Neutral/Resist
-        if (hasRepelled)
+        if (hasRepelled || hasDrained)
         {
             // Repel/Drain tiene la máxima prioridad - consume todos los turnos
-            // NO importa si hay Weak, Repel SIEMPRE consume todos los turnos
+            // NO importa si hay Weak, Repel/Drain SIEMPRE consume todos los turnos
             result.CombinedTurnEffect = new TurnEffect
             {
                 FullTurnsConsumed = 0,
