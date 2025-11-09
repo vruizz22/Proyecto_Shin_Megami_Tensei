@@ -415,13 +415,18 @@ public class GameManager
         }
     }
 
-    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, RefactoredBattleEngine.AttackResult result)
+    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, RefactoredBattleEngine.AttackResult result, bool isDrainSkill = false)
     {
         var actionVerb = GetAttackVerb(attackType);
         _presenter.ShowMessage($"{attacker.Name} {actionVerb} {target.Name}");
         
         DisplayAffinityMessage(target, result);
-        DisplayDamageOrEffect(target, result, attacker);
+        
+        // No mostrar el mensaje de daño si es una habilidad de drenaje
+        if (!isDrainSkill)
+        {
+            DisplayDamageOrEffect(target, result, attacker);
+        }
     }
 
     private string GetAttackVerb(string attackType)
@@ -597,17 +602,34 @@ public class GameManager
         
         RefactoredBattleEngine.AttackResult? finalResult = null;
         Unit? finalAffectedUnit = null;
+        StatDrainEffect? drainEffect = null;
+        
+        // Verificar si la habilidad drena HP o MP
+        bool isDrainSkill = skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains");
         
         for (int i = 0; i < hits; i++)
         {
             var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
-            DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult);
+            DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult, isDrainSkill);
+            
+            // Si es una habilidad de drenaje, calcular el efecto de drenaje
+            if (isDrainSkill && !attackResult.WasRepelled && !attackResult.WasNulled)
+            {
+                string drainType = GetDrainTypeFromEffect(skill.Effect!);
+                drainEffect = StatDrainEffect.CalculateDrain(user, target, attackResult.Damage, drainType);
+            }
             
             finalResult = attackResult;
             finalAffectedUnit = attackResult.WasRepelled ? user : target;
         }
         
-        if (finalResult != null && finalAffectedUnit != null)
+        // Mostrar el resultado final
+        if (drainEffect != null)
+        {
+            // Mostrar efecto de drenaje
+            DisplayDrainEffect(user, target, drainEffect, true);
+        }
+        else if (finalResult != null && finalAffectedUnit != null)
         {
             _presenter.ShowMessage($"{finalAffectedUnit.Name} termina con HP:{finalAffectedUnit.CurrentHP}/{finalAffectedUnit.BaseStats.HP}");
         }
@@ -1306,6 +1328,17 @@ public class GameManager
                 _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
             }
         }
+    }
+
+    private string GetDrainTypeFromEffect(string effect)
+    {
+        if (effect.Contains("HP/MP") || effect.Contains("HP and MP"))
+            return "HP/MP";
+        if (effect.Contains("drains the enemy's HP"))
+            return "HP";
+        if (effect.Contains("drains the enemy's MP"))
+            return "MP";
+        return "";
     }
 
     private void HandleMultipleUnitDeaths(List<Unit> units)
