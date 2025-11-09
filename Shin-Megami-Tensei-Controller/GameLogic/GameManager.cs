@@ -1096,7 +1096,7 @@ public class GameManager
         int hits = CalculateHits(skill.Hits);
         var result = _multiTargetExecutor.ExecuteOnAllTargets(user, enemyTargets, skill, hits);
         
-        DisplayMultiTargetResults(user, result, skill.Type);
+        DisplayMultiTargetResults(user, result, skill.Type, false); // false = NO es MultiTarget
         
         IncrementSkillCounter();
         
@@ -1130,7 +1130,7 @@ public class GameManager
         int currentK = GetCurrentSkillCounter();
         var result = _multiTargetExecutor.ExecuteOnMultipleTargets(user, enemyTargets, skill, totalHits, currentK);
         
-        DisplayMultiTargetResults(user, result, skill.Type);
+        DisplayMultiTargetResults(user, result, skill.Type, true); // true = isMultiTarget
         
         IncrementSkillCounter();
         
@@ -1192,23 +1192,35 @@ public class GameManager
         return true;
     }
 
-    private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType)
+    private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType, bool isMultiTarget)
     {
-        // Obtener el orden correcto de anuncio según el enunciado
-        var targetingContext = new Domain.Targeting.TargetingContext(
-            attacker,
-            _currentPlayerTeam!,
-            _opponentTeam!,
-            false
-        );
-        var orderedTargets = targetingContext.GetOrderedTargets();
+        // Para habilidades Multi, mantener el orden exacto del algoritmo (no agrupar por objetivo)
+        // Para habilidades All, agrupar por objetivo según el orden de anuncio
+        List<SingleTargetResult> orderedResults;
         
-        // Ordenar los resultados según el orden de anuncio, pero manteniendo hits múltiples al mismo objetivo juntos
-        var orderedResults = new List<SingleTargetResult>();
-        foreach (var target in orderedTargets)
+        if (isMultiTarget)
         {
-            var hitsToTarget = result.TargetResults.Where(r => r.Target == target).ToList();
-            orderedResults.AddRange(hitsToTarget);
+            // Para Multi: mantener el orden EXACTO en que fueron generados
+            orderedResults = result.TargetResults;
+        }
+        else
+        {
+            // Para All: obtener el orden correcto de anuncio
+            var targetingContext = new Domain.Targeting.TargetingContext(
+                attacker,
+                _currentPlayerTeam!,
+                _opponentTeam!,
+                false
+            );
+            var orderedTargets = targetingContext.GetOrderedTargets();
+            
+            // Ordenar los resultados según el orden de anuncio, pero manteniendo hits múltiples al mismo objetivo juntos
+            orderedResults = new List<SingleTargetResult>();
+            foreach (var target in orderedTargets)
+            {
+                var hitsToTarget = result.TargetResults.Where(r => r.Target == target).ToList();
+                orderedResults.AddRange(hitsToTarget);
+            }
         }
         
         Unit? lastRepelTarget = null;
