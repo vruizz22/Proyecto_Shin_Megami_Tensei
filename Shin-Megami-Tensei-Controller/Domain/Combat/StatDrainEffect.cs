@@ -18,7 +18,7 @@ public class StatDrainEffect
         DrainsMP = drainsMP;
     }
 
-    public static StatDrainEffect CalculateDrain(Unit attacker, Unit target, int damage, string effectType)
+    public static StatDrainEffect CalculateDrain(Unit attacker, Unit target, int damage, string effectType, int targetHPBeforeAttack, int targetMPBeforeAttack)
     {
         bool drainsHP = effectType.Contains("HP");
         bool drainsMP = effectType.Contains("MP");
@@ -28,14 +28,16 @@ public class StatDrainEffect
 
         if (drainsHP)
         {
-            hpDrained = Math.Min(damage, target.CurrentHP);
+            // El drenaje está limitado por el HP que tenía el target ANTES del ataque
+            hpDrained = Math.Min(damage, targetHPBeforeAttack);
             int hpToRestore = Math.Min(hpDrained, attacker.BaseStats.HP - attacker.CurrentHP);
             attacker.Heal(hpToRestore);
         }
 
         if (drainsMP)
         {
-            mpDrained = Math.Min(damage, target.CurrentMP);
+            // El drenaje de MP está limitado por el MP disponible ANTES de drenar
+            mpDrained = Math.Min(damage, targetMPBeforeAttack);
             int mpToRestore = Math.Min(mpDrained, attacker.BaseStats.MP - attacker.CurrentMP);
             attacker.RestoreMP(mpToRestore);
             target.ConsumeMP(mpDrained);
