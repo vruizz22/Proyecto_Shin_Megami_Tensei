@@ -606,6 +606,8 @@ public class GameManager
         
         // Verificar si la habilidad drena HP o MP
         bool isDrainSkill = skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains");
+        string drainType = isDrainSkill ? GetDrainTypeFromEffect(skill.Effect!) : "";
+        bool onlyDrainsMP = isDrainSkill && drainType == "MP"; // Spirit Drain solo drena MP, NO hace daño de HP
         
         for (int i = 0; i < hits; i++)
         {
@@ -614,12 +616,19 @@ public class GameManager
             int targetMPBeforeAttack = target.CurrentMP;
             
             var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
+            
+            // Si la habilidad solo drena MP (Spirit Drain), restaurar el HP que fue incorrectamente quitado
+            if (onlyDrainsMP && !attackResult.WasRepelled && !attackResult.WasNulled)
+            {
+                int hpLost = targetHPBeforeAttack - target.CurrentHP;
+                target.Heal(hpLost); // Restaurar el HP que fue quitado
+            }
+            
             DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult, isDrainSkill);
             
             // Si es una habilidad de drenaje, calcular el efecto de drenaje
             if (isDrainSkill && !attackResult.WasRepelled && !attackResult.WasNulled)
             {
-                string drainType = GetDrainTypeFromEffect(skill.Effect!);
                 drainEffect = StatDrainEffect.CalculateDrain(user, target, attackResult.Damage, drainType, targetHPBeforeAttack, targetMPBeforeAttack);
             }
             
