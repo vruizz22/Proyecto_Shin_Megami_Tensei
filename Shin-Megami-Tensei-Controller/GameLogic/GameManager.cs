@@ -1230,42 +1230,113 @@ public class GameManager
     private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType, bool isMultiTarget)
     {
         // Los resultados ya vienen ordenados correctamente de ExecuteOnMultipleTargets
-        // Solo necesitamos mostrarlos en orden
         
         Unit? lastRepelTarget = null;
         int accumulatedRepelDamage = 0;
         bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
 
-        // Agrupar por objetivo para saber cuándo mostrar el HP final
-        var hitsPerTarget = result.TargetResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => g.Count());
-        var hitCounters = result.TargetResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => 0);
-
-        foreach (var singleResult in result.TargetResults)
+        // Agrupar por objetivo manteniendo el orden
+        var targetGroups = result.TargetResults.GroupBy(r => r.Target).ToList();
+        
+        // Verificar si hay efectos de drenaje
+        bool anyDrainHP = false;
+        bool anyDrainMP = false;
+        var drainEffectsByTarget = new Dictionary<Unit, StatDrainEffect>();
+        
+        foreach (var group in targetGroups)
         {
-            var target = singleResult.Target;
-            var attackResult = singleResult.AttackResult;
-            
-            hitCounters[target]++;
-            bool isLastHitForTarget = hitCounters[target] == hitsPerTarget[target];
-            
-            DisplayAttackResultWithoutHP(attacker, target, skillType, attackResult);
-            
-            if (singleResult.DrainEffect != null)
+            var drainEffect = group.FirstOrDefault(h => h.DrainEffect != null)?.DrainEffect;
+            if (drainEffect != null)
             {
-                DisplayDrainEffect(attacker, target, singleResult.DrainEffect, isLastHitForTarget && !hasAnyRepel);
-            }
-            else if (isLastHitForTarget && !attackResult.WasRepelled)
-            {
-                _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
-            }
-            
-            if (attackResult.WasRepelled)
-            {
-                lastRepelTarget = target;
-                accumulatedRepelDamage += attackResult.Damage;
+                drainEffectsByTarget[group.Key] = drainEffect;
+                if (drainEffect.DrainsHP) anyDrainHP = true;
+                if (drainEffect.DrainsMP) anyDrainMP = true;
             }
         }
         
+        bool hasDrainEffects = anyDrainHP || anyDrainMP;
+        
+        // Si hay drenaje: formato especial (por cada objetivo: ataque + HP drain + MP drain)
+        if (hasDrainEffects)
+        {
+            // Para cada objetivo, mostrar: ataque, HP drain, MP drain
+            int targetIndex = 0;
+            int totalTargets = targetGroups.Count;
+            
+            foreach (var group in targetGroups)
+            {
+                var target = group.Key;
+                var hits = group.ToList();
+                targetIndex++;
+                bool isLastTarget = (targetIndex == totalTargets);
+                
+                // 1. Mostrar mensaje de ataque
+                var attackResult = hits.First().AttackResult;
+                var actionVerb = GetAttackVerb(skillType);
+                _presenter.ShowMessage($"{attacker.Name} {actionVerb} {target.Name}");
+                
+                // 2. Mostrar drenaje de HP (si aplica)
+                if (drainEffectsByTarget.ContainsKey(target))
+                {
+                    var drainEffect = drainEffectsByTarget[target];
+                    
+                    if (drainEffect.DrainsHP)
+                    {
+                        _presenter.ShowMessage($"El ataque drena {drainEffect.HPDrained} HP de {target.Name}");
+                        _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                    }
+                    
+                    // Si es el último objetivo y hay HP drenado, mostrar HP del atacante
+                    if (isLastTarget && anyDrainHP && !hasAnyRepel)
+                    {
+                        _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+                    }
+                    
+                    // 3. Mostrar drenaje de MP (si aplica)
+                    if (drainEffect.DrainsMP)
+                    {
+                        _presenter.ShowMessage($"El ataque drena {drainEffect.MPDrained} MP de {target.Name}");
+                        _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+                    }
+                    
+                    // Si es el último objetivo y hay MP drenado, mostrar MP del atacante
+                    if (isLastTarget && anyDrainMP && !hasAnyRepel)
+                    {
+                        _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+                    }
+                }
+            }
+        }
+        else
+        {
+            // Sin drenaje: formato normal (ataque + HP inmediatamente)
+            foreach (var group in targetGroups)
+            {
+                var target = group.Key;
+                var hits = group.ToList();
+                
+                foreach (var singleResult in hits)
+                {
+                    var attackResult = singleResult.AttackResult;
+                    
+                    DisplayAttackResultWithoutHP(attacker, target, skillType, attackResult, false);
+                    
+                    if (attackResult.WasRepelled)
+                    {
+                        lastRepelTarget = target;
+                        accumulatedRepelDamage += attackResult.Damage;
+                    }
+                }
+                
+                // Mostrar HP del objetivo inmediatamente después de sus ataques
+                if (!hits.Any(h => h.AttackResult.WasRepelled))
+                {
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+            }
+        }
+        
+        // Si hubo repel, mostrar HP del atacante
         if (hasAnyRepel && lastRepelTarget != null)
         {
             _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
@@ -1325,6 +1396,7 @@ public class GameManager
             _presenter.ShowMessage($"El ataque drena {drainEffect.HPDrained} HP de {target.Name}");
             _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
             
+            // Mostrar HP del atacante inmediatamente después del HP de la víctima si es el último
             if (isLast)
             {
                 _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
@@ -1336,10 +1408,93 @@ public class GameManager
             _presenter.ShowMessage($"El ataque drena {drainEffect.MPDrained} MP de {target.Name}");
             _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
             
+            // Mostrar MP del atacante inmediatamente después del MP de la víctima si es el último
             if (isLast)
             {
                 _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
             }
+        }
+    }
+
+    private void DisplayAllDrainEffectsGrouped(Unit attacker, Dictionary<Unit, StatDrainEffect> drainByTarget, List<Unit> orderedTargets)
+    {
+        // Mostrar para cada objetivo en orden: HP drenado -> estado HP -> MP drenado -> estado MP
+        foreach (var target in orderedTargets)
+        {
+            if (drainByTarget.ContainsKey(target))
+            {
+                var effect = drainByTarget[target];
+                
+                if (effect.DrainsHP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.HPDrained} HP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+            }
+        }
+        
+        // Después de todos los HP, mostrar HP del atacante
+        bool anyDrainsHP = drainByTarget.Values.Any(e => e.DrainsHP);
+        if (anyDrainsHP)
+        {
+            _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+        
+        // Luego mostrar todos los MP drenados
+        foreach (var target in orderedTargets)
+        {
+            if (drainByTarget.ContainsKey(target))
+            {
+                var effect = drainByTarget[target];
+                
+                if (effect.DrainsMP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.MPDrained} MP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+                }
+            }
+        }
+        
+        // Después de todos los MP, mostrar MP del atacante
+        bool anyDrainsMP = drainByTarget.Values.Any(e => e.DrainsMP);
+        if (anyDrainsMP)
+        {
+            _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+        }
+    }
+
+    private void DisplayAllDrainEffects(Unit attacker, List<(Unit target, StatDrainEffect effect)> drainResults)
+    {
+        // Primero anunciar TODO el HP drenado de todas las unidades
+        bool anyDrainsHP = drainResults.Any(d => d.effect.DrainsHP);
+        if (anyDrainsHP)
+        {
+            foreach (var (target, effect) in drainResults)
+            {
+                if (effect.DrainsHP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.HPDrained} HP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+            }
+            // Después de anunciar TODO el HP, mostrar el HP del atacante
+            _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+        
+        // Luego anunciar TODO el MP drenado de todas las unidades
+        bool anyDrainsMP = drainResults.Any(d => d.effect.DrainsMP);
+        if (anyDrainsMP)
+        {
+            foreach (var (target, effect) in drainResults)
+            {
+                if (effect.DrainsMP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.MPDrained} MP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+                }
+            }
+            // Después de anunciar TODO el MP, mostrar el MP del atacante
+            _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
         }
     }
 
