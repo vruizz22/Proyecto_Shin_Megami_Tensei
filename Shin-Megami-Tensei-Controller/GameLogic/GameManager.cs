@@ -1194,33 +1194,43 @@ public class GameManager
 
     private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType, bool isMultiTarget)
     {
-        // Para habilidades Multi, mantener el orden exacto del algoritmo (no agrupar por objetivo)
-        // Para habilidades All, agrupar por objetivo según el orden de anuncio
-        List<SingleTargetResult> orderedResults;
+        // Para habilidades Multi y All, ordenar según el orden de anuncio del enunciado
+        // (tablero izquierda a derecha), agrupando hits múltiples al mismo objetivo
         
-        if (isMultiTarget)
+        // Primero obtener todos los objetivos únicos que recibieron ataques
+        var uniqueTargets = result.TargetResults.Select(r => r.Target).Distinct().ToList();
+        
+        // Crear un contexto de targeting para determinar el orden correcto
+        var targetingContext = new Domain.Targeting.TargetingContext(
+            attacker,
+            _currentPlayerTeam!,
+            _opponentTeam!,
+            false
+        );
+        
+        // Obtener TODOS los objetivos posibles (incluyendo muertos) en el orden correcto
+        var allPossibleTargets = targetingContext.GetOrderedTargets();
+        
+        // Ordenar los objetivos únicos según el orden del tablero
+        var orderedUniqueTargets = allPossibleTargets
+            .Where(t => uniqueTargets.Contains(t))
+            .ToList();
+        
+        // También incluir objetivos que murieron durante el ataque (no están en allPossibleTargets)
+        foreach (var target in uniqueTargets)
         {
-            // Para Multi: mantener el orden EXACTO en que fueron generados
-            orderedResults = result.TargetResults;
-        }
-        else
-        {
-            // Para All: obtener el orden correcto de anuncio
-            var targetingContext = new Domain.Targeting.TargetingContext(
-                attacker,
-                _currentPlayerTeam!,
-                _opponentTeam!,
-                false
-            );
-            var orderedTargets = targetingContext.GetOrderedTargets();
-            
-            // Ordenar los resultados según el orden de anuncio, pero manteniendo hits múltiples al mismo objetivo juntos
-            orderedResults = new List<SingleTargetResult>();
-            foreach (var target in orderedTargets)
+            if (!orderedUniqueTargets.Contains(target))
             {
-                var hitsToTarget = result.TargetResults.Where(r => r.Target == target).ToList();
-                orderedResults.AddRange(hitsToTarget);
+                orderedUniqueTargets.Add(target);
             }
+        }
+        
+        // Ordenar los resultados según el orden determinado, agrupando hits al mismo objetivo
+        var orderedResults = new List<SingleTargetResult>();
+        foreach (var target in orderedUniqueTargets)
+        {
+            var hitsToTarget = result.TargetResults.Where(r => r.Target == target).ToList();
+            orderedResults.AddRange(hitsToTarget);
         }
         
         Unit? lastRepelTarget = null;
