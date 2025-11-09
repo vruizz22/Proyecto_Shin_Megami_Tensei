@@ -49,6 +49,10 @@ public class MultiTargetSkillExecutor
 
             for (int i = 0; i < hitsPerTarget; i++)
             {
+                // Guardar el HP/MP del target ANTES del ataque
+                int targetHPBeforeAttack = target.CurrentHP;
+                int targetMPBeforeAttack = target.CurrentMP;
+                
                 var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
                 
                 var targetResult = new SingleTargetResult
@@ -67,7 +71,9 @@ public class MultiTargetSkillExecutor
                             attacker,
                             target,
                             attackResult.Damage,
-                            drainType);
+                            drainType,
+                            targetHPBeforeAttack,
+                            targetMPBeforeAttack);
                     }
                 }
 
@@ -203,6 +209,10 @@ public class MultiTargetSkillExecutor
             int timesToHit = hitCounts[target];
             for (int i = 0; i < timesToHit; i++)
             {
+                // Guardar el HP/MP del target ANTES del ataque
+                int targetHPBeforeAttack = target.CurrentHP;
+                int targetMPBeforeAttack = target.CurrentMP;
+                
                 var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
                 
                 var targetResult = new SingleTargetResult
@@ -219,7 +229,9 @@ public class MultiTargetSkillExecutor
                         attacker,
                         target,
                         attackResult.Damage,
-                        drainType);
+                        drainType,
+                        targetHPBeforeAttack,
+                        targetMPBeforeAttack);
                 }
 
                 result.TargetResults.Add(targetResult);
