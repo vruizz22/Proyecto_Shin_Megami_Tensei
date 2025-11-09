@@ -1192,12 +1192,12 @@ public class GameManager
             }
         }
         
-        // Unidades en la reserva
-        foreach (var unit in _currentPlayerTeam!.Reserve)
+        // Solo Recarmdra afecta a la reserva, el resto de habilidades Party solo afectan al tablero
+        if (isRecarmdra)
         {
-            if (unit != null)
+            foreach (var unit in _currentPlayerTeam!.Reserve)
             {
-                if (isRecarmdra || unit.IsAlive)
+                if (unit != null)
                 {
                     partyTargets.Add(unit);
                 }
