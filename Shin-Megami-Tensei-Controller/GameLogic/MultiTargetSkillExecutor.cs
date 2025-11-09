@@ -168,7 +168,8 @@ public class MultiTargetSkillExecutor
         Unit attacker,
         List<Unit> allPossibleTargets,
         Skill skill,
-        int totalHits)
+        int totalHits,
+        int skillCounter)
     {
         var result = new MultiTargetSkillExecutionResult();
         bool hasWeak = false;
@@ -177,60 +178,55 @@ public class MultiTargetSkillExecutor
         bool hasNulled = false;
         bool hasMissed = false;
 
-        var hitDistribution = DistributeHits(allPossibleTargets.Count, totalHits);
+        // Algoritmo Multi: determinar qué unidades atacar y en qué orden
+        var targetsToHit = SelectMultiTargets(allPossibleTargets, totalHits, skillCounter);
         
-        for (int targetIndex = 0; targetIndex < allPossibleTargets.Count && targetIndex < hitDistribution.Count; targetIndex++)
+        foreach (var target in targetsToHit)
         {
-            var target = allPossibleTargets[targetIndex];
-            int hitsForThisTarget = hitDistribution[targetIndex];
-
-            for (int hitIndex = 0; hitIndex < hitsForThisTarget; hitIndex++)
+            var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
+            
+            var targetResult = new SingleTargetResult
             {
-                var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
-                
-                var targetResult = new SingleTargetResult
-                {
-                    Target = target,
-                    AttackResult = attackResult
-                };
+                Target = target,
+                AttackResult = attackResult
+            };
 
-                // Manejar efectos de drenaje
-                if (skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains"))
-                {
-                    string drainType = GetDrainType(skill.Effect);
-                    targetResult.DrainEffect = StatDrainEffect.CalculateDrain(
-                        attacker,
-                        target,
-                        attackResult.Damage,
-                        drainType);
-                }
+            // Manejar efectos de drenaje
+            if (skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains"))
+            {
+                string drainType = GetDrainType(skill.Effect);
+                targetResult.DrainEffect = StatDrainEffect.CalculateDrain(
+                    attacker,
+                    target,
+                    attackResult.Damage,
+                    drainType);
+            }
 
-                result.TargetResults.Add(targetResult);
+            result.TargetResults.Add(targetResult);
 
-                if (attackResult.TurnEffect.BlinkingTurnsGained > 0)
-                {
-                    hasWeak = true;
-                }
+            if (attackResult.TurnEffect.BlinkingTurnsGained > 0)
+            {
+                hasWeak = true;
+            }
 
-                if (attackResult.WasRepelled)
-                {
-                    hasRepelled = true;
-                }
-                
-                if (attackResult.WasDrained)
-                {
-                    hasDrained = true;
-                }
+            if (attackResult.WasRepelled)
+            {
+                hasRepelled = true;
+            }
+            
+            if (attackResult.WasDrained)
+            {
+                hasDrained = true;
+            }
 
-                if (attackResult.WasNulled)
-                {
-                    hasNulled = true;
-                }
-                
-                if (attackResult.Missed)
-                {
-                    hasMissed = true;
-                }
+            if (attackResult.WasNulled)
+            {
+                hasNulled = true;
+            }
+            
+            if (attackResult.Missed)
+            {
+                hasMissed = true;
             }
         }
 
@@ -320,6 +316,51 @@ public class MultiTargetSkillExecutor
 
         return distribution;
     }
+
+    /// <summary>
+    /// Implementa el algoritmo Multi del enunciado para seleccionar objetivos
+    /// </summary>
+    private List<Unit> SelectMultiTargets(List<Unit> availableTargets, int totalHits, int skillCounter)
+    {
+        var result = new List<Unit>();
+        
+        if (availableTargets.Count == 0 || totalHits == 0)
+            return result;
+        
+        int A = availableTargets.Count;
+        int K = skillCounter;
+        int i = K % A;
+        
+        // Determinar dirección: derecha si i es par, izquierda si es impar
+        bool moveRight = (i % 2 == 0);
+        
+        // Seleccionar objetivos
+        int currentIndex = i;
+        for (int hit = 0; hit < totalHits; hit++)
+        {
+            result.Add(availableTargets[currentIndex]);
+            
+            // Mover al siguiente objetivo si aún quedan hits
+            if (hit < totalHits - 1)
+            {
+                if (moveRight)
+                {
+                    currentIndex++;
+                    if (currentIndex >= A)
+                        currentIndex = 0; // Envolver al inicio
+                }
+                else
+                {
+                    currentIndex--;
+                    if (currentIndex < 0)
+                        currentIndex = A - 1; // Envolver al final
+                }
+            }
+        }
+        
+        return result;
+    }
+
 
     private string GetDrainType(string effect)
     {
