@@ -1109,15 +1109,8 @@ public class GameManager
         
         _presenter.ShowMessage("----------------------------------------");
         
-        var targetingContext = new Domain.Targeting.TargetingContext(
-            user,
-            _currentPlayerTeam!,
-            _opponentTeam!,
-            false
-        );
-        
-        var allTargets = targetingContext.GetOrderedTargets();
-        var enemyTargets = allTargets.Take(_opponentTeam!.GetAllAliveUnits().Count).ToList();
+        // Para habilidades All, solo se atacan unidades vivas en los puestos activos del tablero del rival
+        var enemyTargets = _opponentTeam!.GetActiveUnitsOnBoard();
         
         if (enemyTargets.Count == 0)
         {
