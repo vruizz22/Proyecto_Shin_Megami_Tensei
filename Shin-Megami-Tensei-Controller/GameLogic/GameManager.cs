@@ -1225,13 +1225,14 @@ public class GameManager
         // Los resultados ya vienen ordenados correctamente de ExecuteOnMultipleTargets
         
         Unit? lastRepelTarget = null;
+        Unit? lastDrainTarget = null;
         int accumulatedRepelDamage = 0;
         bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
 
         // Agrupar por objetivo manteniendo el orden
         var targetGroups = result.TargetResults.GroupBy(r => r.Target).ToList();
         
-        // Verificar si hay efectos de drenaje
+        // Verificar si hay efectos de drenaje y encontrar el último target con cada efecto
         bool anyDrainHP = false;
         bool anyDrainMP = false;
         var drainEffectsByTarget = new Dictionary<Unit, StatDrainEffect>();
@@ -1242,8 +1243,18 @@ public class GameManager
             if (drainEffect != null)
             {
                 drainEffectsByTarget[group.Key] = drainEffect;
+                if (drainEffect.DrainsHP || drainEffect.DrainsMP)
+                {
+                    lastDrainTarget = group.Key;
+                }
                 if (drainEffect.DrainsHP) anyDrainHP = true;
                 if (drainEffect.DrainsMP) anyDrainMP = true;
+            }
+            
+            // Encontrar último target con Repel
+            if (group.Any(h => h.AttackResult.WasRepelled))
+            {
+                lastRepelTarget = group.Key;
             }
         }
         
@@ -1253,20 +1264,30 @@ public class GameManager
         if (hasDrainEffects)
         {
             // Para cada objetivo, mostrar: ataque, HP drain, MP drain
-            int targetIndex = 0;
-            int totalTargets = targetGroups.Count;
-            
             foreach (var group in targetGroups)
             {
                 var target = group.Key;
                 var hits = group.ToList();
-                targetIndex++;
-                bool isLastTarget = (targetIndex == totalTargets);
+                bool isLastDrainTarget = (target == lastDrainTarget);
+                bool isLastRepelTarget = (target == lastRepelTarget);
                 
                 // 1. Mostrar mensaje de ataque
                 var attackResult = hits.First().AttackResult;
                 var actionVerb = GetAttackVerb(skillType);
                 _presenter.ShowMessage($"{attacker.Name} {actionVerb} {target.Name}");
+                
+                // Si este target repele, mostrar el mensaje de repel
+                if (attackResult.WasRepelled)
+                {
+                    _presenter.ShowMessage($"{target.Name} devuelve {attackResult.Damage} daño a {attacker.Name}");
+                    
+                    // Si es el último target con Repel, mostrar HP del atacante
+                    if (isLastRepelTarget)
+                    {
+                        _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+                    }
+                    continue; // No mostrar drain effects si hay repel
+                }
                 
                 // 2. Mostrar drenaje de HP (si aplica)
                 if (drainEffectsByTarget.ContainsKey(target))
@@ -1279,8 +1300,8 @@ public class GameManager
                         _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
                     }
                     
-                    // Si es el último objetivo y hay HP drenado, mostrar HP del atacante
-                    if (isLastTarget && anyDrainHP && !hasAnyRepel)
+                    // Si es el último objetivo con drain Y no hay repels, mostrar HP del atacante
+                    if (isLastDrainTarget && anyDrainHP && !hasAnyRepel)
                     {
                         _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
                     }
@@ -1292,8 +1313,8 @@ public class GameManager
                         _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
                     }
                     
-                    // Si es el último objetivo y hay MP drenado, mostrar MP del atacante
-                    if (isLastTarget && anyDrainMP && !hasAnyRepel)
+                    // Si es el último objetivo con drain Y no hay repels, mostrar MP del atacante
+                    if (isLastDrainTarget && anyDrainMP && !hasAnyRepel)
                     {
                         _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
                     }
@@ -1307,6 +1328,7 @@ public class GameManager
             {
                 var target = group.Key;
                 var hits = group.ToList();
+                bool isLastRepelTarget = (target == lastRepelTarget);
                 
                 foreach (var singleResult in hits)
                 {
@@ -1316,7 +1338,6 @@ public class GameManager
                     
                     if (attackResult.WasRepelled)
                     {
-                        lastRepelTarget = target;
                         accumulatedRepelDamage += attackResult.Damage;
                     }
                 }
@@ -1326,13 +1347,12 @@ public class GameManager
                 {
                     _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
                 }
+                else if (isLastRepelTarget)
+                {
+                    // Si es el último target con Repel, mostrar HP del atacante
+                    _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+                }
             }
-        }
-        
-        // Si hubo repel, mostrar HP del atacante
-        if (hasAnyRepel && lastRepelTarget != null)
-        {
-            _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
         }
     }
 
