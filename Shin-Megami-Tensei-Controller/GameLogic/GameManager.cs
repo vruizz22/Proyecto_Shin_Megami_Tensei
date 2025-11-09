@@ -224,6 +224,10 @@ public class GameManager
             return;
         }
 
+        // Verificar nuevamente si el juego terminó antes de mostrar el menú
+        if (IsGameOver())
+            return;
+
         _presenter.ShowMessage("----------------------------------------");
         ShowActionMenu(actingUnit);
         
@@ -1110,15 +1114,8 @@ public class GameManager
         
         _presenter.ShowMessage("----------------------------------------");
         
-        var targetingContext = new Domain.Targeting.TargetingContext(
-            user,
-            _currentPlayerTeam!,
-            _opponentTeam!,
-            false
-        );
-        
-        var allTargets = targetingContext.GetOrderedTargets();
-        var enemyTargets = allTargets.Take(_opponentTeam!.GetAllAliveUnits().Count).ToList();
+        // Para habilidades Multi, solo se consideran unidades vivas del tablero del oponente
+        var enemyTargets = _opponentTeam!.GetActiveUnitsOnBoard();
         
         if (enemyTargets.Count == 0)
         {
@@ -1150,7 +1147,7 @@ public class GameManager
         user.ConsumeMP(skill.Cost);
         
         _presenter.ShowMessage("----------------------------------------");
-        
+
         bool isRecarmdra = skill.Name == "Recarmdra";
         
         var partyTargets = new List<Unit>();
@@ -1197,9 +1194,6 @@ public class GameManager
 
     private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType)
     {
-        // Agrupar por objetivo
-        var groupedByTarget = result.TargetResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => g.ToList());
-        
         // Obtener el orden correcto de anuncio según el enunciado
         var targetingContext = new Domain.Targeting.TargetingContext(
             attacker,
@@ -1209,39 +1203,45 @@ public class GameManager
         );
         var orderedTargets = targetingContext.GetOrderedTargets();
         
-        // Filtrar solo los objetivos que fueron atacados y mantener el orden
-        var targetsToDisplay = orderedTargets.Where(t => groupedByTarget.ContainsKey(t)).ToList();
+        // Ordenar los resultados según el orden de anuncio, pero manteniendo hits múltiples al mismo objetivo juntos
+        var orderedResults = new List<SingleTargetResult>();
+        foreach (var target in orderedTargets)
+        {
+            var hitsToTarget = result.TargetResults.Where(r => r.Target == target).ToList();
+            orderedResults.AddRange(hitsToTarget);
+        }
         
         Unit? lastRepelTarget = null;
         int accumulatedRepelDamage = 0;
         bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
 
-        foreach (var target in targetsToDisplay)
+        // Agrupar por objetivo para saber cuándo mostrar el HP final
+        var hitsPerTarget = orderedResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => g.Count());
+        var hitCounters = orderedResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => 0);
+
+        foreach (var singleResult in orderedResults)
         {
-            var results = groupedByTarget[target];
+            var target = singleResult.Target;
+            var attackResult = singleResult.AttackResult;
             
-            for (int i = 0; i < results.Count; i++)
+            hitCounters[target]++;
+            bool isLastHitForTarget = hitCounters[target] == hitsPerTarget[target];
+            
+            DisplayAttackResultWithoutHP(attacker, target, skillType, attackResult);
+            
+            if (singleResult.DrainEffect != null)
             {
-                var singleResult = results[i];
-                var attackResult = singleResult.AttackResult;
-                bool isLastHitForTarget = (i == results.Count - 1);
-                
-                DisplayAttackResultWithoutHP(attacker, target, skillType, attackResult);
-                
-                if (singleResult.DrainEffect != null)
-                {
-                    DisplayDrainEffect(attacker, target, singleResult.DrainEffect, isLastHitForTarget && !hasAnyRepel);
-                }
-                else if (isLastHitForTarget && !attackResult.WasRepelled)
-                {
-                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
-                }
-                
-                if (attackResult.WasRepelled)
-                {
-                    lastRepelTarget = target;
-                    accumulatedRepelDamage += attackResult.Damage;
-                }
+                DisplayDrainEffect(attacker, target, singleResult.DrainEffect, isLastHitForTarget && !hasAnyRepel);
+            }
+            else if (isLastHitForTarget && !attackResult.WasRepelled)
+            {
+                _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+            }
+            
+            if (attackResult.WasRepelled)
+            {
+                lastRepelTarget = target;
+                accumulatedRepelDamage += attackResult.Damage;
             }
         }
         
