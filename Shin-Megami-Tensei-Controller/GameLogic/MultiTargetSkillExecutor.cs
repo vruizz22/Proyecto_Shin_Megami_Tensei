@@ -317,9 +317,7 @@ public class MultiTargetSkillExecutor
         return distribution;
     }
 
-    /// <summary>
-    /// Implementa el algoritmo Multi del enunciado para seleccionar objetivos
-    /// </summary>
+
     private List<Unit> SelectMultiTargets(List<Unit> availableTargets, int totalHits, int skillCounter)
     {
         var result = new List<Unit>();
