@@ -55,6 +55,19 @@ public class MultiTargetSkillExecutor
                 
                 var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
                 
+                // Si la habilidad solo drena MP (Spirit Drain), restaurar el HP que fue incorrectamente quitado
+                if (skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains"))
+                {
+                    string drainType = GetDrainType(skill.Effect);
+                    bool onlyDrainsMP = drainType == "MP";
+                    
+                    if (onlyDrainsMP && !attackResult.WasRepelled && !attackResult.WasNulled)
+                    {
+                        int hpLost = targetHPBeforeAttack - target.CurrentHP;
+                        target.Heal(hpLost); // Restaurar el HP que fue quitado
+                    }
+                }
+                
                 var targetResult = new SingleTargetResult
                 {
                     Target = target,
@@ -214,6 +227,19 @@ public class MultiTargetSkillExecutor
                 int targetMPBeforeAttack = target.CurrentMP;
                 
                 var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
+                
+                // Si la habilidad solo drena MP (Spirit Drain), restaurar el HP que fue incorrectamente quitado
+                if (skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains"))
+                {
+                    string drainType = GetDrainType(skill.Effect);
+                    bool onlyDrainsMP = drainType == "MP";
+                    
+                    if (onlyDrainsMP && !attackResult.WasRepelled && !attackResult.WasNulled)
+                    {
+                        int hpLost = targetHPBeforeAttack - target.CurrentHP;
+                        target.Heal(hpLost); // Restaurar el HP que fue quitado
+                    }
+                }
                 
                 var targetResult = new SingleTargetResult
                 {
