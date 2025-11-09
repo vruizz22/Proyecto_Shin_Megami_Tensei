@@ -1194,54 +1194,18 @@ public class GameManager
 
     private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType, bool isMultiTarget)
     {
-        // Para habilidades Multi y All, ordenar según el orden de anuncio del enunciado
-        // (tablero izquierda a derecha), agrupando hits múltiples al mismo objetivo
-        
-        // Primero obtener todos los objetivos únicos que recibieron ataques
-        var uniqueTargets = result.TargetResults.Select(r => r.Target).Distinct().ToList();
-        
-        // Crear un contexto de targeting para determinar el orden correcto
-        var targetingContext = new Domain.Targeting.TargetingContext(
-            attacker,
-            _currentPlayerTeam!,
-            _opponentTeam!,
-            false
-        );
-        
-        // Obtener TODOS los objetivos posibles (incluyendo muertos) en el orden correcto
-        var allPossibleTargets = targetingContext.GetOrderedTargets();
-        
-        // Ordenar los objetivos únicos según el orden del tablero
-        var orderedUniqueTargets = allPossibleTargets
-            .Where(t => uniqueTargets.Contains(t))
-            .ToList();
-        
-        // También incluir objetivos que murieron durante el ataque (no están en allPossibleTargets)
-        foreach (var target in uniqueTargets)
-        {
-            if (!orderedUniqueTargets.Contains(target))
-            {
-                orderedUniqueTargets.Add(target);
-            }
-        }
-        
-        // Ordenar los resultados según el orden determinado, agrupando hits al mismo objetivo
-        var orderedResults = new List<SingleTargetResult>();
-        foreach (var target in orderedUniqueTargets)
-        {
-            var hitsToTarget = result.TargetResults.Where(r => r.Target == target).ToList();
-            orderedResults.AddRange(hitsToTarget);
-        }
+        // Los resultados ya vienen ordenados correctamente de ExecuteOnMultipleTargets
+        // Solo necesitamos mostrarlos en orden
         
         Unit? lastRepelTarget = null;
         int accumulatedRepelDamage = 0;
         bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
 
         // Agrupar por objetivo para saber cuándo mostrar el HP final
-        var hitsPerTarget = orderedResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => g.Count());
-        var hitCounters = orderedResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => 0);
+        var hitsPerTarget = result.TargetResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => g.Count());
+        var hitCounters = result.TargetResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => 0);
 
-        foreach (var singleResult in orderedResults)
+        foreach (var singleResult in result.TargetResults)
         {
             var target = singleResult.Target;
             var attackResult = singleResult.AttackResult;
