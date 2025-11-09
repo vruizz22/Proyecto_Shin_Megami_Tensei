@@ -849,7 +849,7 @@ public class GameManager
         for (int i = 0; i < availablePositions.Count; i++)
         {
             var (position, unit) = availablePositions[i];
-            if (unit == null)
+            if (unit == null || !unit.IsAlive)
             {
                 _presenter.ShowMessage($"{i + 1}-Vacío (Puesto {position + 1})");
             }
