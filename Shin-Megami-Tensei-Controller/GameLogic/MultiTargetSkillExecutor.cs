@@ -159,7 +159,7 @@ public class MultiTargetSkillExecutor
             };
         }
 
-        result.AffectedUnits = targets.Where(t => t.IsAlive || result.TargetResults.Any(r => r.Target == t)).ToList();
+        result.AffectedUnits = result.TargetResults.Select(r => r.Target).Distinct().ToList();
 
         return result;
     }
@@ -289,7 +289,7 @@ public class MultiTargetSkillExecutor
             };
         }
 
-        result.AffectedUnits = allPossibleTargets;
+        result.AffectedUnits = result.TargetResults.Select(r => r.Target).Distinct().ToList();
 
         return result;
     }
