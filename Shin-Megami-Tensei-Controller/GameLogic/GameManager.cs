@@ -1197,15 +1197,28 @@ public class GameManager
 
     private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType)
     {
-        var groupedByTarget = result.TargetResults.GroupBy(r => r.Target);
+        // Agrupar por objetivo
+        var groupedByTarget = result.TargetResults.GroupBy(r => r.Target).ToDictionary(g => g.Key, g => g.ToList());
+        
+        // Obtener el orden correcto de anuncio según el enunciado
+        var targetingContext = new Domain.Targeting.TargetingContext(
+            attacker,
+            _currentPlayerTeam!,
+            _opponentTeam!,
+            false
+        );
+        var orderedTargets = targetingContext.GetOrderedTargets();
+        
+        // Filtrar solo los objetivos que fueron atacados y mantener el orden
+        var targetsToDisplay = orderedTargets.Where(t => groupedByTarget.ContainsKey(t)).ToList();
+        
         Unit? lastRepelTarget = null;
         int accumulatedRepelDamage = 0;
         bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
 
-        foreach (var targetGroup in groupedByTarget)
+        foreach (var target in targetsToDisplay)
         {
-            var target = targetGroup.Key;
-            var results = targetGroup.ToList();
+            var results = groupedByTarget[target];
             
             for (int i = 0; i < results.Count; i++)
             {
