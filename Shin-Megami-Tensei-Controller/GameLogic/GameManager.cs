@@ -1130,7 +1130,8 @@ public class GameManager
         }
         
         int totalHits = CalculateHits(skill.Hits);
-        var result = _multiTargetExecutor.ExecuteOnMultipleTargets(user, enemyTargets, skill, totalHits);
+        int currentK = GetCurrentSkillCounter();
+        var result = _multiTargetExecutor.ExecuteOnMultipleTargets(user, enemyTargets, skill, totalHits, currentK);
         
         DisplayMultiTargetResults(user, result, skill.Type);
         
