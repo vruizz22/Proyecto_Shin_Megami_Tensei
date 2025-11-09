@@ -178,55 +178,76 @@ public class MultiTargetSkillExecutor
         bool hasNulled = false;
         bool hasMissed = false;
 
-        // Algoritmo Multi: determinar qué unidades atacar y en qué orden
+        // Algoritmo Multi: determinar qué unidades atacar y cuántas veces
         var targetsToHit = SelectMultiTargets(allPossibleTargets, totalHits, skillCounter);
         
+        // IMPORTANTE: El algoritmo Multi determina QUÉ unidades atacar,
+        // pero el ORDEN de anuncio debe ser izquierda a derecha según allPossibleTargets
+        // Reordenar targetsToHit según su orden de aparición en allPossibleTargets
+        var targetsOrdered = allPossibleTargets
+            .Where(unit => targetsToHit.Contains(unit))
+            .ToList();
+        
+        // Crear un diccionario para contar cuántas veces cada unidad debe ser atacada
+        var hitCounts = new Dictionary<Unit, int>();
         foreach (var target in targetsToHit)
         {
-            var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
-            
-            var targetResult = new SingleTargetResult
+            if (!hitCounts.ContainsKey(target))
+                hitCounts[target] = 0;
+            hitCounts[target]++;
+        }
+        
+        // Ahora ejecutar los ataques en el orden correcto (izquierda a derecha)
+        foreach (var target in targetsOrdered)
+        {
+            int timesToHit = hitCounts[target];
+            for (int i = 0; i < timesToHit; i++)
             {
-                Target = target,
-                AttackResult = attackResult
-            };
+                var attackResult = _battleEngine.ExecuteAttack(attacker, target, skill.Type, skill.Power);
+                
+                var targetResult = new SingleTargetResult
+                {
+                    Target = target,
+                    AttackResult = attackResult
+                };
 
-            // Manejar efectos de drenaje
-            if (skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains"))
-            {
-                string drainType = GetDrainType(skill.Effect);
-                targetResult.DrainEffect = StatDrainEffect.CalculateDrain(
-                    attacker,
-                    target,
-                    attackResult.Damage,
-                    drainType);
-            }
+                // Manejar efectos de drenaje
+                if (skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains"))
+                {
+                    string drainType = GetDrainType(skill.Effect);
+                    targetResult.DrainEffect = StatDrainEffect.CalculateDrain(
+                        attacker,
+                        target,
+                        attackResult.Damage,
+                        drainType);
+                }
 
-            result.TargetResults.Add(targetResult);
+                result.TargetResults.Add(targetResult);
 
-            if (attackResult.TurnEffect.BlinkingTurnsGained > 0)
-            {
-                hasWeak = true;
-            }
+                if (attackResult.TurnEffect.BlinkingTurnsGained > 0)
+                {
+                    hasWeak = true;
+                }
 
-            if (attackResult.WasRepelled)
-            {
-                hasRepelled = true;
-            }
-            
-            if (attackResult.WasDrained)
-            {
-                hasDrained = true;
-            }
+                if (attackResult.WasRepelled)
+                {
+                    hasRepelled = true;
+                }
+                
+                if (attackResult.WasDrained)
+                {
+                    hasDrained = true;
+                }
 
-            if (attackResult.WasNulled)
-            {
-                hasNulled = true;
-            }
-            
-            if (attackResult.Missed)
-            {
-                hasMissed = true;
+                if (attackResult.WasNulled)
+                {
+                    hasNulled = true;
+                }
+                
+                if (attackResult.Missed)
+                {
+                    hasMissed = true;
+                }
             }
         }
 
