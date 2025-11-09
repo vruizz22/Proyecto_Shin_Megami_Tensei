@@ -233,12 +233,14 @@ public class Team
             var position = (char)('A' + i);
             var unit = Board[i];
             
-            if (unit == null)
+            // Si no hay unidad o es un monster muerto, mostrar solo la posición vacía
+            if (unit == null || (unit is Monster && !unit.IsAlive))
             {
                 result += $"{position}-\n";
             }
             else
             {
+                // Mostrar unidad (samurai vivo o muerto, o monster vivo)
                 result += $"{position}-{unit.Name} HP:{unit.CurrentHP}/{unit.BaseStats.HP} MP:{unit.CurrentMP}/{unit.BaseStats.MP}\n";
             }
         }
