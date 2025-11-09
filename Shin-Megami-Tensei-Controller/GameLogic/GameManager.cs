@@ -609,6 +609,10 @@ public class GameManager
         
         for (int i = 0; i < hits; i++)
         {
+            // Guardar el HP/MP del target ANTES del ataque para calcular correctamente el drenaje
+            int targetHPBeforeAttack = target.CurrentHP;
+            int targetMPBeforeAttack = target.CurrentMP;
+            
             var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
             DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult, isDrainSkill);
             
@@ -616,7 +620,7 @@ public class GameManager
             if (isDrainSkill && !attackResult.WasRepelled && !attackResult.WasNulled)
             {
                 string drainType = GetDrainTypeFromEffect(skill.Effect!);
-                drainEffect = StatDrainEffect.CalculateDrain(user, target, attackResult.Damage, drainType);
+                drainEffect = StatDrainEffect.CalculateDrain(user, target, attackResult.Damage, drainType, targetHPBeforeAttack, targetMPBeforeAttack);
             }
             
             finalResult = attackResult;
