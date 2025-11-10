@@ -36,6 +36,11 @@ public abstract class Unit
         CurrentMP = Math.Max(0, CurrentMP - amount);
     }
 
+    public void RestoreMP(int amount)
+    {
+        CurrentMP = Math.Min(BaseStats.MP, CurrentMP + amount);
+    }
+
     public int GetAttackStat(string damageType)
     {
         return damageType switch

@@ -1,4 +1,0 @@
-Player 1 Team
-[Samurai] Demi-Fiend (Taunt,Mudo,Recarmdra,Agidyne)
-Player 2 Team
-[Samurai] Aleph (Gather Spirit Energy,Tetrakarn)

@@ -93,6 +93,29 @@ public class Team
         return GetActiveUnitsOnBoard().Any();
     }
 
+    public List<Unit> GetAllAliveUnits()
+    {
+        var allAlive = new List<Unit>();
+        
+        foreach (var unit in Board)
+        {
+            if (unit != null && unit.IsAlive)
+            {
+                allAlive.Add(unit);
+            }
+        }
+        
+        foreach (var unit in Reserve)
+        {
+            if (unit != null && unit.IsAlive)
+            {
+                allAlive.Add(unit);
+            }
+        }
+        
+        return allAlive;
+    }
+
     public void RemoveUnitFromBoard(Unit unit)
     {
         for (int i = 0; i < Board.Length; i++)
@@ -210,12 +233,14 @@ public class Team
             var position = (char)('A' + i);
             var unit = Board[i];
             
-            if (unit == null)
+            // Si no hay unidad o es un monster muerto, mostrar solo la posición vacía
+            if (unit == null || (unit is Monster && !unit.IsAlive))
             {
                 result += $"{position}-\n";
             }
             else
             {
+                // Mostrar unidad (samurai vivo o muerto, o monster vivo)
                 result += $"{position}-{unit.Name} HP:{unit.CurrentHP}/{unit.BaseStats.HP} MP:{unit.CurrentMP}/{unit.BaseStats.MP}\n";
             }
         }

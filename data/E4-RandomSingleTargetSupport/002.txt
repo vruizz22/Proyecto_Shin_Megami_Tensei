@@ -1,8 +1,0 @@
-Player 1 Team
-[Samurai] Kyouji (Charge,Bouncing Claw)
-Player 2 Team
-[Samurai] Aleph (Mazio,Sabbatma,Holy Wrath,Mabufu,Javelin Rain,Blood Ritual,Mediarahan,Bufu)
-Ammut
-Guedhe
-Cabracan
-Apsaras

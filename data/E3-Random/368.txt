@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Kotone (Shock,Wind Breath,Great Logos,Agi)
-Ishtar
-Yamata-no-Orochi
-Player 2 Team
-[Samurai] Kei (Mamudoon,Zionga,Grand Tack)
-Fuxi
-Kingu
-Melchom

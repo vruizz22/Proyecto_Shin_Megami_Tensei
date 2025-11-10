@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Flynn (Concentrate,Mudo,Mediarahan,Life Drain)
-Toubyou
-Erlkonig
-Player 2 Team
-[Samurai] Tamaki (Dark Energy,Blast Arrow)
-Matador
-Samael
-Vivian

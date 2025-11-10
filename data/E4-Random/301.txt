@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Kei (Luster Candy,Defender's Gaze,Oni-Kagura)
-Tenkai
-Succubus
-Myrmecoleon
-Hecatoncheires
-Python
-Player 2 Team
-[Samurai] Yu (Debilitate,Agi,Holy Wrath,Ice Breath)
