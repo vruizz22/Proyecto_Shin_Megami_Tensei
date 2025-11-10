@@ -405,3 +405,7 @@ TestResults/
 *.trx
 *.coverage
 *.coveragexml
+
+# Carpetas de tests
+tests/
+data/

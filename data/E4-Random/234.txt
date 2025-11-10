@@ -1,8 +1,0 @@
-Player 1 Team
-[Samurai] Nanashi (Concentrate,Plasma Discharge,Trisagion,Shock)
-Dakini
-Halphas
-Kresnik
-Tiamat
-Player 2 Team
-[Samurai] Makoto (Charge,Javelin Rain,Plasma Discharge,Mudoon,Blood Ritual)

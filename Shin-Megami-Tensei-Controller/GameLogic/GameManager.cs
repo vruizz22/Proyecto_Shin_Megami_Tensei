@@ -2,6 +2,7 @@ using Shin_Megami_Tensei.Data;
 using Shin_Megami_Tensei.Models;
 using Shin_Megami_Tensei.Presentation;
 using Shin_Megami_Tensei.Domain.ValueObjects;
+using Shin_Megami_Tensei.Domain.Combat;
 
 namespace Shin_Megami_Tensei.GameLogic;
 
@@ -16,6 +17,7 @@ public class GameManager
     private readonly TeamParser _teamParser;
     private readonly RefactoredBattleEngine _battleEngine;
     private readonly BattleTurnManager _turnManager;
+    private readonly MultiTargetSkillExecutor _multiTargetExecutor;
 
     private Team? _player1Team;
     private Team? _player2Team;
@@ -33,6 +35,7 @@ public class GameManager
         _teamParser = new TeamParser(_dataLoader);
         _battleEngine = new RefactoredBattleEngine();
         _turnManager = new BattleTurnManager();
+        _multiTargetExecutor = new MultiTargetSkillExecutor(_battleEngine);
     }
 
     public void StartGame(string teamsFolder)
@@ -221,6 +224,10 @@ public class GameManager
             return;
         }
 
+        // Verificar nuevamente si el juego terminó antes de mostrar el menú
+        if (IsGameOver())
+            return;
+
         _presenter.ShowMessage("----------------------------------------");
         ShowActionMenu(actingUnit);
         
@@ -408,13 +415,18 @@ public class GameManager
         }
     }
 
-    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, RefactoredBattleEngine.AttackResult result)
+    private void DisplayAttackResultWithoutHP(Unit attacker, Unit target, string attackType, RefactoredBattleEngine.AttackResult result, bool isDrainSkill = false)
     {
         var actionVerb = GetAttackVerb(attackType);
         _presenter.ShowMessage($"{attacker.Name} {actionVerb} {target.Name}");
         
         DisplayAffinityMessage(target, result);
-        DisplayDamageOrEffect(target, result, attacker);
+        
+        // No mostrar el mensaje de daño si es una habilidad de drenaje
+        if (!isDrainSkill)
+        {
+            DisplayDamageOrEffect(target, result, attacker);
+        }
     }
 
     private string GetAttackVerb(string attackType)
@@ -428,6 +440,7 @@ public class GameManager
             "Force" => "lanza viento a",
             "Light" => "ataca con luz a",
             "Dark" => "ataca con oscuridad a",
+            "Almighty" => "lanza un ataque todo poderoso a",
             _ => "ataca a"
         };
     }
@@ -451,7 +464,8 @@ public class GameManager
                 _presenter.ShowMessage($"{target.Name} es débil contra el ataque de {result.AttackerName}");
                 break;
             case "Rs":
-                if (!result.InstantKill && !result.Missed)
+                // Para instant-kill con Resist, mostrar mensaje de resistencia solo si fue exitoso
+                if (!result.Missed)
                 {
                     _presenter.ShowMessage($"{target.Name} es resistente el ataque de {result.AttackerName}");
                 }
@@ -547,6 +561,18 @@ public class GameManager
         {
             return ExecuteSkillOnSingleTarget(user, skill);
         }
+        else if (skill.Target == "All")
+        {
+            return ExecuteSkillOnAllEnemies(user, skill);
+        }
+        else if (skill.Target == "Multi")
+        {
+            return ExecuteSkillOnMultipleEnemies(user, skill);
+        }
+        else if (skill.Target == "Party")
+        {
+            return ExecuteSkillOnParty(user, skill);
+        }
         else if (skill.Target == "Ally")
         {
             if (skill.Name == "Sabbatma" || skill.Name == "Invitation")
@@ -576,17 +602,47 @@ public class GameManager
         
         RefactoredBattleEngine.AttackResult? finalResult = null;
         Unit? finalAffectedUnit = null;
+        StatDrainEffect? drainEffect = null;
+        
+        // Verificar si la habilidad drena HP o MP
+        bool isDrainSkill = skill.Type == "Almighty" && skill.Effect != null && skill.Effect.Contains("drains");
+        string drainType = isDrainSkill ? GetDrainTypeFromEffect(skill.Effect!) : "";
+        bool onlyDrainsMP = isDrainSkill && drainType == "MP"; // Spirit Drain solo drena MP, NO hace daño de HP
         
         for (int i = 0; i < hits; i++)
         {
+            // Guardar el HP/MP del target ANTES del ataque para calcular correctamente el drenaje
+            int targetHPBeforeAttack = target.CurrentHP;
+            int targetMPBeforeAttack = target.CurrentMP;
+            
             var attackResult = _battleEngine.ExecuteAttack(user, target, skill.Type, skill.Power);
-            DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult);
+            
+            // Si la habilidad solo drena MP (Spirit Drain), restaurar el HP que fue incorrectamente quitado
+            if (onlyDrainsMP && !attackResult.WasRepelled && !attackResult.WasNulled)
+            {
+                int hpLost = targetHPBeforeAttack - target.CurrentHP;
+                target.Heal(hpLost); // Restaurar el HP que fue quitado
+            }
+            
+            DisplayAttackResultWithoutHP(user, target, skill.Type, attackResult, isDrainSkill);
+            
+            // Si es una habilidad de drenaje, calcular el efecto de drenaje
+            if (isDrainSkill && !attackResult.WasRepelled && !attackResult.WasNulled)
+            {
+                drainEffect = StatDrainEffect.CalculateDrain(user, target, attackResult.Damage, drainType, targetHPBeforeAttack, targetMPBeforeAttack);
+            }
             
             finalResult = attackResult;
             finalAffectedUnit = attackResult.WasRepelled ? user : target;
         }
         
-        if (finalResult != null && finalAffectedUnit != null)
+        // Mostrar el resultado final
+        if (drainEffect != null)
+        {
+            // Mostrar efecto de drenaje
+            DisplayDrainEffect(user, target, drainEffect, true);
+        }
+        else if (finalResult != null && finalAffectedUnit != null)
         {
             _presenter.ShowMessage($"{finalAffectedUnit.Name} termina con HP:{finalAffectedUnit.CurrentHP}/{finalAffectedUnit.BaseStats.HP}");
         }
@@ -793,7 +849,7 @@ public class GameManager
         for (int i = 0; i < availablePositions.Count; i++)
         {
             var (position, unit) = availablePositions[i];
-            if (unit == null)
+            if (unit == null || !unit.IsAlive)
             {
                 _presenter.ShowMessage($"{i + 1}-Vacío (Puesto {position + 1})");
             }
@@ -1045,5 +1101,435 @@ public class GameManager
         }
 
         return 1;
+    }
+
+    private bool ExecuteSkillOnAllEnemies(Unit user, Skill skill)
+    {
+        user.ConsumeMP(skill.Cost);
+        
+        _presenter.ShowMessage("----------------------------------------");
+        
+        // Para habilidades All, solo se atacan unidades vivas en los puestos activos del tablero del rival
+        var enemyTargets = _opponentTeam!.GetActiveUnitsOnBoard();
+        
+        if (enemyTargets.Count == 0)
+        {
+            IncrementSkillCounter();
+            var turnEffect = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+            var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+            DisplayTurnConsumption(actualEffect);
+            return true;
+        }
+        
+        int hits = CalculateHits(skill.Hits);
+        var result = _multiTargetExecutor.ExecuteOnAllTargets(user, enemyTargets, skill, hits);
+        
+        DisplayMultiTargetResults(user, result, skill.Type, false); // false = NO es MultiTarget
+        
+        IncrementSkillCounter();
+        
+        var consumed = _turnManager.ConsumeTurns(result.CombinedTurnEffect);
+        DisplayTurnConsumption(consumed);
+        
+        HandleMultipleUnitDeaths(result.AffectedUnits);
+        
+        return true;
+    }
+
+    private bool ExecuteSkillOnMultipleEnemies(Unit user, Skill skill)
+    {
+        user.ConsumeMP(skill.Cost);
+        
+        _presenter.ShowMessage("----------------------------------------");
+        
+        // Para habilidades Multi, solo se consideran unidades vivas del tablero del oponente
+        var enemyTargets = _opponentTeam!.GetActiveUnitsOnBoard();
+        
+        if (enemyTargets.Count == 0)
+        {
+            IncrementSkillCounter();
+            var turnEffect = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+            var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+            DisplayTurnConsumption(actualEffect);
+            return true;
+        }
+        
+        int totalHits = CalculateHits(skill.Hits);
+        int currentK = GetCurrentSkillCounter();
+        var result = _multiTargetExecutor.ExecuteOnMultipleTargets(user, enemyTargets, skill, totalHits, currentK);
+        
+        DisplayMultiTargetResults(user, result, skill.Type, true); // true = isMultiTarget
+        
+        IncrementSkillCounter();
+        
+        var consumed = _turnManager.ConsumeTurns(result.CombinedTurnEffect);
+        DisplayTurnConsumption(consumed);
+        
+        HandleMultipleUnitDeaths(result.AffectedUnits);
+        
+        return true;
+    }
+
+    private bool ExecuteSkillOnParty(Unit user, Skill skill)
+    {
+        user.ConsumeMP(skill.Cost);
+        
+        _presenter.ShowMessage("----------------------------------------");
+
+        bool isRecarmdra = skill.Name == "Recarmdra";
+        
+        var partyTargets = new List<Unit>();
+        
+        // Unidades en el tablero (de izquierda a derecha), sin incluir al usuario
+        foreach (var unit in _currentPlayerTeam!.Board)
+        {
+            if (unit != null && unit != user)
+            {
+                if (isRecarmdra || unit.IsAlive)
+                {
+                    partyTargets.Add(unit);
+                }
+            }
+        }
+        
+        // Solo Recarmdra afecta a la reserva, el resto de habilidades Party solo afectan al tablero
+        if (isRecarmdra)
+        {
+            foreach (var unit in _currentPlayerTeam!.Reserve)
+            {
+                if (unit != null)
+                {
+                    partyTargets.Add(unit);
+                }
+            }
+        }
+        
+        DisplayPartyHealResults(user, partyTargets, skill, isRecarmdra);
+        
+        if (isRecarmdra)
+        {
+            HandleUnitDeath(user);
+        }
+        
+        IncrementSkillCounter();
+        
+        var turnEffect = new TurnEffect { FullTurnsConsumed = 1, BlinkingTurnsConsumed = 1, BlinkingTurnsGained = 0 };
+        var actualEffect = _turnManager.ConsumeTurns(turnEffect);
+        DisplayTurnConsumption(actualEffect);
+        
+        return true;
+    }
+
+    private void DisplayMultiTargetResults(Unit attacker, MultiTargetSkillExecutionResult result, string skillType, bool isMultiTarget)
+    {
+        // Los resultados ya vienen ordenados correctamente de ExecuteOnMultipleTargets
+        
+        Unit? lastRepelTarget = null;
+        Unit? lastDrainTarget = null;
+        int accumulatedRepelDamage = 0;
+        bool hasAnyRepel = result.TargetResults.Any(r => r.AttackResult.WasRepelled);
+
+        // Agrupar por objetivo manteniendo el orden
+        var targetGroups = result.TargetResults.GroupBy(r => r.Target).ToList();
+        
+        // Verificar si hay efectos de drenaje y encontrar el último target con cada efecto
+        bool anyDrainHP = false;
+        bool anyDrainMP = false;
+        var drainEffectsByTarget = new Dictionary<Unit, StatDrainEffect>();
+        
+        foreach (var group in targetGroups)
+        {
+            var drainEffect = group.FirstOrDefault(h => h.DrainEffect != null)?.DrainEffect;
+            if (drainEffect != null)
+            {
+                drainEffectsByTarget[group.Key] = drainEffect;
+                if (drainEffect.DrainsHP || drainEffect.DrainsMP)
+                {
+                    lastDrainTarget = group.Key;
+                }
+                if (drainEffect.DrainsHP) anyDrainHP = true;
+                if (drainEffect.DrainsMP) anyDrainMP = true;
+            }
+            
+            // Encontrar último target con Repel
+            if (group.Any(h => h.AttackResult.WasRepelled))
+            {
+                lastRepelTarget = group.Key;
+            }
+        }
+        
+        bool hasDrainEffects = anyDrainHP || anyDrainMP;
+        
+        // Si hay drenaje: formato especial (por cada objetivo: ataque + HP drain + MP drain)
+        if (hasDrainEffects)
+        {
+            // Para cada objetivo, mostrar: ataque, HP drain, MP drain
+            foreach (var group in targetGroups)
+            {
+                var target = group.Key;
+                var hits = group.ToList();
+                bool isLastDrainTarget = (target == lastDrainTarget);
+                bool isLastRepelTarget = (target == lastRepelTarget);
+                
+                // 1. Mostrar mensaje de ataque
+                var attackResult = hits.First().AttackResult;
+                var actionVerb = GetAttackVerb(skillType);
+                _presenter.ShowMessage($"{attacker.Name} {actionVerb} {target.Name}");
+                
+                // Si este target repele, mostrar el mensaje de repel
+                if (attackResult.WasRepelled)
+                {
+                    _presenter.ShowMessage($"{target.Name} devuelve {attackResult.Damage} daño a {attacker.Name}");
+                    
+                    // Si es el último target con Repel, mostrar HP del atacante
+                    if (isLastRepelTarget)
+                    {
+                        _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+                    }
+                    continue; // No mostrar drain effects si hay repel
+                }
+                
+                // 2. Mostrar drenaje de HP (si aplica)
+                if (drainEffectsByTarget.ContainsKey(target))
+                {
+                    var drainEffect = drainEffectsByTarget[target];
+                    
+                    if (drainEffect.DrainsHP)
+                    {
+                        _presenter.ShowMessage($"El ataque drena {drainEffect.HPDrained} HP de {target.Name}");
+                        _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                    }
+                    
+                    // Si es el último objetivo con drain Y no hay repels, mostrar HP del atacante
+                    if (isLastDrainTarget && anyDrainHP && !hasAnyRepel)
+                    {
+                        _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+                    }
+                    
+                    // 3. Mostrar drenaje de MP (si aplica)
+                    if (drainEffect.DrainsMP)
+                    {
+                        _presenter.ShowMessage($"El ataque drena {drainEffect.MPDrained} MP de {target.Name}");
+                        _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+                    }
+                    
+                    // Si es el último objetivo con drain Y no hay repels, mostrar MP del atacante
+                    if (isLastDrainTarget && anyDrainMP && !hasAnyRepel)
+                    {
+                        _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+                    }
+                }
+            }
+        }
+        else
+        {
+            // Sin drenaje: formato normal (ataque + HP inmediatamente)
+            foreach (var group in targetGroups)
+            {
+                var target = group.Key;
+                var hits = group.ToList();
+                bool isLastRepelTarget = (target == lastRepelTarget);
+                
+                foreach (var singleResult in hits)
+                {
+                    var attackResult = singleResult.AttackResult;
+                    
+                    DisplayAttackResultWithoutHP(attacker, target, skillType, attackResult, false);
+                    
+                    if (attackResult.WasRepelled)
+                    {
+                        accumulatedRepelDamage += attackResult.Damage;
+                    }
+                }
+                
+                // Mostrar HP del objetivo inmediatamente después de sus ataques
+                if (!hits.Any(h => h.AttackResult.WasRepelled))
+                {
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+                else if (isLastRepelTarget)
+                {
+                    // Si es el último target con Repel, mostrar HP del atacante
+                    _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+                }
+            }
+        }
+    }
+
+    private void DisplayPartyHealResults(Unit user, List<Unit> targets, Skill skill, bool isRecarmdra)
+    {
+        foreach (var target in targets)
+        {
+            if (target == user)
+                continue; // Saltar al usuario, se mostrará al final
+                
+            bool wasDeadBefore = !target.IsAlive;
+            int healAmount = (int)Math.Floor(target.BaseStats.HP * (skill.Power / 100.0));
+            
+            if (wasDeadBefore && isRecarmdra)
+            {
+                target.Heal(healAmount);
+                if (_currentPlayerTeam!.Board.Contains(target))
+                {
+                    _turnManager.AddUnitToOrder(target);
+                }
+                _presenter.ShowMessage($"{user.Name} revive a {target.Name}");
+                _presenter.ShowMessage($"{target.Name} recibe {healAmount} de HP");
+                _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+            }
+            else if (target.IsAlive && !wasDeadBefore)
+            {
+                target.Heal(healAmount);
+                _presenter.ShowMessage($"{user.Name} cura a {target.Name}");
+                _presenter.ShowMessage($"{target.Name} recibe {healAmount} de HP");
+                _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+            }
+        }
+        
+        // Mostrar al usuario al final
+        if (isRecarmdra)
+        {
+            user.TakeDamage(user.CurrentHP);
+            _presenter.ShowMessage($"{user.Name} termina con HP:{user.CurrentHP}/{user.BaseStats.HP}");
+        }
+        else
+        {
+            int userHealAmount = (int)Math.Floor(user.BaseStats.HP * (skill.Power / 100.0));
+            user.Heal(userHealAmount);
+            _presenter.ShowMessage($"{user.Name} cura a {user.Name}");
+            _presenter.ShowMessage($"{user.Name} recibe {userHealAmount} de HP");
+            _presenter.ShowMessage($"{user.Name} termina con HP:{user.CurrentHP}/{user.BaseStats.HP}");
+        }
+    }
+
+    private void DisplayDrainEffect(Unit attacker, Unit target, StatDrainEffect drainEffect, bool isLast)
+    {
+        if (drainEffect.DrainsHP)
+        {
+            _presenter.ShowMessage($"El ataque drena {drainEffect.HPDrained} HP de {target.Name}");
+            _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+            
+            // Mostrar HP del atacante inmediatamente después del HP de la víctima si es el último
+            if (isLast)
+            {
+                _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+            }
+        }
+        
+        if (drainEffect.DrainsMP)
+        {
+            _presenter.ShowMessage($"El ataque drena {drainEffect.MPDrained} MP de {target.Name}");
+            _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+            
+            // Mostrar MP del atacante inmediatamente después del MP de la víctima si es el último
+            if (isLast)
+            {
+                _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+            }
+        }
+    }
+
+    private void DisplayAllDrainEffectsGrouped(Unit attacker, Dictionary<Unit, StatDrainEffect> drainByTarget, List<Unit> orderedTargets)
+    {
+        // Mostrar para cada objetivo en orden: HP drenado -> estado HP -> MP drenado -> estado MP
+        foreach (var target in orderedTargets)
+        {
+            if (drainByTarget.ContainsKey(target))
+            {
+                var effect = drainByTarget[target];
+                
+                if (effect.DrainsHP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.HPDrained} HP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+            }
+        }
+        
+        // Después de todos los HP, mostrar HP del atacante
+        bool anyDrainsHP = drainByTarget.Values.Any(e => e.DrainsHP);
+        if (anyDrainsHP)
+        {
+            _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+        
+        // Luego mostrar todos los MP drenados
+        foreach (var target in orderedTargets)
+        {
+            if (drainByTarget.ContainsKey(target))
+            {
+                var effect = drainByTarget[target];
+                
+                if (effect.DrainsMP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.MPDrained} MP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+                }
+            }
+        }
+        
+        // Después de todos los MP, mostrar MP del atacante
+        bool anyDrainsMP = drainByTarget.Values.Any(e => e.DrainsMP);
+        if (anyDrainsMP)
+        {
+            _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+        }
+    }
+
+    private void DisplayAllDrainEffects(Unit attacker, List<(Unit target, StatDrainEffect effect)> drainResults)
+    {
+        // Primero anunciar TODO el HP drenado de todas las unidades
+        bool anyDrainsHP = drainResults.Any(d => d.effect.DrainsHP);
+        if (anyDrainsHP)
+        {
+            foreach (var (target, effect) in drainResults)
+            {
+                if (effect.DrainsHP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.HPDrained} HP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con HP:{target.CurrentHP}/{target.BaseStats.HP}");
+                }
+            }
+            // Después de anunciar TODO el HP, mostrar el HP del atacante
+            _presenter.ShowMessage($"{attacker.Name} termina con HP:{attacker.CurrentHP}/{attacker.BaseStats.HP}");
+        }
+        
+        // Luego anunciar TODO el MP drenado de todas las unidades
+        bool anyDrainsMP = drainResults.Any(d => d.effect.DrainsMP);
+        if (anyDrainsMP)
+        {
+            foreach (var (target, effect) in drainResults)
+            {
+                if (effect.DrainsMP)
+                {
+                    _presenter.ShowMessage($"El ataque drena {effect.MPDrained} MP de {target.Name}");
+                    _presenter.ShowMessage($"{target.Name} termina con MP:{target.CurrentMP}/{target.BaseStats.MP}");
+                }
+            }
+            // Después de anunciar TODO el MP, mostrar el MP del atacante
+            _presenter.ShowMessage($"{attacker.Name} termina con MP:{attacker.CurrentMP}/{attacker.BaseStats.MP}");
+        }
+    }
+
+    private string GetDrainTypeFromEffect(string effect)
+    {
+        if (effect.Contains("HP/MP") || effect.Contains("HP and MP"))
+            return "HP/MP";
+        if (effect.Contains("drains the enemy's HP"))
+            return "HP";
+        if (effect.Contains("drains the enemy's MP"))
+            return "MP";
+        return "";
+    }
+
+    private void HandleMultipleUnitDeaths(List<Unit> units)
+    {
+        foreach (var unit in units)
+        {
+            if (!unit.IsAlive)
+            {
+                HandleUnitDeath(unit);
+            }
+        }
     }
 }

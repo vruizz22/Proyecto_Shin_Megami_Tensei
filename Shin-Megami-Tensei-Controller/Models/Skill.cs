@@ -23,6 +23,10 @@ public class Skill
 
     public bool CanBeUsedBy(Unit unit)
     {
+        // Las habilidades Passive no se pueden usar activamente
+        if (Type == "Passive")
+            return false;
+            
         return unit.CurrentMP >= Cost;
     }
 }

@@ -1,4 +1,4 @@
-﻿﻿﻿using Shin_Megami_Tensei.Domain.ValueObjects;
+﻿using Shin_Megami_Tensei.Domain.ValueObjects;
 using Shin_Megami_Tensei.Models;
 
 namespace Shin_Megami_Tensei.GameLogic;

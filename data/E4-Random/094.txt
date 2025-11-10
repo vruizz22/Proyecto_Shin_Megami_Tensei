@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Tamaki (Tarukaja,Megidoplasma,Mazandyne,Mediarama,Dia)
-Player 2 Team
-[Samurai] Makoto (War Cry,Shock,Serpent of Sheol,Bouncing Claw,Doping,Tarunda,Invitation,Taunt)
-Berserker
-Quetzalcoatl
-Kabuso
-Apis
-Tam Lin

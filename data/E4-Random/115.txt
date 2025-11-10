@@ -1,7 +1,0 @@
-Player 1 Team
-[Samurai] Aleph (Critical Wave,Lunge,Mazan,Recarm,Mortal Jihad,Defender's Gaze)
-Girimekhala
-Churel
-Orias
-Player 2 Team
-[Samurai] Shujinko (Makarakarn,Tathlum Shot,Rapid Needle,Samarecarm,Dekunda,Critical Wave,Megidolaon)
