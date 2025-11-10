@@ -409,3 +409,6 @@ TestResults/
 # Carpetas de tests
 tests/
 data/
+
+# Libreria UI
+GuiLib/
